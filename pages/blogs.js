@@ -1,5 +1,5 @@
-import { Blog } from "@/sections"
-import Head from "next/head"
+import { Blog } from "@/sections";
+import Head from "next/head";
 
 const Blogs = () => {
   return (
@@ -9,7 +9,7 @@ const Blogs = () => {
       </Head>
       <Blog />
     </>
-  )
-}
+  );
+};
 
-export default Blogs
+export default Blogs;
