@@ -1,24 +1,17 @@
-import { AiOutlineCalendar } from "react-icons/ai";
-import { TfiRulerPencil } from "react-icons/tfi";
-import { VscFileSubmodule } from "react-icons/vsc";
-import { BiUser } from "react-icons/bi";
+import { BiBrain, BiCamera, BiClipboard } from "react-icons/bi";
 
 export const home = [
   {
-    icon: <AiOutlineCalendar size={25} />,
+    icon: <BiClipboard size={25} />,
     title: "10+ years of market experience",
   },
   {
-    icon: <TfiRulerPencil size={25} />,
+    icon: <BiCamera size={25} />,
     title: "Unique technologies & modern approach ",
   },
   {
-    icon: <VscFileSubmodule size={25} />,
+    icon: <BiBrain size={25} />,
     title: "100+ cuccessful cases in portfolio",
-  },
-  {
-    icon: <BiUser size={25} />,
-    title: "Customer satisfaction is our top priority",
   },
 ];
 export const expertise = [

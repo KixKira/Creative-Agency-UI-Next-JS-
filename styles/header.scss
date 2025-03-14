@@ -1,9 +1,7 @@
 header {
   padding: $s 0;
-  border-bottom: 1px solid rgba($white, 0.2);
   position: sticky;
   top: 0;
-  backdrop-filter: blur(10px);
   z-index: 999;
   .container {
     @include flex(center, space-between, none);
@@ -14,6 +12,7 @@ header {
     }
   }
 }
+
 .activeLink {
   position: relative;
   color: $green;
@@ -26,6 +25,25 @@ header {
     height: 2px;
     background-color: $green;
   }
+}
+
+.transparent-header {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.solid-header {
+  border-bottom: 1px solid rgba($white, 0.2);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 
 @media screen and (max-width: 800px) {

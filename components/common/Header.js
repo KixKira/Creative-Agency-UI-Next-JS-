@@ -8,13 +8,30 @@ import Link from "next/link";
 const Header = () => {
   const [activeLink, setActiveLink] = useState("");
   const [open, setOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const router = useRouter();
+
   useEffect(() => {
     setActiveLink(router.pathname);
+
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, [router.pathname]);
+
   return (
-    <header>
+    <header className={isScrolled ? "solid-header" : "transparent-header"}>
       <div className="container">
         <div className="logo">
           <Link href="/">
