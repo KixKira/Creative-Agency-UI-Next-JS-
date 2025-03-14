@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Logo from "../../assets/images/ju_logo.png";
+import Logo from "../../assets/images/logo.png";
 
 export const TitleLogo = () => {
-  return <Image src={Logo} alt="Logo" width={200} height={200} />;
+  return <Image src={Logo} alt="Logo" width={100} height={100} />;
 };
 
 export const TitleSm = ({ title }) => {
