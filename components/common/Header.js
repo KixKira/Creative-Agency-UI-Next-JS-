@@ -51,24 +51,24 @@ const Header = () => {
           >
             Agency
           </Link>
-          <Link
+          {/* <Link
             href="/team"
             className={activeLink == "/team" ? "activeLink" : "none"}
           >
             Team
-          </Link>
+          </Link> */}
           <Link
             href="/services"
             className={activeLink == "/services" ? "activeLink" : "none"}
           >
             Services
           </Link>
-          <Link
+          {/* <Link
             href="/showcase"
             className={activeLink == "/showcase" ? "activeLink" : "none"}
           >
             Showcase
-          </Link>
+          </Link> */}
           <Link
             href="/contact"
             className={activeLink == "/contact" ? "activeLink" : "none"}

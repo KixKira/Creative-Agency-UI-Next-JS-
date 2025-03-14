@@ -11,32 +11,28 @@ const Footer = () => {
   return (
     <footer>
       <div className="container">
-        <div className="grid-4">
+        <div className="grid-3">
           <div className="logo">
             <TitleLogo title="creative" caption="7" className="logobg" />
-
             <br />
-            <button className="button-primary">Request for quote</button>
+            <button className="button-primary-footer">Request for quote</button>
           </div>
           <ul>
-            <h3>COMPANY</h3>
+            <h3>JUWEARE</h3>
             <li>
-              <Link href="/">About agency</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/">Our team</Link>
+              <Link href="/agency">Agency</Link>
             </li>
             <li>
-              <Link href="/">Showcase</Link>
+              <Link href="/services">Services</Link>
             </li>
             <li>
-              <Link href="/">Demo design system</Link>
-            </li>
-            <li>
-              <Link href="/">Contact</Link>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
-          <ul>
+          {/* <ul>
             <h3>SERVICES</h3>
             <li>
               <Link href="/">Web Design & Development</Link>
@@ -50,7 +46,7 @@ const Footer = () => {
             <li>
               <Link href="/">E-Commerce</Link>
             </li>
-          </ul>
+          </ul> */}
           <ul>
             <h3>CONNECT</h3>
             <div className="connect">

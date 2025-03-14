@@ -45,6 +45,18 @@
   box-shadow: $shadow-md;
   cursor: pointer;
 }
+
+.button-primary-footer {
+  margin-top: 30px;
+  text-transform: capitalize;
+  color: $dark;
+  padding: 13px 40px;
+  background-color: $green;
+  font-size: $md;
+  border-radius: 50px;
+  box-shadow: $shadow-md;
+  cursor: pointer;
+}
 .secondary-button {
   background-color: #171e20;
   box-shadow: none;
