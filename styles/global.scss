@@ -164,29 +164,35 @@
 // footer
 footer {
   position: relative;
-  padding: $xll-3 0 0 0;
+  padding: $xll 0 0 0;
   border-top: 1px solid rgba($white, 0.2);
-  overflow: hidden;
+  // max-height: 300px;
+  overflow: auto;
+
   .logobg {
     line-height: 0;
     padding-top: $xl-1;
     margin-bottom: $xll;
   }
+
   h3 {
     font-weight: 400;
     letter-spacing: 2px;
     font-size: $lg;
     margin-bottom: $xl-6;
   }
+
   span,
   p {
     color: rgba($white, 0.5);
   }
+
   ul li a {
     color: rgba($white, 0.5);
     transition: 0.5s ease-in-out;
     margin-bottom: $xl-2;
     display: block;
+
     &:hover {
       color: $green;
     }
