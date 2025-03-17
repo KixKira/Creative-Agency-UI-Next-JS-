@@ -17,21 +17,27 @@ const Footer = () => {
             <br />
             <button className="button-primary-footer">Request for quote</button>
           </div>
-          <ul>
-            <h3>JUWEARE</h3>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/agency">Agency</Link>
-            </li>
-            <li>
-              <Link href="/services">Services</Link>
-            </li>
-            <li>
-              <Link href="/contact">Contact</Link>
-            </li>
-          </ul>
+          <div className="juweare-columns">
+            <ul>
+              <h3>JUWEARE</h3>
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="/agency">Agency</Link>
+              </li>
+            </ul>
+            <ul>
+              <h3 style={{ visibility: "hidden" }}>JUWEARE</h3>{" "}
+              {/* Espacio para alinear */}
+              <li>
+                <Link href="/services">Services</Link>
+              </li>
+              <li>
+                <Link href="/contact">Contact</Link>
+              </li>
+            </ul>
+          </div>
           {/* <ul>
             <h3>SERVICES</h3>
             <li>
@@ -49,7 +55,7 @@ const Footer = () => {
           </ul> */}
           <ul>
             <h3>CONNECT</h3>
-            <div className="connect">
+            <div className="connect icons">
               <li>
                 <Link href="/">
                   <BsFacebook size={25} />
