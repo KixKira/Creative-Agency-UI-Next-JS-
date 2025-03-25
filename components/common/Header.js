@@ -43,43 +43,32 @@ const Header = () => {
           onClick={() => setOpen(null)}
         >
           <Link href="/" className={activeLink == "/" ? "activeLink" : "none"}>
-            Home
+            Inicio
           </Link>
           <Link
-            href="/agency"
-            className={activeLink == "/agency" ? "activeLink" : "none"}
+            href="/#"
+            className={activeLink == "/#" ? "activeLink" : "none"}
           >
-            Agency
+            Proyectos
           </Link>
-          {/* <Link
-            href="/team"
-            className={activeLink == "/team" ? "activeLink" : "none"}
-          >
-            Team
-          </Link> */}
+
           <Link
-            href="/services"
-            className={activeLink == "/services" ? "activeLink" : "none"}
+            href="/#"
+            className={activeLink == "/#" ? "activeLink" : "none"}
           >
-            Services
+            Nosotros
           </Link>
-          {/* <Link
-            href="/showcase"
-            className={activeLink == "/showcase" ? "activeLink" : "none"}
-          >
-            Showcase
-          </Link> */}
+
           <Link
             href="/contact"
             className={activeLink == "/contact" ? "activeLink" : "none"}
           >
             Contact
           </Link>
-          {/* <button className="button-primary">book a consultation</button> */}
         </nav>
-        {/* <button onClick={() => setOpen(!open)}>
+        <button onClick={() => setOpen(!open)}>
           {open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}
-        </button> */}
+        </button>
       </div>
     </header>
   );

@@ -12,9 +12,9 @@ const Hero = () => {
         <div className="container">
           <h1 className="hero-title">JUWEARE</h1>
           <div className="sub-heading">
-            <TitleSm title="COLECTIVO" /> <span>.</span>
+            <TitleSm title="PRODUCIÓN" /> <span>.</span>
             <TitleSm title="AUDIOVISUAL" /> <span>.</span>
-            <TitleSm title="CREATIVO" />
+            <TitleSm title="CREATIVIDAD" />
           </div>
         </div>
       </section>

@@ -15,7 +15,7 @@ const Expertise = () => {
             at, molestie dolor.
           </p>
         </div>
-        <div className="hero-content grid-4">
+        <div className="hero-content grid-3">
           {expertise.map((item) => (
             <Card data={item} key={item.id} caption="learn more" />
           ))}

@@ -14,10 +14,11 @@ export const home = [
     title: "100+ cuccessful cases in portfolio",
   },
 ];
+
 export const expertise = [
   {
     id: 1,
-    title: "Web Design & Development",
+    title: "Film",
     cover: "../images/e1.jpg",
     desc: [
       { text: "Web design" },
@@ -29,7 +30,7 @@ export const expertise = [
   },
   {
     id: 2,
-    title: "Digital Marketing",
+    title: "Foto",
     cover: "../images/e2.jpg",
     desc: [
       { text: "Social media marketing" },
@@ -40,7 +41,7 @@ export const expertise = [
   },
   {
     id: 3,
-    title: "E-Commerce",
+    title: "Branding y Creatividad",
     cover: "../images/e3.jpg",
     desc: [
       { text: "E-Commerce website design" },
@@ -49,17 +50,8 @@ export const expertise = [
       { text: "Hosting" },
     ],
   },
-  {
-    id: 4,
-    title: "Branding & Creative Services",
-    cover: "../images/e4.jpg",
-    desc: [
-      { text: "Visual identity" },
-      { text: "Branding for social media" },
-      { text: "Custom illustrations" },
-    ],
-  },
 ];
+
 export const testimonial = [
   {
     id: 1,
@@ -90,44 +82,64 @@ export const testimonial = [
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
 ];
+
 export const showcase = [
   {
     id: 1,
-    title: "Neon Lights",
-    cover: "../images/s1.jpg",
-    catgeory: "DIGITAL MARKETING",
+    title: "Fotografía Publicitaria",
+    cover: "../images/coopeuch.jpg",
+    catgeory: "CREATIVIDAD",
   },
   {
     id: 2,
-    title: "Futuristic Furniture",
-    catgeory: "WEBSITES",
-    cover: "../images/s2.jpg",
+    title: "Film Publicitario",
+    catgeory: "AUDIOVISUAL",
+    cover: "../images/still.jpg",
   },
   {
     id: 3,
-    title: "Smart Living",
-    cover: "../images/s3.jpg",
-    catgeory: "WEBSITES",
+    title: "Fotografía Publicitaria",
+    cover: "../images/rocoto.jpg",
+    catgeory: "CREATIVIDAD",
   },
   {
     id: 4,
-    title: "Light Painting",
-    cover: "../images/s4.jpg",
-    catgeory: "BRANDING	",
+    title: "Artist Film",
+    cover: "../images/molotov.jpg",
+    catgeory: "PRODUCCIÓN	",
   },
   {
     id: 5,
-    title: "Ideabox",
-    cover: "../images/s5.jpg",
-    catgeory: "BRANDING	",
+    title: "Fotografía Publicitaria",
+    cover: "../images/skechers.jpg",
+    catgeory: "CREATIVIDAD",
   },
   {
-    id: 5,
-    title: "VR Experience",
-    cover: "../images/s6.jpg",
-    catgeory: "WEBSITES	",
+    id: 6,
+    title: "Film",
+    cover: "../images/haval.jpg",
+    catgeory: "PRODUCCIÓN",
+  },
+  {
+    id: 7,
+    title: "Fotografía Gastronómica",
+    cover: "../images/ryge.jpg",
+    catgeory: "CREATIVIDAD",
+  },
+  {
+    id: 8,
+    title: "Film Aftermovie",
+    cover: "../images/shell.jpg",
+    catgeory: "PRODUCCIÓN",
+  },
+  {
+    id: 9,
+    title: "Fotografía Gastronómica",
+    cover: "../images/woks.jpg",
+    catgeory: "CREATIVIDAD",
   },
 ];
+
 export const brand = [
   {
     id: 1,

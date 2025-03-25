@@ -29,7 +29,6 @@ const Footer = () => {
             </ul>
             <ul>
               <h3 style={{ visibility: "hidden" }}>JUWEARE</h3>{" "}
-              {/* Espacio para alinear */}
               <li>
                 <Link href="/services">Services</Link>
               </li>
@@ -38,46 +37,33 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          {/* <ul>
-            <h3>SERVICES</h3>
-            <li>
-              <Link href="/">Web Design & Development</Link>
-            </li>
-            <li>
-              <Link href="/">Branding & Creative Services</Link>
-            </li>
-            <li>
-              <Link href="/">Digital Marketing</Link>
-            </li>
-            <li>
-              <Link href="/">E-Commerce</Link>
-            </li>
-          </ul> */}
-          <ul>
-            <h3>CONNECT</h3>
-            <div className="connect icons">
-              <li>
-                <Link href="/">
-                  <BsFacebook size={25} />
-                </Link>
-              </li>
-              <li>
-                <Link href="/">
-                  <AiFillBehanceCircle size={25} />
-                </Link>
-              </li>
-              <li>
-                <Link href="/">
-                  <AiFillInstagram size={25} />
-                </Link>
-              </li>
-              <li>
-                <Link href="/">
-                  <AiFillLinkedin size={25} />
-                </Link>
-              </li>
-            </div>
-          </ul>
+          <div className="connect-mobile">
+            <ul>
+              <h3>CONNECT</h3>
+              <div className="connect icons">
+                <li>
+                  <Link href="/">
+                    <BsFacebook size={25} />
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/">
+                    <AiFillBehanceCircle size={25} />
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/">
+                    <AiFillInstagram size={25} />
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/">
+                    <AiFillLinkedin size={25} />
+                  </Link>
+                </li>
+              </div>
+            </ul>
+          </div>
         </div>
         <div className="legal connect">
           <div className="text">
