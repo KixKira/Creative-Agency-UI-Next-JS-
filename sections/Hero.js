@@ -9,6 +9,13 @@ const Hero = () => {
   return (
     <>
       <section className="hero">
+        <video
+          src="/video/reel.mp4"
+          autoPlay
+          loop
+          muted
+          className="hero-video"
+        />
         <div className="container">
           <h1 className="hero-title">JUWEARE</h1>
           <div className="sub-heading">

@@ -1,11 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+@font-face {
+  font-family: "Thunder";
+  src: url("../assets/fonts/Thunder-MediumLC.woff2") format("woff2"),
+    url("../assets//fonts/Thunder-MediumLC.woff") format("woff"),
+    url("../assets/fonts/Thunder-MediumLC.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Thunder", sans-serif;
   background-color: $dark;
   color: $white;
 }
