@@ -88,31 +88,31 @@ export const showcase = [
     id: 1,
     title: "Fotografía Publicitaria",
     cover: "../images/coopeuch.jpg",
-    catgeory: "CREATIVIDAD",
+    catgeory: "COOPEUCH",
   },
   {
     id: 2,
     title: "Film Publicitario",
-    catgeory: "AUDIOVISUAL",
     cover: "../images/still.jpg",
+    catgeory: "AUDIOVISUAL",
   },
   {
     id: 3,
     title: "Fotografía Publicitaria",
     cover: "../images/rocoto.jpg",
-    catgeory: "CREATIVIDAD",
+    catgeory: "ROCOTO",
   },
   {
     id: 4,
     title: "Artist Film",
     cover: "../images/molotov.jpg",
-    catgeory: "PRODUCCIÓN	",
+    catgeory: "B A K1D",
   },
   {
     id: 5,
     title: "Fotografía Publicitaria",
     cover: "../images/skechers.jpg",
-    catgeory: "CREATIVIDAD",
+    catgeory: "SKECHERS",
   },
   {
     id: 6,
@@ -124,7 +124,7 @@ export const showcase = [
     id: 7,
     title: "Fotografía Gastronómica",
     cover: "../images/ryge.jpg",
-    catgeory: "CREATIVIDAD",
+    catgeory: "RYGE BURGERS",
   },
   {
     id: 8,
@@ -136,7 +136,7 @@ export const showcase = [
     id: 9,
     title: "Fotografía Gastronómica",
     cover: "../images/woks.jpg",
-    catgeory: "CREATIVIDAD",
+    catgeory: "TIGER WOK",
   },
 ];
 

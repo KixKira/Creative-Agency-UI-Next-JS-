@@ -46,8 +46,8 @@ const Header = () => {
             Inicio
           </Link>
           <Link
-            href="/#"
-            className={activeLink == "/#" ? "activeLink" : "none"}
+            href="/proyects"
+            className={activeLink == "/proyects" ? "activeLink" : "none"}
           >
             Proyectos
           </Link>
