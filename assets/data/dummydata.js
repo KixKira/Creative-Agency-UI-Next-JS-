@@ -87,54 +87,72 @@ export const showcase = [
   {
     id: 1,
     title: "Fotografía Publicitaria",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/coopeuch.jpg",
     catgeory: "COOPEUCH",
   },
   {
     id: 2,
     title: "Film Publicitario",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/still.jpg",
     catgeory: "AUDIOVISUAL",
   },
   {
     id: 3,
     title: "Fotografía Publicitaria",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/rocoto.jpg",
     catgeory: "ROCOTO",
   },
   {
     id: 4,
     title: "Artist Film",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/molotov.jpg",
     catgeory: "B A K1D",
   },
   {
     id: 5,
     title: "Fotografía Publicitaria",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/skechers.jpg",
     catgeory: "SKECHERS",
   },
   {
     id: 6,
     title: "Film",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/haval.jpg",
     catgeory: "PRODUCCIÓN",
   },
   {
     id: 7,
     title: "Fotografía Gastronómica",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/ryge.jpg",
     catgeory: "RYGE BURGERS",
   },
   {
     id: 8,
     title: "Film Aftermovie",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/shell.jpg",
     catgeory: "PRODUCCIÓN",
   },
   {
     id: 9,
     title: "Fotografía Gastronómica",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/woks.jpg",
     catgeory: "TIGER WOK",
   },

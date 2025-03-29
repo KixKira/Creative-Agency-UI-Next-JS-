@@ -371,76 +371,185 @@ footer {
   padding-bottom: 4rem;
 }
 
-.heading-title {
-  text-align: center;
-  margin-bottom: 2rem;
-}
+// .heading-title {
+//   text-align: center;
+//   margin-bottom: 2rem;
+// }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-}
+// .projects-grid {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+//   gap: 2rem;
+// }
 
-.project-card {
-  background: #fff;
+// .project-card {
+//   background: #fff;
+//   border-radius: 8px;
+//   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+//   overflow: hidden;
+//   transition: transform 0.3s ease, box-shadow 0.3s ease;
+// }
+
+// .project-card:hover {
+//   transform: translateY(-5px);
+//   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+// }
+
+// .project-image {
+//   width: 100%;
+//   height: 200px;
+//   object-fit: cover;
+// }
+
+// .project-title {
+//   font-size: 1.5rem;
+//   font-weight: bold;
+//   margin: 1rem 0 0.5rem;
+//   text-align: center;
+// }
+
+// .project-description {
+//   font-size: 1rem;
+//   color: #666;
+//   text-align: center;
+//   margin: 0 1rem 1rem;
+// }
+
+// .project-link {
+//   display: block;
+//   text-align: center;
+//   font-size: 1rem;
+//   font-weight: bold;
+//   color: #0070f3;
+//   text-decoration: none;
+//   margin-bottom: 1rem;
+// }
+
+// .project-link:hover {
+//   text-decoration: underline;
+// }
+
+// /* Responsive adjustments */
+// @media (max-width: 768px) {
+//   .project-image {
+//     height: 150px;
+//   }
+
+//   .project-title {
+//     font-size: 1.25rem;
+//   }
+
+//   .project-description {
+//     font-size: 0.9rem;
+//   }
+// }
+
+// Card Horizontal
+.card-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  margin: 2rem auto;
+  padding: 1rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 66%;
+  justify-content: center;
 }
 
-.project-card:hover {
+.card-horizontal:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-.project-image {
-  width: 100%;
+.card-horizontal-img {
+  flex: 1;
+  max-width: 30%;
   height: 200px;
-  object-fit: cover;
 }
 
-.project-title {
+.card-horizontal-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-horizontal-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  a {
+    display: flex;
+    align-items: center;
+    color: $indigo;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: $sm;
+    .link-icon {
+      margin-left: $sm;
+    }
+  }
+}
+
+.card-horizontal-title {
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 1rem 0 0.5rem;
-  text-align: center;
+  margin-bottom: 0.5rem;
 }
 
-.project-description {
-  font-size: 1rem;
+.card-horizontal-brand {
+  font-size: 1.2rem;
   color: #666;
-  text-align: center;
-  margin: 0 1rem 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.project-link {
-  display: block;
-  text-align: center;
+.card-horizontal-divider {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 1rem 0;
+}
+
+.card-horizontal-description {
   font-size: 1rem;
-  font-weight: bold;
-  color: #0070f3;
-  text-decoration: none;
-  margin-bottom: 1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
 }
 
-.project-link:hover {
-  text-decoration: underline;
+.card-horizontal-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #0070f3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.card-horizontal-button:hover {
+  background-color: #005bb5;
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .project-image {
-    height: 150px;
+  .card-horizontal {
+    flex-direction: column;
+    text-align: center;
   }
 
-  .project-title {
-    font-size: 1.25rem;
+  .card-horizontal-img {
+    max-width: 100%;
   }
 
-  .project-description {
-    font-size: 0.9rem;
+  .card-horizontal-content {
+    align-items: center;
   }
 }
 
