@@ -1,6 +1,6 @@
-import { Title, TitleSm } from "@/components/common/Title";
-import { showcase } from "@/assets/data/dummydata";
 import { CardHorizontal } from "@/components/common/CardHorizontal";
+import { showcase } from "@/assets/data/dummydata";
+import { Title, TitleSm } from "@/components/common/Title";
 
 const Proyects = () => {
   return (

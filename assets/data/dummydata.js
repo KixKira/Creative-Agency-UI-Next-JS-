@@ -235,3 +235,19 @@ export const teamdata = [
     post: "",
   },
 ];
+
+export const example = [
+  {
+    title: "Creative Agency Website",
+    description: "A modern and responsive website for a creative agency.",
+    type: "Web Development",
+    link: "https://example.com",
+    mainImage:
+      "/images/examples/old-woman-celebrating-world-photography-day.jpg",
+    images: [
+      "/images/examples/portrait-middle-aged-man-taking-photos-with-device-world-photography-day.jpg",
+      "/images/examples/portrait-person-with-visual-metaphor-memory.jpg",
+      "/images/examples/world-photography-day-celebrated-by-middle-aged-man-taking-photos-with-camera-device.jpg",
+    ],
+  },
+];
