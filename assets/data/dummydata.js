@@ -86,11 +86,11 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Fotografía Publicitaria",
+    title: "Memoria Coopeuch",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/coopeuch.jpg",
-    catgeory: "COOPEUCH",
+    catgeory: "FOTOGRAFÍA PUBLICITARIA",
   },
   {
     id: 2,
@@ -155,6 +155,43 @@ export const showcase = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/woks.jpg",
     catgeory: "TIGER WOK",
+  },
+];
+
+export const showcaseDetail = [
+  {
+    id: 1,
+    title: "Memoria Coopeuch",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+    cover: "/images/coopeuch/JuweareMemoriaCoopeuch_1.jpg",
+    catgeory: "FOTOGRAFÍA PUBLICITARIA",
+    images: [
+      "/images/coopeuch/JuweareMemoriaCoopeuch_2.jpg",
+      "/images/coopeuch/JuweareMemoriaCoopeuch_3.jpg",
+      "/images/coopeuch/JuweareMemoriaCoopeuch_4.jpg",
+      "/images/coopeuch/JuweareMemoriaCoopeuch_5.jpg",
+      "/images/coopeuch/JuweareMemoriaCoopeuch_6.jpg",
+      "/images/coopeuch/JuweareMemoriaCoopeuch_7.jpg",
+      "/images/coopeuch/JuweareMemoriaCoopeuch_8.jpg",
+      "/images/coopeuch/JuweareMemoriaCoopeuch_9.jpg",
+      "/images/coopeuch/JuweareMemoriaCoopeuch_10.jpg",
+      "/images/coopeuch/JuweareMemoriaCoopeuch_11.jpg",
+    ],
+  },
+  {
+    id: 2,
+    title: "Film Publicitario",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+    cover: "/video/reel.mp4",
+    catgeory: "AUDIOVISUAL",
+    images: [
+      "/images/examples/old-woman-celebrating-world-photography-day.jpg",
+      "/images/examples/old-woman-celebrating-world-photography-day.jpg",
+      "/images/examples/old-woman-celebrating-world-photography-day.jpg",
+      "/images/examples/old-woman-celebrating-world-photography-day.jpg",
+    ],
   },
 ];
 

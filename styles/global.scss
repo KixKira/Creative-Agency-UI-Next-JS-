@@ -563,7 +563,24 @@ footer {
 .carousel-images {
   display: flex;
   gap: 10px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #0070f3 #333;
+
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #0070f3;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #005bb5;
+  }
 }
+
 .carousel-item {
   cursor: pointer;
 }

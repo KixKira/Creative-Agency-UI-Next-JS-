@@ -8,11 +8,11 @@ export const CardHorizontal = ({ data, path, caption }) => {
         <img src={data.cover} alt={data.title} />
       </div>
       <div className="card-horizontal-content">
-        <h3 className="card-horizontal-title">{data.title}</h3>
+        <h3 className="card-horizontal-title title">{data.title}</h3>
         <h4 className="card-horizontal-subtitle">{data.subtitle}</h4>
         <p className="card-horizontal-description">{data.catgeory}</p>
         {caption && (
-          <Link href={`${path}/${data.id}`}>
+          <Link href={`details/${data.id}`}>
             {caption} <HiOutlineArrowRight className="link-icon" />
           </Link>
         )}

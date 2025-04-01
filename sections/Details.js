@@ -41,7 +41,9 @@ const ProjectDetails = () => {
                   )}
                 </div>
                 <div className="details-section">
-                  <h1>{example.title || "Untitled Project"}</h1>
+                  <h1 className="title">
+                    {example.title || "Untitled Project"}
+                  </h1>
                   <p>{example.description || "No description available."}</p>
                   <p>
                     <strong>Type:</strong> {example.type || "N/A"}
