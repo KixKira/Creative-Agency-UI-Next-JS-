@@ -35,10 +35,7 @@ const ProjectDetails = () => {
           <TitleSm title="DETALLE" />
           <br />
           <br />
-          <Title
-            title={`Conoce más sobre ${project.title}`}
-            className="title-bg"
-          />
+          <Title title={`${project.title}`} className="title-bg title-detail" />
         </div>
         <div className="hero-content">
           <div className="main-content">
@@ -68,10 +65,10 @@ const ProjectDetails = () => {
               )}
             </div>
             <div className="details-section">
-              <h1 className="title">{project.title || "Untitled Project"}</h1>
+              {/* <h1 className="title">{project.title || "Untitled Project"}</h1> */}
               <p>{project.subtitle || "No description available."}</p>
               <p>
-                <strong>Type:</strong> {project.catgeory || "N/A"}
+                <strong>Tipo:</strong> {project.catgeory || "N/A"}
               </p>
             </div>
           </div>
