@@ -32,10 +32,10 @@ const ProjectDetails = () => {
     <section className="expertise bg-top projects-section">
       <div className="container">
         <div className="heading-title">
-          <TitleSm title="DETALLE" />
+          {/* <TitleSm title="DETALLE" />
           <br />
           <br />
-          <Title title={`${project.title}`} className="title-bg title-detail" />
+          <Title title={`${project.title}`} className="title-bg title-detail" /> */}
         </div>
         <div className="hero-content">
           <div className="main-content">
@@ -65,7 +65,9 @@ const ProjectDetails = () => {
               )}
             </div>
             <div className="details-section">
-              {/* <h1 className="title">{project.title || "Untitled Project"}</h1> */}
+              <h1 className="title title-detail">
+                {project.title || "Untitled Project"}
+              </h1>
               <p>{project.subtitle || "No description available."}</p>
               <p>
                 <strong>Tipo:</strong> {project.catgeory || "N/A"}
