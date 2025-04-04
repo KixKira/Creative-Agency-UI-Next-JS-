@@ -2,13 +2,14 @@ import React from "react";
 import { Title } from "./common/Title";
 import { expertise } from "@/assets/data/dummydata";
 import { Card } from "./common/Card";
+import { CardExpertise } from "./common/CardExpertise";
 
 const Expertise = () => {
   return (
     <section className="expertise">
       <div className="container">
         <div className="heading-title">
-          <Title title="Our expertise" />
+          <Title title="Nuestra experiencia" />
           <p>
             Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac
             volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula
@@ -17,7 +18,7 @@ const Expertise = () => {
         </div>
         <div className="hero-content grid-3">
           {expertise.map((item) => (
-            <Card data={item} key={item.id} caption="learn more" />
+            <CardExpertise data={item} key={item.id} caption="Saber más" />
           ))}
         </div>
       </div>

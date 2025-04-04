@@ -63,7 +63,7 @@ const Header = () => {
             href="/contact"
             className={activeLink == "/contact" ? "activeLink" : "none"}
           >
-            Contact
+            Contacto
           </Link>
         </nav>
         <button onClick={() => setOpen(!open)}>

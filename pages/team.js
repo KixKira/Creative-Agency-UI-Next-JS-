@@ -1,16 +1,16 @@
-import { Team } from "@/sections"
-import Head from "next/head"
-import React from "react"
+import { Team } from "@/sections";
+import Head from "next/head";
+import React from "react";
 
 const team = () => {
   return (
     <>
       <Head>
-        <title>Team - 7Creative</title>
+        <title>Team - Juweare</title>
       </Head>
       <Team />
     </>
-  )
-}
+  );
+};
 
-export default team
+export default team;

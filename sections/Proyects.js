@@ -7,7 +7,7 @@ const Proyects = () => {
     <section className="expertise bg-top projects-section">
       <div className="container">
         <div className="heading-title">
-          <TitleSm title="PROYECTOS" />
+          {/* <TitleSm title="PROYECTOS" /> */}
           <br />
           <br />
           <Title title="Conoce nuestros proyectos" className="title-bg" />

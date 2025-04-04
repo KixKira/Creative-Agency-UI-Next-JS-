@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { TitleLogo } from "./Title";
 import { BsFacebook } from "react-icons/bs";
+import { TitleLogo } from "./Title";
+import Link from "next/link";
 import {
   AiFillBehanceCircle,
   AiFillInstagram,
@@ -8,6 +8,8 @@ import {
 } from "react-icons/ai";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer>
       <div className="container">
@@ -15,49 +17,51 @@ const Footer = () => {
           <div className="logo">
             <TitleLogo title="creative" caption="7" className="logobg" />
             <br />
-            <button className="button-primary-footer">Request for quote</button>
+            <Link href="/contact">
+              <button className="button-primary-footer">Contáctanos</button>
+            </Link>
           </div>
           <div className="juweare-columns">
             <ul>
               <h3>JUWEARE</h3>
               <li>
-                <Link href="/">Home</Link>
+                <Link href="/">Inicio</Link>
               </li>
               <li>
-                <Link href="/agency">Agency</Link>
+                <Link href="/proyects">Proyectos</Link>
               </li>
             </ul>
             <ul>
               <h3 style={{ visibility: "hidden" }}>JUWEARE</h3>{" "}
               <li>
-                <Link href="/services">Services</Link>
+                <Link href="/#">Nosotros</Link>
               </li>
               <li>
-                <Link href="/contact">Contact</Link>
+                <Link href="/contact">Contacto</Link>
               </li>
             </ul>
           </div>
           <div className="connect-mobile">
             <ul>
-              <h3>CONNECT</h3>
+              <h3>CONECTAR</h3>
               <div className="connect icons">
                 <li>
-                  <Link href="/">
+                  <Link href="/#">
                     <BsFacebook size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/#">
                     <AiFillBehanceCircle size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/#">
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/#">
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
@@ -67,13 +71,13 @@ const Footer = () => {
         </div>
         <div className="legal connect">
           <div className="text">
-            <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+            <span>© {currentYear} JUWEARE. TODOS LOS DERECHOS RESERVADOS.</span>
           </div>
-          <div className="connect">
+          {/* <div className="connect">
             <span>GORKCODER COMPANY</span>
             <span> &nbsp; | &nbsp; </span>
             <span>TERMS & CONDITIONS</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

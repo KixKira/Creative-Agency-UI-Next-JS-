@@ -5,7 +5,7 @@ const proyects = () => {
   return (
     <>
       <Head>
-        <title>Proyectos</title>
+        <title>Proyectos | Juweare</title>
       </Head>
       <Proyects />
     </>

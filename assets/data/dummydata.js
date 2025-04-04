@@ -102,27 +102,27 @@ export const showcase = [
   },
   {
     id: 3,
-    title: "Fotografía Publicitaria",
+    title: "Rocoto",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/rocoto.jpg",
-    catgeory: "ROCOTO",
+    catgeory: "FOTOGRAFÍA PUBLICITARIA",
   },
   {
     id: 4,
-    title: "Artist Film",
+    title: "B A K1d",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/molotov.jpg",
-    catgeory: "B A K1D",
+    catgeory: "AUDIOVISUAL",
   },
   {
     id: 5,
-    title: "Fotografía Publicitaria",
+    title: "Skechers",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/skechers.jpg",
-    catgeory: "SKECHERS",
+    catgeory: "FOTOGRAFÍA PUBLICITARIA",
   },
   {
     id: 6,
@@ -134,11 +134,11 @@ export const showcase = [
   },
   {
     id: 7,
-    title: "Fotografía Gastronómica",
+    title: "Rygew Burgers",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/ryge.jpg",
-    catgeory: "RYGE BURGERS",
+    catgeory: "FOTOGRAFÍA GASTRONÓMICA",
   },
   {
     id: 8,
@@ -150,11 +150,11 @@ export const showcase = [
   },
   {
     id: 9,
-    title: "Fotografía Gastronómica",
+    title: "Tiger Wok",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/woks.jpg",
-    catgeory: "TIGER WOK",
+    catgeory: "FOTOGRAFÍA GASTRONÓMICA",
   },
 ];
 
@@ -191,6 +191,97 @@ export const showcaseDetail = [
       "/images/examples/old-woman-celebrating-world-photography-day.jpg",
       "/images/examples/old-woman-celebrating-world-photography-day.jpg",
       "/images/examples/old-woman-celebrating-world-photography-day.jpg",
+    ],
+  },
+  {
+    id: 3,
+    title: "Rocoto",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+    cover: "/images/rocoto/JuweareRocoto_1.jpg",
+    catgeory: "FOTOGRAFÍA PUBLICITARIA",
+    images: [
+      "/images/rocoto/JuweareRocoto_2.jpg",
+      "/images/rocoto/JuweareRocoto_4.jpg",
+      "/images/rocoto/JuweareRocoto_5.jpg",
+      "/images/rocoto/JuweareRocoto_6.jpg",
+      "/images/rocoto/JuweareRocoto_7.jpg",
+      "/images/rocoto/JuweareRocoto_8.jpg",
+      "/images/rocoto/JuweareRocoto_9.jpg",
+      "/images/rocoto/JuweareRocoto_10.jpg",
+      "/images/rocoto/JuweareRocoto_11.jpg",
+      "/images/rocoto/JuweareRocoto_12.jpg",
+    ],
+  },
+  {
+    id: 4,
+    title: "B A K1d",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+    cover: "/images/B A K1d/JuweareBAK1d_1.jpg",
+    catgeory: "AUDIOVISUAL",
+  },
+  {
+    id: 5,
+    title: "Skechers",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+    cover: "/images/Skechers/JuweareSkechers_1.jpg",
+    catgeory: "FOTOGRAFÍA PUBLICITARIA",
+    images: [
+      "/images/Skechers/JuweareSkechers_2.jpg",
+      "/images/Skechers/JuweareSkechers_4.jpg",
+      "/images/Skechers/JuweareSkechers_5.jpg",
+    ],
+  },
+  {
+    id: 6,
+    title: "Film",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+    cover: "/images/film/JuweareFilm_1.jpg",
+    catgeory: "PRODUCCIÓN",
+  },
+  {
+    id: 7,
+    title: "Rygew Burgers",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+    cover: "/images/Rygew Burgers/JuweareRygewBurgers_1.jpg",
+    catgeory: "FOTOGRAFÍA GASTRONÓMICA",
+    images: [
+      "/images/Rygew Burgers/JuweareRygewBurgers_1.jpg",
+      "/images/Rygew Burgers/JuweareRygewBurgers_2.jpg",
+      "/images/Rygew Burgers/JuweareRygewBurgers_3.jpg",
+      "/images/Rygew Burgers/JuweareRygewBurgers_4.jpg",
+      "/images/Rygew Burgers/JuweareRygewBurgers_5.jpg",
+      "/images/Rygew Burgers/JuweareRygewBurgers_6.jpg",
+      "/images/Rygew Burgers/JuweareRygewBurgers_7.jpg",
+      "/images/Rygew Burgers/JuweareRygewBurgers_8.jpg",
+      "/images/Rygew Burgers/JuweareRygewBurgers_9.jpg",
+    ],
+  },
+  {
+    id: 8,
+    title: "Film Aftermovie",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+    cover: "/images/Shell/JuweareShell_1.jpg",
+    catgeory: "PRODUCCIÓN",
+  },
+  {
+    id: 9,
+    title: "Tiger Wok",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+    cover: "/images/Tiger Wok/JuweareTigerWok_1.jpg",
+    catgeory: "FOTOGRAFÍA GASTRONÓMICA",
+    images: [
+      "/images/Tiger Wok/JuweareTigerWok_2.jpg",
+      "/images/Tiger Wok/JuweareTigerWok_3.jpg",
+      "/images/Tiger Wok/JuweareTigerWok_4.jpg",
+      "/images/Tiger Wok/JuweareTigerWok_5.jpg",
+      "/images/Tiger Wok/JuweareTigerWok_6.jpg",
     ],
   },
 ];

@@ -28,7 +28,7 @@ const Hero = () => {
       <section className="hero-sec">
         <div className="container">
           <div className="heading-title">
-            <Title title="The last digital agency you ll ever need" />
+            <Title title="La última agencia digital que necesitará" />
             <p>
               Suspendisse ut magna porttitor, sollicitudin ligula at, molestie
               dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla

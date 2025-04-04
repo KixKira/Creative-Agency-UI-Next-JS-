@@ -9,15 +9,64 @@ import { BiUserCircle } from "react-icons/bi";
 import { BsFacebook } from "react-icons/bs";
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const [formData, setFormData] = React.useState({
+    name: "",
+    email: "",
+    budget: "",
+    timeline: "",
+    message: "",
+  });
+
+  const [status, setStatus] = React.useState("");
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Configura EmailJS
+    emailjs
+      .send(
+        "service_mkp3yjb", // Reemplaza con tu Service ID
+        "template_wjvp1mj", // Reemplaza con tu Template ID
+        formData,
+        "BXmWE_p3AP246oGhS" // Reemplaza con tu Public Key
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          setStatus("¡Formulario enviado con éxito!");
+          setFormData({
+            name: "",
+            email: "",
+            budget: "",
+            timeframe: "",
+            message: "",
+          });
+        },
+        (err) => {
+          console.error("FAILED...", err);
+          setStatus(
+            "Hubo un error al enviar el formulario. Inténtalo de nuevo."
+          );
+        }
+      );
+  };
+
   return (
     <section className="contact bg-top">
       <div className="container">
         <div className="heading-title">
-          <TitleSm title="CONTACT" /> <br />
+          {/* <TitleSm title="CONTACT" /> */}
           <br />
-          <Title title="Let's start right now!" className="title-bg" />
+          <br />
+          <Title title="Empecemos ahora mismo" className="title-bg" />
         </div>
         <div className="content py flex1">
           <div className="left w-30">
@@ -61,38 +110,71 @@ const Contact = () => {
             </ul>
           </div>
           <div className="right w-70">
-            <TitleSm title="Make an online enquiry" />
+            <TitleSm title="Realizar una consulta en línea" />
             <p className="desc-p">
-              Got questions? Ideas? Fill out the form below to get our proposal.{" "}
+              ¿Tienes preguntas? ¿Ideas? Rellene el siguiente formulario para
+              obtener nuestra propuesta.{" "}
             </p>
 
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className="grid-2">
                 <div className="inputs">
-                  <span>Name</span>
-                  <input type="text" />
+                  <span>Nombre</span>
+                  <input
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                  />
                 </div>
                 <div className="inputs">
                   <span>Email</span>
-                  <input type="text" />
+                  <input
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                  />
                 </div>
               </div>
               <div className="grid-2">
                 <div className="inputs">
-                  <span>your budget</span>
-                  <input type="text" />
+                  <span>Su presupuesto</span>
+                  <input
+                    type="text"
+                    name="budget"
+                    value={formData.budget}
+                    onChange={handleChange}
+                  />
                 </div>
                 <div className="inputs">
-                  <span>timeframe</span>
-                  <input type="text" />
+                  <span>Marco temporal</span>
+                  <input
+                    type="text"
+                    name="timeframe"
+                    value={formData.timeframe}
+                    onChange={handleChange}
+                  />
                 </div>
               </div>
               <div className="inputs">
-                <span>TELL US A BIT ABOUT YOUR PROJECT*</span>
-                <textarea cols="30" rows="10"></textarea>
+                <span>CUÉNTENOS UN POCO SOBRE SU PROYECTO*.</span>
+                <textarea
+                  name="message"
+                  cols="30"
+                  rows="10"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                ></textarea>
               </div>
-              <button className="button-primary">Submit</button>
+              <button className="button-primary" type="submit">
+                Enviar
+              </button>
             </form>
+            {status && <p className="status-message">{status}</p>}
           </div>
         </div>
       </div>
