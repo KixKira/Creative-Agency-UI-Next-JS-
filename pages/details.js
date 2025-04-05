@@ -5,7 +5,7 @@ const datails = () => {
   return (
     <>
       <Head>
-        <title>Detalle</title>
+        <title>Detalle | Juweare</title>
       </Head>
       <ProjectDetails />
     </>

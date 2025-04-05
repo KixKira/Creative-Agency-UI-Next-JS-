@@ -1,5 +1,4 @@
 import { showcaseDetail } from "@/assets/data/dummydata";
-import { Title, TitleSm } from "@/components/common/Title";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Image from "next/image";
@@ -28,27 +27,21 @@ const ProjectDetails = () => {
     return videoExtensions.some((ext) => project.cover.includes(ext));
   };
 
+  const getOrientation = (width, height) => {
+    return width > height ? "horizontal" : "vertical";
+  };
+
   return (
     <section className="expertise bg-top projects-section">
       <div className="container">
-        <div className="heading-title">
-          {/* <TitleSm title="DETALLE" />
-          <br />
-          <br />
-          <Title title={`${project.title}`} className="title-bg title-detail" /> */}
-        </div>
+        <div className="heading-title" />
         <div className="hero-content">
           <div className="main-content">
-            <div className="image-section">
+            {/* <div className="image-section"> */}
+            <div className={`image-wrapper ${getOrientation(600, 400)}`}>
               {project.cover ? (
                 isVideo(project.cover) ? (
-                  <video
-                    src={project.cover}
-                    controls
-                    width={600}
-                    height={400}
-                    className="main-video"
-                  >
+                  <video src={project.cover} controls className="main-video">
                     Your browser does not support the video tag.
                   </video>
                 ) : (
@@ -57,7 +50,7 @@ const ProjectDetails = () => {
                     alt={project.title || "Project Image"}
                     width={600}
                     height={400}
-                    className="main-image"
+                    className={`main-image ${getOrientation(600, 400)}`}
                   />
                 )
               ) : (
@@ -81,7 +74,10 @@ const ProjectDetails = () => {
                 project.images.map((image, index) => (
                   <div
                     key={index}
-                    className="carousel-item"
+                    className={`carousel-item image-wrapper ${getOrientation(
+                      300,
+                      200
+                    )}`}
                     onClick={() => openImage(image)}
                   >
                     <Image
@@ -89,6 +85,7 @@ const ProjectDetails = () => {
                       alt={`Image ${index + 1}`}
                       width={300}
                       height={200}
+                      className={`carousel-image ${getOrientation(300, 200)}`}
                     />
                   </div>
                 ))
@@ -101,13 +98,20 @@ const ProjectDetails = () => {
       </div>
       {selectedImage && (
         <div className="off-canvas" onClick={closeImage}>
-          <div className="off-canvas-content">
-            <Image
-              src={selectedImage}
-              alt="Selected Image"
-              width={1000}
-              height={650}
-            />
+          <div
+            className="off-canvas-content"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="image-wrapper">
+              <Image
+                src={selectedImage}
+                alt="Selected Image"
+                layout="intrinsic" // Cambiado de "fill" a "intrinsic"
+                width={800} // Ajusta el ancho según sea necesario
+                height={600} // Ajusta la altura según sea necesario
+                className="off-canvas-image"
+              />
+            </div>
           </div>
         </div>
       )}
