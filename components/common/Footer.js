@@ -33,9 +33,9 @@ const Footer = () => {
             </ul>
             <ul>
               <h3 style={{ visibility: "hidden" }}>JUWEARE</h3>{" "}
-              <li>
+              {/* <li>
                 <Link href="/#">Nosotros</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contact">Contacto</Link>
               </li>

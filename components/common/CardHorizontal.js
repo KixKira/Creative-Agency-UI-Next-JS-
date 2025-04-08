@@ -5,11 +5,14 @@ export const CardHorizontal = ({ data, path, caption }) => {
   return (
     <div className="card-horizontal">
       <div className="card-horizontal-img">
-        <img src={data.cover} alt={data.title} />
+        <Link href={`details/${data.id}`}>
+          <img src={data.cover} alt={data.title} />
+        </Link>
       </div>
       <div className="card-horizontal-content">
         <h3 className="card-horizontal-title title">{data.title}</h3>
         <h4 className="card-horizontal-subtitle">{data.subtitle}</h4>
+        <div className="card-horizontal-separator" />
         <p className="card-horizontal-description">{data.catgeory}</p>
         {caption && (
           <Link href={`details/${data.id}`}>

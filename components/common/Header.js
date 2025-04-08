@@ -52,12 +52,12 @@ const Header = () => {
             Proyectos
           </Link>
 
-          <Link
+          {/* <Link
             href="/#"
             className={activeLink == "/#" ? "activeLink" : "none"}
           >
             Nosotros
-          </Link>
+          </Link> */}
 
           <Link
             href="/contact"

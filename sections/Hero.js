@@ -39,7 +39,7 @@ const Hero = () => {
           <div className="hero-content-icons grid-3">
             {home.map((item, i) => (
               <div className="box" key={i}>
-                <span className="green">{item.icon}</span> <br />
+                <span className="indigo">{item.icon}</span> <br />
               </div>
             ))}
           </div>

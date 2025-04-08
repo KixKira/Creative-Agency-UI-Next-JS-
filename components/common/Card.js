@@ -6,7 +6,9 @@ export const Card = ({ data, caption, show, path }) => {
   return (
     <div className="card">
       <div className="card-img">
-        <img src={data.cover} alt={data.title} />
+        <Link href={`details/${data.id}`}>
+          <img src={data.cover} alt={data.title} />
+        </Link>
       </div>
       <div className="card-details">
         <Link href={`details/${data.id}`} className="title-link title">

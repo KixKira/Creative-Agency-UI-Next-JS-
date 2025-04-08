@@ -24,7 +24,7 @@
 .title {
   font-size: $xl-5;
   font-weight: 500;
-  background: $gradient2;
+  background: #fff;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -37,9 +37,9 @@
 .secondary-button,
 .button-primary {
   text-transform: capitalize;
-  color: $dark;
+  color: $white;
   padding: 13px 40px;
-  background-color: $green;
+  background-color: $indigo;
   font-size: $md;
   border-radius: 50px;
   box-shadow: $shadow-md;
@@ -50,9 +50,9 @@
   margin-top: 30px;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: $dark;
+  color: $white;
   padding: 13px 40px;
-  background-color: $green;
+  background-color: $indigo;
   font-size: $md;
   border-radius: 50px;
   box-shadow: $shadow-md;
@@ -92,12 +92,17 @@
     }
   }
   .card-img {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
     margin-bottom: 30px;
     img {
       width: 100%;
-      height: 100%;
+      height: 350px;
       object-fit: cover;
       border-radius: 50px 0 50px 0;
+      object-position: center;
     }
   }
   a {
@@ -168,4 +173,19 @@
     max-width: 100%;
     padding: 50px 0;
   }
+}
+
+.card-horizontal-subtitle {
+  margin-bottom: 10px;
+}
+
+.card-horizontal-separator {
+  width: 100%;
+  height: 1px; /* Grosor de la línea */
+  background-color: rgba($white, 0.2); /* Color de la línea */
+  margin: 10px 0; /* Espaciado superior e inferior */
+}
+
+.card-horizontal-description {
+  margin-top: 10px; /* Espacio superior para separar del separador */
 }
