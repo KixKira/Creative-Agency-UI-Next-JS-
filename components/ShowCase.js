@@ -19,8 +19,10 @@ const ShowCase = () => {
         </div>
         <div className="card links">
           <Link href="/proyects">
-            Ver todos los proyectos{" "}
-            <HiOutlineArrowRight className="link-icon" />
+            <button className="button-primary bold">
+              VER TODOS LOS PROYECTOS{" "}
+              <HiOutlineArrowRight className="link-icon" />
+            </button>
           </Link>
         </div>
       </div>

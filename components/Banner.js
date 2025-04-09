@@ -7,7 +7,11 @@ const Banner = () => {
     <section className="banner">
       <div className="container">
         <div>
-          <Title title="Estamos deseando empezar un nuevo proyecto" /> <br />
+          <Title
+            title="Estamos deseando empezar un nuevo proyecto"
+            className="big-title"
+          />{" "}
+          <br />
           {/* <TitleLogo title="Lets take your business to the next level!" /> */}
         </div>
         <div>

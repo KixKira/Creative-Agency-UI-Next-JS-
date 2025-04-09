@@ -6,14 +6,17 @@ export const CardExpertise = ({ data, caption, show, path }) => {
   return (
     <div className="card">
       <div className="card-img">
-        <img src={data.cover} alt={data.title} />
+        <Link href={`experience/${data.id}`}>
+          <img src={data.cover} alt={data.title} />
+        </Link>
+        {/* <img src={data.cover} alt={data.title} /> */}
       </div>
       <div className="card-details">
-        <Link href={`expertise/${data.id}`} className="title-link title">
+        <Link href={`experience/${data.id}`} className="title-link title">
           <TitleSm title={data.title} />
         </Link>
         {caption && (
-          <Link href={`expertise/${data.id}`}>
+          <Link href={`experience/${data.id}`}>
             {caption} <HiOutlineArrowRight className="link-icon" />
           </Link>
         )}

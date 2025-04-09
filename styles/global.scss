@@ -142,7 +142,10 @@
     height: 400px;
   }
   .links {
-    @include flex(none, flex-end, none);
+    // @include flex(none, flex-end, none);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
