@@ -71,7 +71,7 @@ export const experience = [
       { text: "Website audit" },
     ],
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "La producción audiovisual es el núcleo de nuestra pasión y el centro donde hoy concentramos la mayor parte de nuestra energía creativa.<br /><br /> Desde videoclips, campañas publicitarias y piezas documentales, hasta contenido digital y formatos experimentales, abordamos cada proyecto con una visión integral, cuidando cada etapa: guión, dirección, rodaje y postproducción.<br /><br /> Trabajamos con equipos técnicos y creativos a medida, adaptándonos a la escala y naturaleza de cada historia, sin dejar de lado otras disciplinas que enriquecen nuestro enfoque visual.",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const experience = [
       { text: "SEO" },
     ],
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "La fotografía es nuestro punto de partida y una de nuestras mayores pasiones.<br /><br /> Fue la puerta de entrada al mundo visual y sigue siendo una parte fundamental de lo que hacemos.<br /><br /> Contamos con un equipo de fotógrafos diversos según tu proyecto, lo que nos permite abordar cada idea con precisión técnica y sensibilidad estética.<br /><br /> Nos mueve capturar la esencia de cada historia en una imagen que diga más de lo que se ve.",
   },
   {
     id: 3,
@@ -97,7 +97,7 @@ export const experience = [
       { text: "Hosting" },
     ],
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "La creatividad es nuestro motor.<br /><br /> Es el punto de partida desde donde imaginamos ideas, construimos universos visuales y damos forma a marcas con identidad propia. <br /><br /> Acompañamos este proceso con servicios de branding, diseño gráfico, dirección de arte y soluciones publicitarias que conectan con propósito.<br /><br /> Cada proyecto es una oportunidad para crear desde cero o reinventar lo que ya existe, siempre con una mirada estratégica y un enfoque visual sólido.",
   },
 ];
 
@@ -143,11 +143,11 @@ export const showcase = [
   },
   {
     id: 2,
-    title: "Film Publicitario",
+    title: "Karhaus Detailing",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/still.jpg",
-    catgeory: "AUDIOVISUAL",
+    catgeory: "FILM PUBLICITARIO",
   },
   {
     id: 3,
@@ -159,11 +159,11 @@ export const showcase = [
   },
   {
     id: 4,
-    title: "B A K1d",
+    title: "B A Kid",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/molotov.jpg",
-    catgeory: "AUDIOVISUAL",
+    catgeory: "FILM PUBLICITIARIO ARTE",
   },
   {
     id: 5,
@@ -175,35 +175,35 @@ export const showcase = [
   },
   {
     id: 6,
-    title: "Film",
+    title: "HAVAL",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/haval.jpg",
-    catgeory: "PRODUCCIÓN",
+    catgeory: "FILM REVIEW",
   },
   {
     id: 7,
-    title: "Rygew Burgers",
+    title: "Ryge Burger",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/ryge.jpg",
-    catgeory: "FOTOGRAFÍA GASTRONÓMICA",
+    catgeory: "FOTOGRAFÍA - BRANDING",
   },
   {
     id: 8,
-    title: "Film Aftermovie",
+    title: "Shell the Clash",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/shell.jpg",
-    catgeory: "PRODUCCIÓN",
+    catgeory: "AFTER MOVIE",
   },
   {
     id: 9,
-    title: "Tiger Wok",
+    title: "Red Bull",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "../images/woks.jpg",
-    catgeory: "FOTOGRAFÍA GASTRONÓMICA",
+    catgeory: "FILM",
   },
 ];
 
@@ -230,11 +230,11 @@ export const showcaseDetail = [
   },
   {
     id: 2,
-    title: "Film Publicitario",
+    title: "Karhaus Detailing",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "/video/reel.mp4",
-    catgeory: "AUDIOVISUAL",
+    catgeory: "FILM PUBLICITARIO",
     images: [
       "/images/examples/old-woman-celebrating-world-photography-day.jpg",
       "/images/examples/old-woman-celebrating-world-photography-day.jpg",
@@ -264,11 +264,11 @@ export const showcaseDetail = [
   },
   {
     id: 4,
-    title: "B A K1d",
+    title: "B A Kid",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "/images/B A K1d/JuweareBAK1d_1.jpg",
-    catgeory: "AUDIOVISUAL",
+    catgeory: "FILM PUBLICITIARIO ARTE",
   },
   {
     id: 5,
@@ -285,19 +285,19 @@ export const showcaseDetail = [
   },
   {
     id: 6,
-    title: "Film",
+    title: "HAVAL",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "/images/film/JuweareFilm_1.jpg",
-    catgeory: "PRODUCCIÓN",
+    catgeory: "FILM REVIEW",
   },
   {
     id: 7,
-    title: "Rygew Burgers",
+    title: "Ryge Burger",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "/images/Rygew Burgers/JuweareRygewBurgers_1.jpg",
-    catgeory: "FOTOGRAFÍA GASTRONÓMICA",
+    catgeory: "FOTOGRAFÍA - BRANDING",
     images: [
       "/images/Rygew Burgers/JuweareRygewBurgers_1.jpg",
       "/images/Rygew Burgers/JuweareRygewBurgers_2.jpg",
@@ -312,19 +312,19 @@ export const showcaseDetail = [
   },
   {
     id: 8,
-    title: "Film Aftermovie",
+    title: "Shell the Clash",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "/images/Shell/JuweareShell_1.jpg",
-    catgeory: "PRODUCCIÓN",
+    catgeory: "AFTER MOVIE",
   },
   {
     id: 9,
-    title: "Tiger Wok",
+    title: "Red Bull",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
     cover: "/images/Tiger Wok/JuweareTigerWok_1.jpg",
-    catgeory: "FOTOGRAFÍA GASTRONÓMICA",
+    catgeory: "FILM",
     images: [
       "/images/Tiger Wok/JuweareTigerWok_2.jpg",
       "/images/Tiger Wok/JuweareTigerWok_3.jpg",

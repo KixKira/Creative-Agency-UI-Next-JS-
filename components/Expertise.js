@@ -10,9 +10,9 @@ const Expertise = () => {
         <div className="heading-title">
           <Title title="Nuestra experiencia" />
           <p>
-            Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac
-            volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula
-            at, molestie dolor.
+            Creatividad colectiva y producción a medida, con artistas y
+            profesionales multidisciplinarios que dan vida a tu visión, sin
+            límites ni formatos predefinidos.
           </p>
         </div>
         <div className="hero-content grid-3">

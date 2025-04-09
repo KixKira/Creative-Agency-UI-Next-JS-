@@ -30,10 +30,9 @@ const Hero = () => {
           <div className="heading-title">
             <Title title="La última agencia digital que necesitará" />
             <p>
-              Suspendisse ut magna porttitor, sollicitudin ligula at, molestie
-              dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla
-              ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut
-              magna porttitor scelerisque.
+              Creamos conceptos, ejecutamos ideas y producimos contenido que
+              deja huella. En ju, la creatividad sin pausa se transforma en
+              experiencias visuales y marcas que conectan.
             </p>
           </div>
           <div className="hero-content-icons grid-3">

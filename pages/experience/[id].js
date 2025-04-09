@@ -43,7 +43,11 @@ const ExperienceDetails = () => {
                 <h1 className="title title-detail">
                   {experiences.title || "Untitled expertise"}
                 </h1>
-                <p>{experiences.subtitle || "No description available."}</p>
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: experiences.subtitle || "No description available.",
+                  }}
+                ></p>
               </div>
             </div>
           </div>
