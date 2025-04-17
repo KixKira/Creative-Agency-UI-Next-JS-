@@ -63,35 +63,34 @@ const Contact = () => {
     <section className="contact bg-top">
       <div className="container">
         <div className="heading-title">
-          {/* <TitleSm title="CONTACT" /> */}
           <br />
           <br />
-          <Title title="Empecemos ahora mismo" className="title-bg" />
+          <Title title="Empecemos a Producir!" className="title-bg" />
         </div>
         <div className="content py flex1">
           <div className="left w-30">
             <div className="contact-deatils">
               <div className="box">
                 <FiHeadphones size={30} className="icons" />
-                <h3>1-001-234-5678</h3>
-                <span>Call us: Mon - Fri 9:00 - 19:00</span>
+                <h3>+56 9 8232 6892</h3>
+                <span>Llamadas y WhatsApp: Lun - Vie 9:00 - 19:00</span>
               </div>
               <div className="box">
                 <IoLocationOutline size={30} className="icons" />
-                <h3>New York</h3>
+                <h3>Santiago</h3>
                 <span>
-                  990 Madison Ave, Midtown Manhattan, 2th Floor, NY 10022
+                  Los Militares 5620, Of. 905, Las Condes, Santiago, Chile
                 </span>
               </div>
               <div className="box">
                 <FiHelpCircle size={30} className="icons" />
-                <h3>info@dream-theme.com</h3>
-                <span>Drop us a line anytime!</span>
+                <h3>contacto@juweare.cl</h3>
+                <span>Escríbenos un correo cuando quieras</span>
               </div>
               <div className="box">
                 <BiUserCircle size={30} className="icons" />
-                <h3>hr@dream-theme.com</h3>
-                <span>Career at Seven Creative</span>
+                <h3>team@juweare.cl</h3>
+                <span>Se parte de nosotros!</span>
               </div>
             </div>
             <ul>
@@ -110,10 +109,10 @@ const Contact = () => {
             </ul>
           </div>
           <div className="right w-70">
-            <TitleSm title="Realizar una consulta en línea" />
+            <TitleSm title="Estamos encantados de saber más sobre tus idea y proyectos" />
             <p className="desc-p">
-              ¿Tienes preguntas? ¿Ideas? Rellene el siguiente formulario para
-              obtener nuestra propuesta.{" "}
+              ¿Tienes preguntas? ¿Propuestas? Rellena el siguiente formulario
+              para recibir nuestra ayuda.
             </p>
 
             <form onSubmit={handleSubmit}>
@@ -126,6 +125,7 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
+                    placeholder="Jhon Doe"
                   />
                 </div>
                 <div className="inputs">
@@ -136,20 +136,24 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
+                    placeholder="example@myemail.com"
                   />
                 </div>
               </div>
               <div className="grid-2">
                 <div className="inputs">
-                  <span>Su presupuesto</span>
+                  <span>Teléfono</span>
                   <input
-                    type="text"
-                    name="budget"
-                    value={formData.budget}
+                    type="tel" // Cambiado a "tel" para un campo telefónico
+                    name="phone" // Cambiado el nombre del campo
+                    value={formData.phone} // Actualizado para reflejar el nuevo campo
                     onChange={handleChange}
+                    required // Hacer que el campo sea obligatorio
+                    pattern="[0-9+() -]*" // Validación básica para números de teléfono
+                    placeholder="+56 9 1234 5678" // Ejemplo de formato
                   />
                 </div>
-                <div className="inputs">
+                {/* <div className="inputs">
                   <span>Marco temporal</span>
                   <input
                     type="text"
@@ -157,7 +161,7 @@ const Contact = () => {
                     value={formData.timeframe}
                     onChange={handleChange}
                   />
-                </div>
+                </div> */}
               </div>
               <div className="inputs">
                 <span>CUÉNTENOS UN POCO SOBRE SU PROYECTO*.</span>
@@ -168,6 +172,7 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   required
+                  placeholder="Escribe tu mensaje aquí..."
                 ></textarea>
               </div>
               <button className="button-primary" type="submit">

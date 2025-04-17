@@ -10,7 +10,7 @@ const Hero = () => {
     <>
       <section className="hero">
         <video
-          src="/video/reel.mp4"
+          src="/video/WEB  JU FINAL.mp4"
           autoPlay
           loop
           muted
@@ -28,10 +28,12 @@ const Hero = () => {
       <section className="hero-sec">
         <div className="container">
           <div className="heading-title">
-            <Title title="La última agencia digital que necesitará" />
+            <Title
+              title="Creamos conceptos, ejecutamos ideas y producimos contenido que
+              deja huella"
+            />
             <p>
-              Creamos conceptos, ejecutamos ideas y producimos contenido que
-              deja huella. En ju, la creatividad sin pausa se transforma en
+              En <b>JU</b>, la creatividad sin pausa se transforma en
               experiencias visuales y marcas que conectan.
             </p>
           </div>

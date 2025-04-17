@@ -19,7 +19,7 @@ export const expertise = [
   {
     id: 1,
     title: "Film",
-    cover: "../images/e1.jpg",
+    cover: "../images/FILM.JPEG",
     desc: [
       { text: "Web design" },
       { text: "Web development" },
@@ -33,7 +33,7 @@ export const expertise = [
   {
     id: 2,
     title: "Foto",
-    cover: "../images/e2.jpg",
+    cover: "../images/FOTO.jpg",
     desc: [
       { text: "Social media marketing" },
       { text: "Marketing campaigns" },
@@ -46,7 +46,7 @@ export const expertise = [
   {
     id: 3,
     title: "Branding y Creatividad",
-    cover: "../images/e3.jpg",
+    cover: "../images/BRANDING.PNG",
     desc: [
       { text: "E-Commerce website design" },
       { text: "WooCommerce" },
@@ -202,7 +202,7 @@ export const showcase = [
     title: "Red Bull",
     subtitle:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
-    cover: "../images/woks.jpg",
+    cover: "../images/redbull.jpeg",
     catgeory: "FILM",
   },
 ];

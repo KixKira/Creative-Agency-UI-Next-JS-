@@ -8,11 +8,10 @@ const Expertise = () => {
     <section className="expertise">
       <div className="container">
         <div className="heading-title">
-          <Title title="Nuestra experiencia" />
+          <Title title="Creatividad colectiva y producción a medida" />
           <p>
-            Creatividad colectiva y producción a medida, con artistas y
-            profesionales multidisciplinarios que dan vida a tu visión, sin
-            límites ni formatos predefinidos.
+            Con artistas y profesionales multidisciplinarios que dan vida a tu
+            visión, sin límites ni formatos predefinidos.
           </p>
         </div>
         <div className="hero-content grid-3">
