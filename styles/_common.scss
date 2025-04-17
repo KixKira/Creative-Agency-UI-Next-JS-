@@ -30,9 +30,17 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+
+  @media screen and (max-width: 768px) {
+    font-size: $xl-2;
+  }
 }
 .title-bg {
   font-size: 40px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+  }
 }
 .secondary-button,
 .button-primary {

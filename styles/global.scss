@@ -52,6 +52,21 @@
       color: $indigo;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .sub-heading {
+      flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas */
+      align-items: center; /* Alinea los elementos verticalmente */
+      gap: 20px;
+    }
+
+    .sub-heading span {
+      display: inline-block;
+      line-height: 0.5rem;
+      margin-top: -30px;
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .hero-sec {
@@ -387,6 +402,12 @@ footer {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   max-width: 66%;
   justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .card-horizontal:hover {
@@ -475,7 +496,7 @@ footer {
   }
 
   .card-horizontal-img {
-    max-width: 100%;
+    max-width: 1000px;
   }
 
   .card-horizontal-content {
