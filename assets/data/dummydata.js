@@ -46,7 +46,7 @@ export const expertise = [
   {
     id: 3,
     title: "Branding y Creatividad",
-    cover: "../images/BRANDING.PNG",
+    cover: "../images/BRANDING.jpg",
     desc: [
       { text: "E-Commerce website design" },
       { text: "WooCommerce" },

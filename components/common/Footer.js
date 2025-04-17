@@ -32,10 +32,9 @@ const Footer = () => {
               </li>
             </ul>
             <ul>
-              <h3 style={{ visibility: "hidden" }}>JUWEARE</h3>{" "}
-              {/* <li>
-                <Link href="/#">Nosotros</Link>
-              </li> */}
+              <h3 style={{ visibility: "hidden" }} className="testing">
+                JUWEARE
+              </h3>{" "}
               <li>
                 <Link href="/contact">Contacto</Link>
               </li>

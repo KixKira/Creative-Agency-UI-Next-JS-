@@ -260,6 +260,12 @@ footer {
   }
 
   @media screen and (max-width: 950px) {
+    .testing {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 950px) {
     padding: $xl 0;
 
     .juweare-columns {
