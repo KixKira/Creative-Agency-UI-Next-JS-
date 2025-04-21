@@ -263,6 +263,7 @@ export const showcaseDetail = [
       "Junto a Kid Maikel —artista de la casa, diseñador y mente inquieta—  creamos una intervención/performance que es pura fusión urbana. Con la complicidad de marcas como Molotow, Arte Papel y Casa San Cristóbal, nos aventuramos en una sesión donde la pintura se entrelaza con el basketball, el cine y un storytelling que, en el formato dinámico de reels, trasciende sin desperdiciar tiempo. Fue un manifiesto visual que destila libertad, creatividad y la energía cruda de la calle en cada frame.",
     cover: "/images/B A K1d/JuweareBAK1d_1.jpg",
     catgeory: "FILM PUBLICITIARIO ARTE",
+    videos: ["https://www.youtube.com/watch?v=qF6KjWuh7zw"],
   },
   {
     id: 5,

@@ -1,8 +1,10 @@
-const { withNextVideo } = require('next-video/process')
+const { withNextVideo } = require("next-video/process");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-}
+  images: {
+    domains: ["img.youtube.com"], // Agrega aquí otros dominios si es necesario
+  },
+};
 
-module.exports = withNextVideo(nextConfig)
+module.exports = withNextVideo(nextConfig);

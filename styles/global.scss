@@ -697,7 +697,7 @@ footer {
 
   .off-canvas img {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 }
 
@@ -705,6 +705,13 @@ footer {
   position: relative;
   width: 600px;
   height: 400px;
+  overflow: hidden;
+}
+
+.image-wrapper-canvas {
+  position: relative;
+  width: 1280px;
+  height: 720px;
   overflow: hidden;
 }
 
@@ -747,7 +754,7 @@ footer {
 
 .off-canvas-content {
   position: relative;
-  max-width: 90%;
+  max-width: 100%;
   max-height: 100%;
   cursor: default; /* Evita que el cursor cambie dentro del contenido */
 }
@@ -755,4 +762,52 @@ footer {
 .off-canvas-image {
   object-fit: contain; /* Ajusta la imagen sin recortarla */
   border-radius: 8px; /* Opcional: bordes redondeados */
+}
+
+@media screen and (max-width: 768px) {
+  /* Ejemplo de estilos CSS para mejorar la versión móvil */
+  .container {
+    padding: 1rem; /* Espaciado en móviles */
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column; /* Cambia a columna en móviles */
+  }
+
+  .image-wrapper {
+    width: 100%; /* Asegúrate de que la imagen ocupe el 100% del ancho */
+    overflow: hidden; /* Para evitar que las imágenes se desborden */
+  }
+
+  .carousel {
+    margin-top: 1rem; /* Espaciado superior */
+  }
+
+  .carousel-images {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan */
+    justify-content: space-between; /* Espaciado entre imágenes */
+  }
+
+  .carousel-item {
+    width: 48%; /* Dos imágenes por fila en móviles */
+    margin-bottom: 1rem; /* Espaciado inferior */
+  }
+
+  .off-canvas-content {
+    max-width: 90%; /* Limita el ancho en móviles */
+    margin: auto; /* Centra el contenido */
+  }
+
+  .off-canvas-video,
+  .off-canvas-image {
+    width: 100%; /* Asegúrate de que el video y la imagen ocupen el 100% del ancho */
+    height: auto; /* Mantiene la relación de aspecto */
+  }
+
+  .image-wrapper-canvas {
+    width: auto;
+    height: auto;
+  }
 }
