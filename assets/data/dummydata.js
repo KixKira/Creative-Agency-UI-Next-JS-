@@ -137,7 +137,7 @@ export const showcase = [
     id: 1,
     title: "Memoria Coopeuch",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Realizamos una sesión de fotos con 10 modelos cuidadosamente seleccionados para reflejar la diversidad y transversalidad que representa Coopeuch...",
     cover: "../images/coopeuch.jpg",
     catgeory: "FOTOGRAFÍA PUBLICITARIA",
   },
@@ -145,7 +145,7 @@ export const showcase = [
     id: 2,
     title: "Karhaus Detailing",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Para este taller especializado en detailing de autos de alta gama, desarrollamos un video que no solo muestra su servicio, sino que transmite la dedicación y precisión con la que trabajan.",
     cover: "../images/still.jpg",
     catgeory: "FILM PUBLICITARIO",
   },
@@ -153,7 +153,7 @@ export const showcase = [
     id: 3,
     title: "Rocoto",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Rocoto y su grupo Delivery Gourmet confían en nosotros cada vez que buscan renovar sus cartas e imágenes para redes, y eso nos entusiasma siempre.",
     cover: "../images/rocoto.jpg",
     catgeory: "FOTOGRAFÍA PUBLICITARIA",
   },
@@ -161,7 +161,7 @@ export const showcase = [
     id: 4,
     title: "B A Kid",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Junto a Kid Maikel —artista de la casa, diseñador y mente inquieta—  creamos una intervención/performance que es pura fusión urbana.",
     cover: "../images/molotov.jpg",
     catgeory: "FILM PUBLICITIARIO ARTE",
   },
@@ -169,7 +169,7 @@ export const showcase = [
     id: 5,
     title: "Skechers",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Para esta campaña junto a Skechers, tuvimos la oportunidad de trabajar con Carola de Moras, ícono televisivo y referente de estilo.",
     cover: "../images/skechers.jpg",
     catgeory: "FOTOGRAFÍA PUBLICITARIA",
   },
@@ -177,7 +177,7 @@ export const showcase = [
     id: 6,
     title: "HAVAL",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Nos convocaron para realizar un review del nuevo Haval Jolion Pro, y como siempre que se trata de autos, nos entregamos con total entusiasmo.",
     cover: "../images/haval.jpg",
     catgeory: "FILM REVIEW",
   },
@@ -185,7 +185,7 @@ export const showcase = [
     id: 7,
     title: "Ryge Burger",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Con Ryge Burgers partimos de un comienzo sin mucha estructura profesional, pero con una gran idea detrás.",
     cover: "../images/ryge.jpg",
     catgeory: "FOTOGRAFÍA - BRANDING",
   },
@@ -193,15 +193,15 @@ export const showcase = [
     id: 8,
     title: "Shell the Clash",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Para la agencia The Clash y Shell en Festigame, creamos un aftermovie vertical pensado para capturar la esencia del evento en tiempo real, un servicio que también ofrecemos.",
     cover: "../images/shell.jpg",
     catgeory: "AFTER MOVIE",
   },
   {
     id: 9,
-    title: "Red Bull",
+    title: "Redbull",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Trabajar con Redbull es siempre una experiencia increíblemente entretenida, una marca que impulsa la creatividad al máximo.",
     cover: "../images/redbull.jpeg",
     catgeory: "FILM",
   },
@@ -212,7 +212,7 @@ export const showcaseDetail = [
     id: 1,
     title: "Memoria Coopeuch",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Realizamos una sesión de fotos con 10 modelos cuidadosamente seleccionados para reflejar la diversidad y transversalidad que representa Coopeuch y su comunidad de usuarios. Fue un proyecto ambicioso, que requirió una intensa etapa de preproducción incluyendo una selección minuciosa de casting y una coordinación precisa. Gracias al compromiso y talento de un equipo de alto desempeño, logramos enfrentar los desafíos y alcanzar un resultado del que estamos profundamente orgullosos.",
     cover: "/images/coopeuch/JuweareMemoriaCoopeuch_1.jpg",
     catgeory: "FOTOGRAFÍA PUBLICITARIA",
     images: [
@@ -232,21 +232,15 @@ export const showcaseDetail = [
     id: 2,
     title: "Karhaus Detailing",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Para este taller especializado en detailing de autos de alta gama, desarrollamos un video que no solo muestra su servicio, sino que transmite la dedicación y precisión con la que trabajan. Tuvimos total libertad creativa, lo que nos permitió construir una propuesta profunda y detallista desde la preproducción hasta la post. Con una dirección de primer nivel y un equipo apasionado —especialmente por los autos—, convertimos cada plano en una experiencia visual. Como protagonista, usamos un Porsche GT4 que nos permitió elevar aún más la estética y el carácter del proyecto.",
     cover: "/video/reel.mp4",
     catgeory: "FILM PUBLICITARIO",
-    images: [
-      "/images/examples/old-woman-celebrating-world-photography-day.jpg",
-      "/images/examples/old-woman-celebrating-world-photography-day.jpg",
-      "/images/examples/old-woman-celebrating-world-photography-day.jpg",
-      "/images/examples/old-woman-celebrating-world-photography-day.jpg",
-    ],
   },
   {
     id: 3,
     title: "Rocoto",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Rocoto y su grupo Delivery Gourmet confían en nosotros cada vez que buscan renovar sus cartas e imágenes para redes, y eso nos entusiasma siempre. En esta ocasión, nos encargaron la foto fija para su nueva campaña, en la que trabajamos con un equipo de modelos y profesionales de primer nivel. Le dimos un estilo visual pulcro y marcadamente publicitario, cuidando cada detalle para transmitir la calidad de su propuesta. Nos encanta trabajar con marcas abiertas, colaborativas e innovadoras como Rocoto, que valoran lo creativo y confían en los procesos compartidos.",
     cover: "/images/rocoto/JuweareRocoto_1.jpg",
     catgeory: "FOTOGRAFÍA PUBLICITARIA",
     images: [
@@ -266,7 +260,7 @@ export const showcaseDetail = [
     id: 4,
     title: "B A Kid",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Junto a Kid Maikel —artista de la casa, diseñador y mente inquieta—  creamos una intervención/performance que es pura fusión urbana. Con la complicidad de marcas como Molotow, Arte Papel y Casa San Cristóbal, nos aventuramos en una sesión donde la pintura se entrelaza con el basketball, el cine y un storytelling que, en el formato dinámico de reels, trasciende sin desperdiciar tiempo. Fue un manifiesto visual que destila libertad, creatividad y la energía cruda de la calle en cada frame.",
     cover: "/images/B A K1d/JuweareBAK1d_1.jpg",
     catgeory: "FILM PUBLICITIARIO ARTE",
   },
@@ -274,7 +268,7 @@ export const showcaseDetail = [
     id: 5,
     title: "Skechers",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Para esta campaña junto a Skechers, tuvimos la oportunidad de trabajar con Carola de Moras, ícono televisivo y referente de estilo. El objetivo fue mostrar los nuevos modelos de la marca con una mirada fresca, cercana y actual, sin perder ese toque urbano que caracteriza su esencia. Armamos una producción ágil pero detallada, donde cada plano reflejara tanto la comodidad como la actitud de Skechers. El resultado fue una pieza visual sólida, bien dirigida y alineada con la identidad de la marca.",
     cover: "/images/Skechers/JuweareSkechers_1.jpg",
     catgeory: "FOTOGRAFÍA PUBLICITARIA",
     images: [
@@ -287,7 +281,7 @@ export const showcaseDetail = [
     id: 6,
     title: "HAVAL",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Nos convocaron para realizar un review del nuevo Haval Jolion Pro, y como siempre que se trata de autos, nos entregamos con total entusiasmo. Creamos un video entretenido, con una narrativa ágil y una mixtura de planos que nos permitió mostrar cada detalle del vehículo con precisión y estilo. Combinamos tomas dinámicas con la opinión de expertos, logrando un contenido que informa, fluye y conecta. Cuando la pasión por los autos se cruza con una producción bien pensada, el resultado se nota.",
     cover: "/images/film/JuweareFilm_1.jpg",
     catgeory: "FILM REVIEW",
   },
@@ -295,7 +289,7 @@ export const showcaseDetail = [
     id: 7,
     title: "Ryge Burger",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Con Ryge Burgers partimos de un comienzo sin mucha estructura profesional, pero con una gran idea detrás. Nos dieron carta blanca para desarrollar su identidad visual, y eso nos permitió crear una pieza completa que engloba fotos, videos, branding y diseño. Mezclamos nuestras influencias más fuertes: streetwear, arte, autos, lifestyle y cultura urbana, para darle vida a una marca que hoy se ve fresca, moderna y con personalidad. Cada plano, cada detalle visual, fue pensado para construir una identidad auténtica y visualmente impactante.",
     cover: "/images/Rygew Burgers/JuweareRygewBurgers_1.jpg",
     catgeory: "FOTOGRAFÍA - BRANDING",
     images: [
@@ -314,24 +308,17 @@ export const showcaseDetail = [
     id: 8,
     title: "Shell the Clash",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
+      "Para la agencia The Clash y Shell en Festigame, creamos un aftermovie vertical pensado para capturar la esencia del evento en tiempo real, un servicio que también ofrecemos. Grabado al vuelo, este reel no solo resalta la activación de la marca en el Estadio Nacional, sino que le dimos un toque fresco, gamer y profesional. Con tomas rápidas, edición dinámica y la atmósfera única del festival, logramos un video que transmite la energía y emoción del momento, perfecto para resaltar la presencia de Shell en este gran evento.",
     cover: "/images/Shell/JuweareShell_1.jpg",
     catgeory: "AFTER MOVIE",
   },
   {
     id: 9,
-    title: "Red Bull",
+    title: "Redbull Promocionales",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. ",
-    cover: "/images/Tiger Wok/JuweareTigerWok_1.jpg",
+      "Trabajar con Redbull es siempre una experiencia increíblemente entretenida, una marca que impulsa la creatividad al máximo. En colaboración con el estudio Ruptura, hemos creado reels innovadores que combinan 3D, inteligencia artificial y lo mejor de nuestros planos, llevando el contenido de marca al siguiente nivel. Cada proyecto refleja la esencia de Redbull: audaz, disruptivo y siempre en línea con las tendencias actuales. La mezcla de tecnología avanzada y creatividad nos permite desarrollar propuestas que no solo destacan, sino que marcan la diferencia en un mundo lleno de contenido.",
+    cover: "/images/redbull.jpeg",
     catgeory: "FILM",
-    images: [
-      "/images/Tiger Wok/JuweareTigerWok_2.jpg",
-      "/images/Tiger Wok/JuweareTigerWok_3.jpg",
-      "/images/Tiger Wok/JuweareTigerWok_4.jpg",
-      "/images/Tiger Wok/JuweareTigerWok_5.jpg",
-      "/images/Tiger Wok/JuweareTigerWok_6.jpg",
-    ],
   },
 ];
 

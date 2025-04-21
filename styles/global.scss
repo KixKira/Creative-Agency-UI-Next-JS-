@@ -655,15 +655,15 @@ footer {
     gap: 1rem;
   }
 
+  .main-image,
   .image-section {
     flex: none;
     width: 100%;
   }
 
-  .main-image,
   .main-video {
-    width: 100%;
-    height: auto;
+    width: 600px;
+    height: 400px;
   }
 
   .details-section {
@@ -703,6 +703,8 @@ footer {
 
 .image-wrapper {
   position: relative;
+  width: 600px;
+  height: 400px;
   overflow: hidden;
 }
 
