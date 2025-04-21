@@ -24,11 +24,13 @@ const ProjectDetails = () => {
   };
 
   const isVideo = (url) => {
+    if (!url) return false;
     const videoExtensions = ["mp4", "webm", "ogg"];
     return videoExtensions.some((ext) => url.includes(ext));
   };
 
   const isYouTubeLink = (url) => {
+    if (!url) return false;
     return url.includes("youtube.com") || url.includes("youtu.be");
   };
 
@@ -52,7 +54,7 @@ const ProjectDetails = () => {
           <div className="hero-content">
             <div className="main-content">
               <div className="image-wrapper">
-                {project.cover ? (
+                {/* {project.cover ? (
                   isVideo(project.cover) ? (
                     <video
                       src={project.cover}
@@ -70,6 +72,26 @@ const ProjectDetails = () => {
                   )
                 ) : (
                   <p>No cover available</p>
+                )} */}
+
+                {isYouTubeLink(project.videoCover) ? (
+                  <iframe
+                    src={getYouTubeEmbedUrl(project.videoCover)}
+                    frameBorder="0"
+                    allow="autoplay"
+                    allowFullScreen
+                    width={600}
+                    height={400}
+                    className="main-video"
+                  ></iframe>
+                ) : (
+                  <Image
+                    src={project.cover}
+                    alt={project.title || "Project Image"}
+                    width={600}
+                    height={400}
+                    className="main-image"
+                  />
                 )}
               </div>
               <div className="details-section">
@@ -77,8 +99,8 @@ const ProjectDetails = () => {
                   {project.title || "Untitled Project"}
                 </h1>
                 <p>{project.subtitle || "No description available."}</p>
-                <p>
-                  <strong>Tipo:</strong> {project.category || "N/A"}
+                <p className="category">
+                  <strong>{project.catgeory || "N/A"}</strong>
                 </p>
               </div>
             </div>

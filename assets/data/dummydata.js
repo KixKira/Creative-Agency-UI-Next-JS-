@@ -233,8 +233,8 @@ export const showcaseDetail = [
     title: "Karhaus Detailing",
     subtitle:
       "Para este taller especializado en detailing de autos de alta gama, desarrollamos un video que no solo muestra su servicio, sino que transmite la dedicación y precisión con la que trabajan. Tuvimos total libertad creativa, lo que nos permitió construir una propuesta profunda y detallista desde la preproducción hasta la post. Con una dirección de primer nivel y un equipo apasionado —especialmente por los autos—, convertimos cada plano en una experiencia visual. Como protagonista, usamos un Porsche GT4 que nos permitió elevar aún más la estética y el carácter del proyecto.",
-    cover: "/video/reel.mp4",
     catgeory: "FILM PUBLICITARIO",
+    videoCover: "https://www.youtube.com/watch?v=GN5d9oKTO_Q",
   },
   {
     id: 3,
@@ -261,9 +261,8 @@ export const showcaseDetail = [
     title: "B A Kid",
     subtitle:
       "Junto a Kid Maikel —artista de la casa, diseñador y mente inquieta—  creamos una intervención/performance que es pura fusión urbana. Con la complicidad de marcas como Molotow, Arte Papel y Casa San Cristóbal, nos aventuramos en una sesión donde la pintura se entrelaza con el basketball, el cine y un storytelling que, en el formato dinámico de reels, trasciende sin desperdiciar tiempo. Fue un manifiesto visual que destila libertad, creatividad y la energía cruda de la calle en cada frame.",
-    cover: "/images/B A K1d/JuweareBAK1d_1.jpg",
     catgeory: "FILM PUBLICITIARIO ARTE",
-    videos: ["https://www.youtube.com/watch?v=qF6KjWuh7zw"],
+    videoCover: "https://www.youtube.com/watch?v=qF6KjWuh7zw",
   },
   {
     id: 5,
@@ -283,7 +282,7 @@ export const showcaseDetail = [
     title: "HAVAL",
     subtitle:
       "Nos convocaron para realizar un review del nuevo Haval Jolion Pro, y como siempre que se trata de autos, nos entregamos con total entusiasmo. Creamos un video entretenido, con una narrativa ágil y una mixtura de planos que nos permitió mostrar cada detalle del vehículo con precisión y estilo. Combinamos tomas dinámicas con la opinión de expertos, logrando un contenido que informa, fluye y conecta. Cuando la pasión por los autos se cruza con una producción bien pensada, el resultado se nota.",
-    cover: "/images/film/JuweareFilm_1.jpg",
+    videoCover: "https://www.youtube.com/watch?v=NU5GSrtjM0E",
     catgeory: "FILM REVIEW",
   },
   {
@@ -310,7 +309,7 @@ export const showcaseDetail = [
     title: "Shell the Clash",
     subtitle:
       "Para la agencia The Clash y Shell en Festigame, creamos un aftermovie vertical pensado para capturar la esencia del evento en tiempo real, un servicio que también ofrecemos. Grabado al vuelo, este reel no solo resalta la activación de la marca en el Estadio Nacional, sino que le dimos un toque fresco, gamer y profesional. Con tomas rápidas, edición dinámica y la atmósfera única del festival, logramos un video que transmite la energía y emoción del momento, perfecto para resaltar la presencia de Shell en este gran evento.",
-    cover: "/images/Shell/JuweareShell_1.jpg",
+    videoCover: "https://www.youtube.com/shorts/UOBFeKv9BAI",
     catgeory: "AFTER MOVIE",
   },
   {
