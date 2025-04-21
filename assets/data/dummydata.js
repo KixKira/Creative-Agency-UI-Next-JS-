@@ -317,7 +317,7 @@ export const showcaseDetail = [
     title: "Redbull Promocionales",
     subtitle:
       "Trabajar con Redbull es siempre una experiencia increíblemente entretenida, una marca que impulsa la creatividad al máximo. En colaboración con el estudio Ruptura, hemos creado reels innovadores que combinan 3D, inteligencia artificial y lo mejor de nuestros planos, llevando el contenido de marca al siguiente nivel. Cada proyecto refleja la esencia de Redbull: audaz, disruptivo y siempre en línea con las tendencias actuales. La mezcla de tecnología avanzada y creatividad nos permite desarrollar propuestas que no solo destacan, sino que marcan la diferencia en un mundo lleno de contenido.",
-    cover: "/images/redbull.jpeg",
+    videoCover: "https://www.youtube.com/shorts/TeYJ2_ObXHw",
     catgeory: "FILM",
   },
 ];
