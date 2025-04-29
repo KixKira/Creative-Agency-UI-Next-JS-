@@ -1,22 +1,21 @@
 import { CardHorizontal } from "@/components/common/CardHorizontal";
-import { showcase } from "@/assets/data/dummydata";
-import { Title, TitleSm } from "@/components/common/Title";
+import { proyects } from "@/assets/data/dummydata";
+import { Title } from "@/components/common/Title";
 
 const Proyects = () => {
   return (
     <section className="expertise bg-top projects-section">
       <div className="container">
         <div className="heading-title">
-          {/* <TitleSm title="PROYECTOS" /> */}
           <br />
           <br />
           <Title title="Conoce nuestros proyectos" className="title-bg" />
         </div>
         <div className="hero-content">
-          {showcase.map((showcase) => (
+          {proyects.map((proyects) => (
             <CardHorizontal
-              key={showcase.id}
-              data={showcase}
+              key={proyects.id}
+              data={proyects}
               buttonLabel="Saber más"
               path="/proyects"
               caption="Saber más"

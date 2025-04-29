@@ -207,6 +207,158 @@ export const showcase = [
   },
 ];
 
+export const proyects = [
+  {
+    id: 1,
+    title: "Memoria Coopeuch",
+    subtitle:
+      "Realizamos una sesión de fotos con 10 modelos cuidadosamente seleccionados para reflejar la diversidad y transversalidad que representa Coopeuch...",
+    cover: "../images/coopeuch.jpg",
+    catgeory: "FOTOGRAFÍA PUBLICITARIA",
+  },
+  {
+    id: 2,
+    title: "Karhaus Detailing",
+    subtitle:
+      "Para este taller especializado en detailing de autos de alta gama, desarrollamos un video que no solo muestra su servicio, sino que transmite la dedicación y precisión con la que trabajan.",
+    cover: "../images/still.jpg",
+    catgeory: "FILM PUBLICITARIO",
+  },
+  {
+    id: 3,
+    title: "Rocoto",
+    subtitle:
+      "Rocoto y su grupo Delivery Gourmet confían en nosotros cada vez que buscan renovar sus cartas e imágenes para redes, y eso nos entusiasma siempre.",
+    cover: "../images/rocoto.jpg",
+    catgeory: "FOTOGRAFÍA PUBLICITARIA",
+  },
+  {
+    id: 4,
+    title: "B A Kid",
+    subtitle:
+      "Junto a Kid Maikel —artista de la casa, diseñador y mente inquieta—  creamos una intervención/performance que es pura fusión urbana.",
+    cover: "../images/molotov.jpg",
+    catgeory: "FILM PUBLICITIARIO ARTE",
+  },
+  {
+    id: 5,
+    title: "Skechers",
+    subtitle:
+      "Para esta campaña junto a Skechers, tuvimos la oportunidad de trabajar con Carola de Moras, ícono televisivo y referente de estilo.",
+    cover: "../images/skechers.jpg",
+    catgeory: "FOTOGRAFÍA PUBLICITARIA",
+  },
+  {
+    id: 6,
+    title: "HAVAL",
+    subtitle:
+      "Nos convocaron para realizar un review del nuevo Haval Jolion Pro, y como siempre que se trata de autos, nos entregamos con total entusiasmo.",
+    cover: "../images/haval.jpg",
+    catgeory: "FILM REVIEW",
+  },
+  {
+    id: 7,
+    title: "Ryge Burger",
+    subtitle:
+      "Con Ryge Burgers partimos de un comienzo sin mucha estructura profesional, pero con una gran idea detrás.",
+    cover: "../images/ryge.jpg",
+    catgeory: "FOTOGRAFÍA - BRANDING",
+  },
+  {
+    id: 8,
+    title: "Shell the Clash",
+    subtitle:
+      "Para la agencia The Clash y Shell en Festigame, creamos un aftermovie vertical pensado para capturar la esencia del evento en tiempo real, un servicio que también ofrecemos.",
+    cover: "../images/shell.jpg",
+    catgeory: "AFTER MOVIE",
+  },
+  {
+    id: 9,
+    title: "Redbull",
+    subtitle:
+      "Trabajar con Redbull es siempre una experiencia increíblemente entretenida, una marca que impulsa la creatividad al máximo.",
+    cover: "../images/redbull.jpeg",
+    catgeory: "FILM",
+  },
+  {
+    id: 10,
+    title: "Reel 2025 Stefano Iovi",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/b2.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 11,
+    title: "Mimbrería Home Procesos",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/b2.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 12,
+    title: "Mimbrería Home CCP Colina II",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/b2.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 13,
+    title: "Stihl Historias Junto a Ti",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/b2.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 14,
+    title: "Stihl Tutorial",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/b2.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 15,
+    title: "Marlon Breeze ft. Pablo Chile",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/b2.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 16,
+    title: "Marlon Breeze ft. Kuroh",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/b2.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 17,
+    title: "Burger Sin Censura",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/Burger Sin Censura/JuweareBurgerSinCensura_1.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 18,
+    title: "Curry",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/Curry/JuweareCurry_1.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 19,
+    title: "Daily",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/Daily/JuweareDaily_1.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 20,
+    title: "Decathlon",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/Decathlon/JuweareDecathlon_1.jpg",
+    catgeory: "Lorem ipsum",
+  },
+];
+
 export const showcaseDetail = [
   {
     id: 1,
@@ -362,6 +514,138 @@ export const showcaseDetail = [
     videoCover: "https://www.youtube.com/shorts/TeYJ2_ObXHw",
     catgeory: "FILM",
     images: ["/images/Redbull/JuweareRedbull_1.jpeg"],
+  },
+  {
+    id: 10,
+    title: "Reel 2025 Stefano Iovi",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    videoCover: "https://www.youtube.com/watch?v=zTKtTpWFBr0",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 11,
+    title: "Mimbrería Home Procesos",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    videoCover: "https://www.youtube.com/watch?v=nDmuSOKwsjk",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 12,
+    title: "Mimbrería Home CCP Colina II",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    videoCover: "https://www.youtube.com/watch?v=8M6BFM71QCA",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 13,
+    title: "Stihl Historias Junto a Ti",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    videoCover: "https://www.youtube.com/watch?v=dNIaZOcVQsk",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 14,
+    title: "Stihl Tutorial",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    videoCover: "https://www.youtube.com/watch?v=HlKuyLxLmp8",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 15,
+    title: "Marlon Breeze ft. Pablo Chile",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    videoCover: "https://www.youtube.com/watch?v=WFuv98ZnXak",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 16,
+    title: "Marlon Breeze ft. Kuroh",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    videoCover: "https://www.youtube.com/watch?v=ZTIGHTGTK1A",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 17,
+    title: "Burger Sin Censura",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    cover: "/images/Burger Sin Censura/JuweareBurgerSinCensura_1.jpg",
+    catgeory: "Lorem ipsum",
+    images: [
+      "/images/Burger Sin Censura/JuweareBurgerSinCensura_2.jpg",
+      "/images/Burger Sin Censura/JuweareBurgerSinCensura_3.jpg",
+      "/images/Burger Sin Censura/JuweareBurgerSinCensura_4.jpg",
+      "/images/Burger Sin Censura/JuweareBurgerSinCensura_5.jpg",
+      "/images/Burger Sin Censura/JuweareBurgerSinCensura_6.jpg",
+    ],
+  },
+  {
+    id: 18,
+    title: "Curry",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    cover: "/images/Curry/JuweareCurry_1.jpg",
+    catgeory: "Lorem ipsum",
+    images: [
+      "/images/Curry/JuweareCurry_2.jpg",
+      "/images/Curry/JuweareCurry_3.jpg",
+      "/images/Curry/JuweareCurry_4.jpg",
+      "/images/Curry/JuweareCurry_5.jpg",
+      "/images/Curry/JuweareCurry_6.jpg",
+      "/images/Curry/JuweareCurry_7.jpg",
+      "/images/Curry/JuweareCurry_8.jpg",
+      "/images/Curry/JuweareCurry_9.jpg",
+      "/images/Curry/JuweareCurry_10.jpg",
+      "/images/Curry/JuweareCurry_11.jpg",
+    ],
+  },
+  {
+    id: 19,
+    title: "Daily",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    cover: "/images/Daily/JuweareDaily_1.jpg",
+    catgeory: "Lorem ipsum",
+    images: [
+      "/images/Daily/JuweareDaily_2.jpg",
+      "/images/Daily/JuweareDaily_3.jpg",
+      "/images/Daily/JuweareDaily_4.jpg",
+      "/images/Daily/JuweareDaily_5.jpg",
+      "/images/Daily/JuweareDaily_6.jpg",
+      "/images/Daily/JuweareDaily_7.jpg",
+      "/images/Daily/JuweareDaily_8.jpg",
+      "/images/Daily/JuweareDaily_9.jpg",
+      "/images/Daily/JuweareDaily_10.jpg",
+      "/images/Daily/JuweareDaily_11.jpg",
+      "/images/Daily/JuweareDaily_12.jpg",
+      "/images/Daily/JuweareDaily_13.jpg",
+      "/images/Daily/JuweareDaily_14.jpg",
+    ],
+  },
+  {
+    id: 20,
+    title: "Decathlon",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    cover: "/images/Decathlon/JuweareDecathlon_1.jpg",
+    catgeory: "Lorem ipsum",
+    images: [
+      "/images/Decathlon/JuweareDecathlon_2.jpg",
+      "/images/Decathlon/JuweareDecathlon_3.jpg",
+      "/images/Decathlon/JuweareDecathlon_4.jpg",
+      "/images/Decathlon/JuweareDecathlon_5.jpg",
+      "/images/Decathlon/JuweareDecathlon_6.jpg",
+      "/images/Decathlon/JuweareDecathlon_7.jpg",
+      "/images/Decathlon/JuweareDecathlon_8.jpg",
+      "/images/Decathlon/JuweareDecathlon_9.jpg",
+    ],
   },
 ];
 
