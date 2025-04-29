@@ -357,6 +357,49 @@ export const proyects = [
     cover: "../images/Decathlon/JuweareDecathlon_1.jpg",
     catgeory: "Lorem ipsum",
   },
+  {
+    id: 21,
+    title: "Liricistas, Macrodee - Podemos Hacerlo",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/b2.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 22,
+    title:
+      "Liricistas, Macrodee ft. DibujoMc, Irina Doom & Ley 20mil - Dilo Con Flow",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/b2.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 23,
+    title: "Delivery Gourmet",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/Delivery Gourmet/JuweareDeliveryGourmet_1.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 24,
+    title: "HyH",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/HyH/JuweareHyH_1.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 25,
+    title: "EBM",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/b2.jpg",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 26,
+    title: "Ceresita Decofeng",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/b2.jpg",
+    catgeory: "Lorem ipsum",
+  },
 ];
 
 export const showcaseDetail = [
@@ -646,6 +689,86 @@ export const showcaseDetail = [
       "/images/Decathlon/JuweareDecathlon_8.jpg",
       "/images/Decathlon/JuweareDecathlon_9.jpg",
     ],
+  },
+  {
+    id: 21,
+    title: "Liricistas ft. Macrodee - Podemos Hacerlo",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    videoCover: "https://www.youtube.com/watch?v=V3p7ZdGGDg0",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 22,
+    title:
+      "Liricistas, Macrodee ft. DibujoMc, Irina Doom & Ley 20mil - Dilo Con Flow",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    videoCover: "https://www.youtube.com/watch?v=xzMNfHyxnak",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 23,
+    title: "Delivery Gourmet",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    cover: "/images/Delivery Gourmet/JuweareDeliveryGourmet_1.jpg",
+    catgeory: "Lorem ipsum",
+    images: [
+      "/images/Delivery Gourmet/JuweareDeliveryGourmet_2.jpg",
+      "/images/Delivery Gourmet/JuweareDeliveryGourmet_3.jpg",
+      "/images/Delivery Gourmet/JuweareDeliveryGourmet_4.jpg",
+      "/images/Delivery Gourmet/JuweareDeliveryGourmet_5.jpg",
+      "/images/Delivery Gourmet/JuweareDeliveryGourmet_6.jpg",
+      "/images/Delivery Gourmet/JuweareDeliveryGourmet_7.jpg",
+      "/images/Delivery Gourmet/JuweareDeliveryGourmet_8.jpg",
+      "/images/Delivery Gourmet/JuweareDeliveryGourmet_9.jpg",
+      "/images/Delivery Gourmet/JuweareDeliveryGourmet_10.jpg",
+      "/images/Delivery Gourmet/JuweareDeliveryGourmet_11.jpg",
+    ],
+  },
+  {
+    id: 24,
+    title: "HyH",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    cover: "/images/HyH/JuweareHyH_1.jpg",
+    catgeory: "Lorem ipsum",
+    images: [
+      "/images/HyH/JuweareHyH_2.jpg",
+      "/images/HyH/JuweareHyH_3.jpg",
+      "/images/HyH/JuweareHyH_4.jpg",
+      "/images/HyH/JuweareHyH_5.jpg",
+      "/images/HyH/JuweareHyH_6.jpg",
+      "/images/HyH/JuweareHyH_7.jpg",
+      "/images/HyH/JuweareHyH_8.jpg",
+      "/images/HyH/JuweareHyH_9.jpg",
+      "/images/HyH/JuweareHyH_10.jpg",
+      "/images/HyH/JuweareHyH_11.jpg",
+      "/images/HyH/JuweareHyH_12.jpg",
+      "/images/HyH/JuweareHyH_13.jpg",
+      "/images/HyH/JuweareHyH_14.jpg",
+      "/images/HyH/JuweareHyH_15.jpg",
+      "/images/HyH/JuweareHyH_16.jpg",
+      "/images/HyH/JuweareHyH_17.jpg",
+      "/images/HyH/JuweareHyH_18.jpg",
+    ],
+  },
+  {
+    id: 25,
+    title: "EBM",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    videoCover: "https://www.youtube.com/watch?v=tz1TGTbM1Do",
+    catgeory: "Lorem ipsum",
+  },
+  {
+    id: 26,
+    title: "Ceresita Decofeng",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
+    videoCover: "https://www.youtube.com/watch?v=eOxnHMV1Br8",
+    catgeory: "Lorem ipsum",
   },
 ];
 
