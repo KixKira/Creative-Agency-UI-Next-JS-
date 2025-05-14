@@ -51,14 +51,6 @@ const Header = () => {
           >
             Proyectos
           </Link>
-
-          {/* <Link
-            href="/#"
-            className={activeLink == "/#" ? "activeLink" : "none"}
-          >
-            Nosotros
-          </Link> */}
-
           <Link
             href="/contact"
             className={activeLink == "/contact" ? "activeLink" : "none"}

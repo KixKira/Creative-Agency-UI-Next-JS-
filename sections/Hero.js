@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="container">
           <h1 className="hero-title">JUWEARE</h1>
           <div className="sub-heading">
-            <TitleSm title="PRODUCIÓN" /> <span>.</span>
+            <TitleSm title="PRODUCCIÓN" /> <span>.</span>
             <TitleSm title="AUDIOVISUAL" /> <span>.</span>
             <TitleSm title="CREATIVIDAD" />
           </div>

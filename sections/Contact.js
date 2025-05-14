@@ -90,7 +90,7 @@ const Contact = () => {
               <div className="box">
                 <BiUserCircle size={30} className="icons" />
                 <h3>team@juweare.cl</h3>
-                <span>Se parte de nosotros!</span>
+                <span>Se parte de nuestro equipo de creativos</span>
               </div>
             </div>
             <ul>

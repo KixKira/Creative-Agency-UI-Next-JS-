@@ -46,7 +46,7 @@ export const expertise = [
   {
     id: 3,
     title: "Branding y Creatividad",
-    cover: "../images/BRANDING.jpg",
+    cover: "../images/JuweareBrandingyCreatividad.jpeg",
     desc: [
       { text: "E-Commerce website design" },
       { text: "WooCommerce" },
@@ -225,14 +225,6 @@ export const proyects = [
     category: "FILM PUBLICITARIO",
   },
   {
-    id: 3,
-    title: "Rocoto",
-    subtitle:
-      "Rocoto y su grupo Delivery Gourmet confían en nosotros cada vez que buscan renovar sus cartas e imágenes para redes, y eso nos entusiasma siempre.",
-    cover: "../images/rocoto.jpg",
-    category: "FOTOGRAFÍA PUBLICITARIA",
-  },
-  {
     id: 4,
     title: "B A Kid",
     subtitle:
@@ -266,7 +258,7 @@ export const proyects = [
   },
   {
     id: 8,
-    title: "Shell the Clash",
+    title: "Shell",
     subtitle:
       "Para la agencia The Clash y Shell en Festigame, creamos un aftermovie vertical pensado para capturar la esencia del evento en tiempo real, un servicio que también ofrecemos.",
     cover: "../images/shell.jpg",
@@ -281,24 +273,189 @@ export const proyects = [
     category: "FILM",
   },
   {
-    id: 10,
-    title: "Reel 2025 Stefano Iovi",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/covers/JuweareReel2025StefanoIovi_1.jpg",
+    id: 20,
+    title: "Decathlon",
+    subtitle:
+      "Nos llamaron para la renovación de las imágenes institucionales del equipo humano de Decathlon.",
+    cover: "../images/Decathlon/JuweareDecathlon_1.jpg",
     category: "Lorem ipsum",
   },
   {
-    id: 11,
-    title: "Mimbrería Home Procesos",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/covers/JuweareMimbreriaHomeProcesos_1.jpg",
+    id: 31,
+    title: "Somela/Electrolux",
+    subtitle:
+      "Desarrollamos las fotografías de catálogo, packaging e imágenes informativas para Somela y Electrolux.",
+    cover: "../images/SomelaElectrolux/JuweareSomelaElectrolux_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 19,
+    title: "Daily",
+    subtitle:
+      "Junto a nuestros amigos de Agencia Dopamina, realizamos una amplia producción fotográfica para catálogo y recorte de productos de la marca Daily Foods.",
+    cover: "../images/Daily/JuweareDaily_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 23,
+    title: "Delivery Gourmet",
+    subtitle:
+      "En un gran trabajo en conjunto con Vamos Gohan, logramos recaracterizar la marca con una propuesta más informal, jovial y flexible.",
+    cover: "../images/Delivery Gourmet/JuweareDeliveryGourmet_1.jpg",
     category: "Lorem ipsum",
   },
   {
     id: 12,
     title: "Mimbrería Home CCP Colina II",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    subtitle:
+      "Este proyecto no solo resultó en una pieza audiovisual impactante, sino que también dio paso a una relación laboral que continuó con más piezas y proyectos colaborativos.",
     cover: "../images/covers/JuweareMimbreriaHomeCCPColinaII_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 24,
+    title: "HyH",
+    subtitle:
+      "Nuestras amigas de HyH Comunicaciones nos invitaron a crear las primeras piezas audiovisuales para su marca de lujo en diseño de decoración de mesas.",
+    cover: "../images/HyH/JuweareHyH_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 25,
+    title: "EBM Barista",
+    subtitle:
+      "Nuestra colaboración con En Buena Mesa comenzó con la idea de hacer un recap de su fin de semana de talleres.",
+    cover: "../images/covers/JuweareEBM_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 11,
+    title: "Mimbrería Home Procesos",
+    subtitle:
+      "Tras nuestra colaboración inicial con Mimbrería Home, fuimos invitados a documentar el proceso de fabricación de su materia prima: el mimbre.",
+    cover: "../images/covers/JuweareMimbreriaHomeProcesos_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 30,
+    title: "Rishtedar",
+    subtitle:
+      "Desde Grupo Dopamina nos encargaron actualizar la carta de tragos para Rishtedar.",
+    cover: "../images/Rishtedar/JuweareRishtedar_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 28,
+    title: "La Pollería",
+    subtitle:
+      "A este proyecto le tenemos un cariño especial: fue el primero de muchos trabajos junto al Grupo Delivery Gourmet.",
+    cover: "../images/La Polleria/JuweareLaPolleria_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 29,
+    title: "Pegasum",
+    subtitle:
+      "Luego de conocernos en un evento gamer, Pegasum —marca especializada en sillas, escritorios y periféricos de alto rendimiento— nos confió la actualización completa de su catálogo de productos.",
+    cover: "../images/Pegasum/JuwearePegasum_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 27,
+    title: "KDY Lentes",
+    subtitle:
+      "KDY Lentes no había logrado encontrar un fotógrafo capaz de transmitir la calidad de sus productos en el formato ecommerce de fondo blanco que deseaban.",
+    cover: "../images/KDY Lentes/JuweareKDYLentes_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 26,
+    title: "Ceresita Decofeng",
+    subtitle:
+      "Ceresita, junto a su embajadora Altair, nos encargó registrar una intervención artística en un jardín Junji, donde niños, en su mayoría de escasos recursos, pudieron participar activamente.",
+    cover: "../images/covers/JuweareCeresitaDecofeng_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 17,
+    title: "Burger Sin Censura",
+    subtitle:
+      "Los creadores de Crudo Sin Censura llegaron a nosotros a través de recomendaciones, sabiendo de nuestra pasión por la fotografía gastronómica y la cercanía de nuestra estética.",
+    cover: "../images/Burger Sin Censura/JuweareBurgerSinCensura_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 18,
+    title: "Curry",
+    subtitle:
+      "Delivery Gourmet nos presentó el desafío de crear una imagen con toques tailandeses para su marca Curry.",
+    cover: "../images/Curry/JuweareCurry_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 32,
+    title: "Tiger Wok",
+    subtitle:
+      "Este proyecto fue un verdadero desafío: Tiger Wok quería desarrollar su carta con imágenes de flying food, una técnica que nunca habíamos ejecutado, pero que asumimos con entusiasmo.",
+    cover: "../images/Tiger Wok/JuweareTigerWok_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 33,
+    title: "Yobox",
+    subtitle:
+      "Yobox representó un desafío particular. Aunque el rodaje estuvo a cargo de nuestro amigo Totaok y su productora, nuestra responsabilidad fue realizar la fotografía fija y gastronómica de los platos.",
+    cover: "../images/Yo Box/JuweareYoBox_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 15,
+    title: "Marlon Breeze ft. Pablo Chill - e",
+    subtitle:
+      "Este proyecto fue una misión emocionante. Marlon Breeze, con quien ya habíamos trabajado en múltiples ocasiones —desde Nación Triizy hasta sus proyectos solistas—, nos convocó para algo histórico: el primer junte con Pablo Chill-E, dos de las figuras más influyentes del trap chileno.",
+    cover: "../images/covers/JuweareMarlonBreezePabloChile_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 21,
+    title: "Liricistas, Macrodee - Podemos Hacerlo",
+    subtitle:
+      "Este proyecto fue muy especial para nosotros. Liricistas es una banda que seguimos y admiramos desde hace más de 10 años, así que cuando nos llamaron para colaborar, lo asumimos con total entusiasmo.",
+    cover: "../images/covers/JuweareLiricistasMacrodee_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 16,
+    title: "Marlon Breeze ft. Kuroh",
+    subtitle:
+      "Siempre es un agrado trabajar con una mente creativa como Marlon Breeze, con quien ya compartimos varios proyectos.",
+    cover: "../images/covers/JuweareMarlonBreezeKuroh_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
+    id: 22,
+    title:
+      "Liricistas, Macrodee ft. DibujoMc, Irina Doom & Ley 20mil - Dilo Con Flow",
+    subtitle:
+      "No se puede hablar de rap sin mencionar a Ley20Mil o Dibujo MC. Y si a eso le sumas a Irina Doom, que viene subiendo con fuerza imparable, lo que tienes es uno de los juntes más pesados de la escena local.",
+    cover:
+      "../images/covers/JuweareLiricistasMacrodeeDibujoMcIrinaDoomLey20Mil_1.jpg",
+    category: "Lorem ipsum",
+  },
+
+  {
+    id: 3,
+    title: "Rocoto",
+    subtitle:
+      "Rocoto y su grupo Delivery Gourmet confían en nosotros cada vez que buscan renovar sus cartas e imágenes para redes, y eso nos entusiasma siempre.",
+    cover: "../images/rocoto.jpg",
+    category: "FOTOGRAFÍA PUBLICITARIA",
+  },
+  {
+    id: 10,
+    title: "Reel 2025 Stefano Iovi",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    cover: "../images/covers/JuweareReel2025StefanoIovi_1.jpg",
     category: "Lorem ipsum",
   },
   // {
@@ -315,141 +472,6 @@ export const proyects = [
   //   cover: "../images/b2.jpg",
   //   category: "Lorem ipsum",
   // },
-  {
-    id: 15,
-    title: "Marlon Breeze ft. Pablo Chile",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/covers/JuweareMarlonBreezePabloChile_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 16,
-    title: "Marlon Breeze ft. Kuroh",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/covers/JuweareMarlonBreezeKuroh_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 17,
-    title: "Burger Sin Censura",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/Burger Sin Censura/JuweareBurgerSinCensura_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 18,
-    title: "Curry",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/Curry/JuweareCurry_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 19,
-    title: "Daily",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/Daily/JuweareDaily_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 20,
-    title: "Decathlon",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/Decathlon/JuweareDecathlon_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 21,
-    title: "Liricistas, Macrodee - Podemos Hacerlo",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/covers/JuweareLiricistasMacrodee_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 22,
-    title:
-      "Liricistas, Macrodee ft. DibujoMc, Irina Doom & Ley 20mil - Dilo Con Flow",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover:
-      "../images/covers/JuweareLiricistasMacrodeeDibujoMcIrinaDoomLey20Mil_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 23,
-    title: "Delivery Gourmet",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/Delivery Gourmet/JuweareDeliveryGourmet_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 24,
-    title: "HyH",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/HyH/JuweareHyH_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 25,
-    title: "EBM",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/covers/JuweareEBM_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 26,
-    title: "Ceresita Decofeng",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/covers/JuweareCeresitaDecofeng_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 27,
-    title: "KDY Lentes",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/KDY Lentes/JuweareKDYLentes_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 28,
-    title: "La Pollería",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/La Polleria/JuweareLaPolleria_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 29,
-    title: "Pegasum",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/Pegasum/JuwearePegasum_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 30,
-    title: "Rishtedar",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/Rishtedar/JuweareRishtedar_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 31,
-    title: "Somela/Electrolux",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/SomelaElectrolux/JuweareSomelaElectrolux_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 32,
-    title: "Tiger Wok",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/Tiger Wok/JuweareTigerWok_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 33,
-    title: "Yo Box",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/Yo Box/JuweareYoBox_1.jpg",
-    category: "Lorem ipsum",
-  },
 ];
 
 export const showcaseDetail = [
@@ -493,6 +515,16 @@ export const showcaseDetail = [
   },
   {
     id: 3,
+    title: "B A Kid",
+    subtitle:
+      "Junto a Kid Maikel —artista de la casa, diseñador y mente inquieta—  creamos una intervención/performance que es pura fusión urbana. Con la complicidad de marcas como Molotow, Arte Papel y Casa San Cristóbal, nos aventuramos en una sesión donde la pintura se entrelaza con el basketball, el cine y un storytelling que, en el formato dinámico de reels, trasciende sin desperdiciar tiempo. Fue un manifiesto visual que destila libertad, creatividad y la energía cruda de la calle en cada frame.",
+    videoCover: "https://www.youtube.com/watch?v=qF6KjWuh7zw",
+    category: "FILM PUBLICITIARIO ARTE",
+    agency: "Decromas",
+    direction: "Ju",
+  },
+  {
+    id: 4,
     title: "Rocoto",
     subtitle:
       "Rocoto y su grupo Delivery Gourmet confían en nosotros cada vez que buscan renovar sus cartas e imágenes para redes, y eso nos entusiasma siempre. En esta ocasión, nos encargaron la foto fija para su nueva campaña, en la que trabajamos con un equipo de modelos y profesionales de primer nivel. Le dimos un estilo visual pulcro y marcadamente publicitario, cuidando cada detalle para transmitir la calidad de su propuesta. Nos encanta trabajar con marcas abiertas, colaborativas e innovadoras como Rocoto, que valoran lo creativo y confían en los procesos compartidos.",
@@ -526,16 +558,7 @@ export const showcaseDetail = [
       "/images/rocoto/JuweareRocoto_26.jpg",
     ],
   },
-  {
-    id: 4,
-    title: "B A Kid",
-    subtitle:
-      "Junto a Kid Maikel —artista de la casa, diseñador y mente inquieta—  creamos una intervención/performance que es pura fusión urbana. Con la complicidad de marcas como Molotow, Arte Papel y Casa San Cristóbal, nos aventuramos en una sesión donde la pintura se entrelaza con el basketball, el cine y un storytelling que, en el formato dinámico de reels, trasciende sin desperdiciar tiempo. Fue un manifiesto visual que destila libertad, creatividad y la energía cruda de la calle en cada frame.",
-    videoCover: "https://www.youtube.com/watch?v=qF6KjWuh7zw",
-    category: "FILM PUBLICITIARIO ARTE",
-    agency: "Decromas",
-    direction: "Ju",
-  },
+
   {
     id: 5,
     title: "Skechers",
@@ -605,6 +628,7 @@ export const showcaseDetail = [
     production: "Ju",
     direction: "Ju",
     photography: "Ju",
+    agency: "Matías 'Neff' Ramírez",
   },
   {
     id: 8,

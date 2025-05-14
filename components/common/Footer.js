@@ -72,11 +72,6 @@ const Footer = () => {
           <div className="text">
             <span>© {currentYear} JUWEARE. TODOS LOS DERECHOS RESERVADOS.</span>
           </div>
-          {/* <div className="connect">
-            <span>GORKCODER COMPANY</span>
-            <span> &nbsp; | &nbsp; </span>
-            <span>TERMS & CONDITIONS</span>
-          </div> */}
         </div>
       </div>
     </footer>
