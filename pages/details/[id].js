@@ -54,26 +54,6 @@ const ProjectDetails = () => {
           <div className="hero-content">
             <div className="main-content">
               <div className="image-wrapper">
-                {/* {project.cover ? (
-                  isVideo(project.cover) ? (
-                    <video
-                      src={project.cover}
-                      controls
-                      className="main-video"
-                    />
-                  ) : (
-                    <Image
-                      src={project.cover}
-                      alt={project.title || "Project Image"}
-                      width={600}
-                      height={400}
-                      className="main-image"
-                    />
-                  )
-                ) : (
-                  <p>No cover available</p>
-                )} */}
-
                 {isYouTubeLink(project.videoCover) ? (
                   <iframe
                     src={getYouTubeEmbedUrl(project.videoCover)}
@@ -95,12 +75,73 @@ const ProjectDetails = () => {
                 )}
               </div>
               <div className="details-section">
-                <h1 className="title title-detail">
-                  {project.title || "Untitled Project"}
-                </h1>
-                <p>{project.subtitle || "No description available."}</p>
+                {project.title && (
+                  <h1 className="title title-detail">
+                    {project.title}
+                    <br />
+                  </h1>
+                )}
+                {project.category && <p className="test">{project.category}</p>}
+                {project.subtitle && <p>{project.subtitle}</p>}
                 <p className="category">
-                  <strong>{project.catgeory || "N/A"}</strong>
+                  {project.agency && (
+                    <>
+                      <strong>Agencia: {project.agency}</strong>
+                      <br />
+                    </>
+                  )}
+                  {project.production && (
+                    <>
+                      <strong>Producción: {project.production}</strong>
+                      <br />
+                    </>
+                  )}
+                  {project.executiveProduction && (
+                    <>
+                      <strong>
+                        Producción Ejecutiva: {project.executiveProduction}
+                      </strong>
+                      <br />
+                    </>
+                  )}
+                  {project.technicalProduction && (
+                    <>
+                      <strong>
+                        Producción Técnica: {project.technicalProduction}
+                      </strong>
+                      <br />
+                    </>
+                  )}
+                  {project.direction && (
+                    <>
+                      <strong>Dirección: {project.direction}</strong>
+                      <br />
+                    </>
+                  )}
+                  {project.photography && (
+                    <>
+                      <strong>Fotografía: {project.photography}</strong>
+                      <br />
+                    </>
+                  )}
+                  {project.fixedPicture && (
+                    <>
+                      <strong>Foto Fija: {project.fixedPicture}</strong>
+                      <br />
+                    </>
+                  )}
+                  {project.camera && (
+                    <>
+                      <strong>Cámara: {project.camera}</strong>
+                      <br />
+                    </>
+                  )}
+                  {project.edition && (
+                    <>
+                      <strong>Edición: {project.edition}</strong>
+                      <br />
+                    </>
+                  )}
                 </p>
               </div>
             </div>

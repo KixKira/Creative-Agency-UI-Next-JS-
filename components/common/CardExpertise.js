@@ -21,7 +21,7 @@ export const CardExpertise = ({ data, caption, show, path }) => {
           </Link>
         )}
         <div className="flex">
-          <span> {data.catgeory} </span>{" "}
+          <span> {data.category} </span>{" "}
           {data.date && <span> / {data.date}</span>}
         </div>
 
