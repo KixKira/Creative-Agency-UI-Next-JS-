@@ -10,10 +10,13 @@ const Hero = () => {
     <>
       <section className="hero">
         <video
-          src="/video/WEB  JU FINAL.mp4"
+          src="/video/web-ju.mp4"
           autoPlay
           loop
           muted
+          playsInline
+          disablePictureInPicture
+          controls={false}
           className="hero-video"
         />
         <div className="container">

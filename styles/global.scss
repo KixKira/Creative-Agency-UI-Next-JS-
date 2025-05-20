@@ -30,6 +30,8 @@
     z-index: -1;
     transform: translate(-50%, -50%);
     object-fit: cover;
+    touch-action: none;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .hero-title {
@@ -771,6 +773,13 @@ footer {
 .off-canvas-image {
   object-fit: contain; /* Ajusta la imagen sin recortarla */
   border-radius: 8px; /* Opcional: bordes redondeados */
+}
+
+@media (pointer: coarse) {
+  .hero-video {
+    user-select: none;
+    -webkit-user-select: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
