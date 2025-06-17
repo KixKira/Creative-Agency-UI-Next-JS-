@@ -804,12 +804,15 @@ footer {
 
   .carousel-images {
     display: flex;
-    flex-wrap: wrap; /* Permite que las imágenes se envuelvan */
+    // COMENTADO
+    // flex-wrap: wrap; /* Permite que las imágenes se envuelvan */
     justify-content: space-between; /* Espaciado entre imágenes */
+    height: auto;
   }
 
   .carousel-item {
-    width: 48%; /* Dos imágenes por fila en móviles */
+    // COMENTADO
+    // width: 48%; /* Dos imágenes por fila en móviles */
     margin-bottom: 1rem; /* Espaciado inferior */
   }
 
