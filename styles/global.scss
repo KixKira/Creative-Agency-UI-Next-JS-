@@ -7,7 +7,8 @@
   font-style: normal;
 }
 
-/*  Hero Section */
+// HERO SECTION
+
 .hero {
   display: flex;
   justify-content: center;
@@ -714,12 +715,12 @@ footer {
   }
 }
 
-.image-wrapper {
-  position: relative;
-  width: 600px;
-  height: 400px;
-  overflow: hidden;
-}
+// .image-wrapper {
+//   position: relative;
+//   width: 600px;
+//   height: 400px;
+//   overflow: hidden;
+// }
 
 .image-wrapper-canvas {
   position: relative;
@@ -793,10 +794,10 @@ footer {
     flex-direction: column; /* Cambia a columna en móviles */
   }
 
-  .image-wrapper {
-    width: 100%; /* Asegúrate de que la imagen ocupe el 100% del ancho */
-    overflow: hidden; /* Para evitar que las imágenes se desborden */
-  }
+  // .image-wrapper {
+  //   width: 100%; /* Asegúrate de que la imagen ocupe el 100% del ancho */
+  //   overflow: hidden; /* Para evitar que las imágenes se desborden */
+  // }
 
   .carousel {
     margin-top: 1rem; /* Espaciado superior */
@@ -831,4 +832,76 @@ footer {
     width: auto;
     height: auto;
   }
+}
+
+// SLIDER MAIN
+.image-wrapper,
+.slider-wrapper {
+  position: relative;
+  width: 800px;
+  overflow: hidden;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.slider-slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(calc(-100% * var(--current-slide, 0)));
+}
+
+.slider-slide {
+  min-width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-slide.active {
+  display: flex;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.slider-video {
+  width: 100%;
+  height: 534px;
+  object-fit: cover;
+
+  @media screen and (max-width: 768px) {
+    height: auto;
+    width: auto;
+  }
+}
+
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+.slider-wrapper .slider-video + button.prev,
+.slider-wrapper .slider-video + button.next {
+  display: none;
 }

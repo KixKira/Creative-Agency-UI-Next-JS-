@@ -1,5 +1,5 @@
 import { home } from "@/assets/data/dummydata";
-import { Title, TitleLogo, TitleSm } from "@/components/common/Title";
+import { Title, TitleSm } from "@/components/common/Title";
 import Banner from "@/components/Banner";
 import Expertise from "@/components/Expertise";
 import React from "react";
@@ -20,7 +20,7 @@ const Hero = () => {
           className="hero-video"
         />
         <div className="container">
-          <h1 className="hero-title">JUWEARE</h1>
+          <h1 className="hero-title">JUWEARE TEST</h1>
           <div className="sub-heading">
             <TitleSm title="PRODUCCIÓN" /> <span>.</span>
             <TitleSm title="AUDIOVISUAL" /> <span>.</span>

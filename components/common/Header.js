@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <header className={isScrolled ? "solid-header" : "transparent-header"}>
       <div className="container">
-        <div className="logo">
+        <div>
           <Link href="/">
             <TitleLogo />
           </Link>

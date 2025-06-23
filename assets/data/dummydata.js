@@ -19,7 +19,7 @@ export const expertise = [
   {
     id: 1,
     title: "Film",
-    cover: "../images/FILM.JPEG",
+    cover: "../images/FILM.jpg",
     desc: [
       { text: "Web design" },
       { text: "Web development" },
@@ -62,7 +62,7 @@ export const experience = [
   {
     id: 1,
     title: "Film",
-    cover: "/images/e1.jpg",
+    cover: "/images/FILM.jpg",
     desc: [
       { text: "Web design" },
       { text: "Web development" },
@@ -76,7 +76,7 @@ export const experience = [
   {
     id: 2,
     title: "Foto",
-    cover: "/images/e2.jpg",
+    cover: "/images/FOTO.jpg",
     desc: [
       { text: "Social media marketing" },
       { text: "Marketing campaigns" },
@@ -89,7 +89,7 @@ export const experience = [
   {
     id: 3,
     title: "Branding y Creatividad",
-    cover: "/images/e3.jpg",
+    cover: "/images/JuweareBrandingyCreatividad.jpeg",
     desc: [
       { text: "E-Commerce website design" },
       { text: "WooCommerce" },
@@ -135,7 +135,7 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Memoria Coopeuch",
+    title: "JU • COOPEUCH • LFI ",
     subtitle:
       "Realizamos una sesión de fotos con 10 modelos cuidadosamente seleccionados para reflejar la diversidad y transversalidad que representa Coopeuch...",
     cover: "../images/coopeuch.jpg",
@@ -143,7 +143,7 @@ export const showcase = [
   },
   {
     id: 2,
-    title: "Karhaus Detailing",
+    title: "JU • KARHAUS",
     subtitle:
       "Para este taller especializado en detailing de autos de alta gama, desarrollamos un video que no solo muestra su servicio, sino que transmite la dedicación y precisión con la que trabajan.",
     cover: "../images/still.jpg",
@@ -151,7 +151,7 @@ export const showcase = [
   },
   {
     id: 3,
-    title: "Rocoto",
+    title: "JU • ROCOTO",
     subtitle:
       "Rocoto y su grupo Delivery Gourmet confían en nosotros cada vez que buscan renovar sus cartas e imágenes para redes, y eso nos entusiasma siempre.",
     cover: "../images/rocoto.jpg",
@@ -159,7 +159,7 @@ export const showcase = [
   },
   {
     id: 4,
-    title: "B A Kid",
+    title: "JU • B A KID",
     subtitle:
       "Junto a Kid Maikel —artista de la casa, diseñador y mente inquieta—  creamos una intervención/performance que es pura fusión urbana.",
     cover: "../images/molotov.jpg",
@@ -167,7 +167,7 @@ export const showcase = [
   },
   {
     id: 5,
-    title: "Skechers",
+    title: "JU • SKECHERS • MOOM",
     subtitle:
       "Para esta campaña junto a Skechers, tuvimos la oportunidad de trabajar con Carola de Moras, ícono televisivo y referente de estilo.",
     cover: "../images/skechers.jpg",
@@ -175,7 +175,7 @@ export const showcase = [
   },
   {
     id: 6,
-    title: "HAVAL",
+    title: "JU • HAVAL • DOPAMINA",
     subtitle:
       "Nos convocaron para realizar un review del nuevo Haval Jolion Pro, y como siempre que se trata de autos, nos entregamos con total entusiasmo.",
     cover: "../images/haval.jpg",
@@ -183,7 +183,7 @@ export const showcase = [
   },
   {
     id: 7,
-    title: "Ryge Burger",
+    title: "JU • RYGE BURGER",
     subtitle:
       "Con Ryge Burgers partimos de un comienzo sin mucha estructura profesional, pero con una gran idea detrás.",
     cover: "../images/ryge.jpg",
@@ -191,7 +191,7 @@ export const showcase = [
   },
   {
     id: 8,
-    title: "Shell the Clash",
+    title: "JU • SHELL• THE CLASH",
     subtitle:
       "Para la agencia The Clash y Shell en Festigame, creamos un aftermovie vertical pensado para capturar la esencia del evento en tiempo real, un servicio que también ofrecemos.",
     cover: "../images/shell.jpg",
@@ -199,7 +199,7 @@ export const showcase = [
   },
   {
     id: 9,
-    title: "Redbull",
+    title: "JU • REDBULL • RUPTURA",
     subtitle:
       "Trabajar con Redbull es siempre una experiencia increíblemente entretenida, una marca que impulsa la creatividad al máximo.",
     cover: "../images/redbull.jpeg",
@@ -210,7 +210,7 @@ export const showcase = [
 export const proyects = [
   {
     id: 1,
-    title: "Memoria Coopeuch",
+    title: "JU • COOPEUCH • LFI ",
     subtitle:
       "Realizamos una sesión de fotos con 10 modelos cuidadosamente seleccionados para reflejar la diversidad y transversalidad que representa Coopeuch...",
     cover: "../images/coopeuch.jpg",
@@ -218,7 +218,7 @@ export const proyects = [
   },
   {
     id: 2,
-    title: "Karhaus Detailing",
+    title: "JU • KARHAUS",
     subtitle:
       "Para este taller especializado en detailing de autos de alta gama, desarrollamos un video que no solo muestra su servicio, sino que transmite la dedicación y precisión con la que trabajan.",
     cover: "../images/still.jpg",
@@ -226,7 +226,7 @@ export const proyects = [
   },
   {
     id: 4,
-    title: "B A Kid",
+    title: "JU • B A KID",
     subtitle:
       "Junto a Kid Maikel —artista de la casa, diseñador y mente inquieta—  creamos una intervención/performance que es pura fusión urbana.",
     cover: "../images/molotov.jpg",
@@ -234,7 +234,7 @@ export const proyects = [
   },
   {
     id: 5,
-    title: "Skechers",
+    title: "JU • SKECHERS • MOOM",
     subtitle:
       "Para esta campaña junto a Skechers, tuvimos la oportunidad de trabajar con Carola de Moras, ícono televisivo y referente de estilo.",
     cover: "../images/skechers.jpg",
@@ -242,7 +242,7 @@ export const proyects = [
   },
   {
     id: 6,
-    title: "HAVAL",
+    title: "JU • HAVAL • DOPAMINA",
     subtitle:
       "Nos convocaron para realizar un review del nuevo Haval Jolion Pro, y como siempre que se trata de autos, nos entregamos con total entusiasmo.",
     cover: "../images/haval.jpg",
@@ -250,7 +250,7 @@ export const proyects = [
   },
   {
     id: 7,
-    title: "Ryge Burger",
+    title: "JU • RYGE BURGER",
     subtitle:
       "Con Ryge Burgers partimos de un comienzo sin mucha estructura profesional, pero con una gran idea detrás.",
     cover: "../images/ryge.jpg",
@@ -258,7 +258,7 @@ export const proyects = [
   },
   {
     id: 8,
-    title: "Shell",
+    title: "JU • SHELL• THE CLASH",
     subtitle:
       "Para la agencia The Clash y Shell en Festigame, creamos un aftermovie vertical pensado para capturar la esencia del evento en tiempo real, un servicio que también ofrecemos.",
     cover: "../images/shell.jpg",
@@ -266,7 +266,7 @@ export const proyects = [
   },
   {
     id: 9,
-    title: "Redbull",
+    title: "JU • REDBULL • RUPTURA",
     subtitle:
       "Trabajar con Redbull es siempre una experiencia increíblemente entretenida, una marca que impulsa la creatividad al máximo.",
     cover: "../images/redbull.jpeg",
@@ -274,7 +274,7 @@ export const proyects = [
   },
   {
     id: 20,
-    title: "Decathlon",
+    title: "JU • DECATHLON",
     subtitle:
       "Nos llamaron para la renovación de las imágenes institucionales del equipo humano de Decathlon.",
     cover: "../images/Decathlon/JuweareDecathlon_1.jpg",
@@ -282,7 +282,7 @@ export const proyects = [
   },
   {
     id: 31,
-    title: "Somela/Electrolux",
+    title: "JU • SOMELA",
     subtitle:
       "Desarrollamos las fotografías de catálogo, packaging e imágenes informativas para Somela y Electrolux.",
     cover: "../images/SomelaElectrolux/JuweareSomelaElectrolux_1.jpg",
@@ -290,7 +290,7 @@ export const proyects = [
   },
   {
     id: 19,
-    title: "Daily",
+    title: "JU • DAILY • DOPAMINA",
     subtitle:
       "Junto a nuestros amigos de Agencia Dopamina, realizamos una amplia producción fotográfica para catálogo y recorte de productos de la marca Daily Foods.",
     cover: "../images/Daily/JuweareDaily_1.jpg",
@@ -298,7 +298,7 @@ export const proyects = [
   },
   {
     id: 23,
-    title: "Delivery Gourmet",
+    title: "JU • VAMOS GOHAN ",
     subtitle:
       "En un gran trabajo en conjunto con Vamos Gohan, logramos recaracterizar la marca con una propuesta más informal, jovial y flexible.",
     cover: "../images/Delivery Gourmet/JuweareDeliveryGourmet_1.jpg",
@@ -306,7 +306,7 @@ export const proyects = [
   },
   {
     id: 12,
-    title: "Mimbrería Home CCP Colina II",
+    title: "JU • M. HOME",
     subtitle:
       "Este proyecto no solo resultó en una pieza audiovisual impactante, sino que también dio paso a una relación laboral que continuó con más piezas y proyectos colaborativos.",
     cover: "../images/covers/JuweareMimbreriaHomeCCPColinaII_1.jpg",
@@ -314,7 +314,7 @@ export const proyects = [
   },
   {
     id: 24,
-    title: "HyH",
+    title: "JU • ID MESA • HyH",
     subtitle:
       "Nuestras amigas de HyH Comunicaciones nos invitaron a crear las primeras piezas audiovisuales para su marca de lujo en diseño de decoración de mesas.",
     cover: "../images/HyH/JuweareHyH_1.jpg",
@@ -322,7 +322,7 @@ export const proyects = [
   },
   {
     id: 25,
-    title: "EBM Barista",
+    title: "JU • EBM",
     subtitle:
       "Nuestra colaboración con En Buena Mesa comenzó con la idea de hacer un recap de su fin de semana de talleres.",
     cover: "../images/covers/JuweareEBM_1.jpg",
@@ -330,7 +330,7 @@ export const proyects = [
   },
   {
     id: 11,
-    title: "Mimbrería Home Procesos",
+    title: "JU • M. HOME",
     subtitle:
       "Tras nuestra colaboración inicial con Mimbrería Home, fuimos invitados a documentar el proceso de fabricación de su materia prima: el mimbre.",
     cover: "../images/covers/JuweareMimbreriaHomeProcesos_1.jpg",
@@ -338,7 +338,7 @@ export const proyects = [
   },
   {
     id: 30,
-    title: "Rishtedar",
+    title: "JU • RISHTEDAR • DOPAMINA",
     subtitle:
       "Desde Grupo Dopamina nos encargaron actualizar la carta de tragos para Rishtedar.",
     cover: "../images/Rishtedar/JuweareRishtedar_1.jpg",
@@ -346,7 +346,7 @@ export const proyects = [
   },
   {
     id: 28,
-    title: "La Pollería",
+    title: "JU • LA POLLERÍA",
     subtitle:
       "A este proyecto le tenemos un cariño especial: fue el primero de muchos trabajos junto al Grupo Delivery Gourmet.",
     cover: "../images/La Polleria/JuweareLaPolleria_1.jpg",
@@ -354,7 +354,7 @@ export const proyects = [
   },
   {
     id: 29,
-    title: "Pegasum",
+    title: "JU • PEGASUM",
     subtitle:
       "Luego de conocernos en un evento gamer, Pegasum —marca especializada en sillas, escritorios y periféricos de alto rendimiento— nos confió la actualización completa de su catálogo de productos.",
     cover: "../images/Pegasum/JuwearePegasum_1.jpg",
@@ -362,7 +362,7 @@ export const proyects = [
   },
   {
     id: 27,
-    title: "KDY Lentes",
+    title: "JU • KDY",
     subtitle:
       "KDY Lentes no había logrado encontrar un fotógrafo capaz de transmitir la calidad de sus productos en el formato ecommerce de fondo blanco que deseaban.",
     cover: "../images/KDY Lentes/JuweareKDYLentes_1.jpg",
@@ -370,7 +370,7 @@ export const proyects = [
   },
   {
     id: 26,
-    title: "Ceresita Decofeng",
+    title: "JU • CERESITA • DECOFENG",
     subtitle:
       "Ceresita, junto a su embajadora Altair, nos encargó registrar una intervención artística en un jardín Junji, donde niños, en su mayoría de escasos recursos, pudieron participar activamente.",
     cover: "../images/covers/JuweareCeresitaDecofeng_1.jpg",
@@ -378,7 +378,7 @@ export const proyects = [
   },
   {
     id: 17,
-    title: "Burger Sin Censura",
+    title: "JU • BURGER SIN CENSURA",
     subtitle:
       "Los creadores de Crudo Sin Censura llegaron a nosotros a través de recomendaciones, sabiendo de nuestra pasión por la fotografía gastronómica y la cercanía de nuestra estética.",
     cover: "../images/Burger Sin Censura/JuweareBurgerSinCensura_1.jpg",
@@ -386,7 +386,7 @@ export const proyects = [
   },
   {
     id: 18,
-    title: "Curry",
+    title: "JU • CURRY DELIVERY",
     subtitle:
       "Delivery Gourmet nos presentó el desafío de crear una imagen con toques tailandeses para su marca Curry.",
     cover: "../images/Curry/JuweareCurry_1.jpg",
@@ -394,7 +394,7 @@ export const proyects = [
   },
   {
     id: 32,
-    title: "Tiger Wok",
+    title: "JU • TIGER WOK",
     subtitle:
       "Este proyecto fue un verdadero desafío: Tiger Wok quería desarrollar su carta con imágenes de flying food, una técnica que nunca habíamos ejecutado, pero que asumimos con entusiasmo.",
     cover: "../images/Tiger Wok/JuweareTigerWok_1.jpg",
@@ -402,7 +402,7 @@ export const proyects = [
   },
   {
     id: 33,
-    title: "Yobox",
+    title: "JU • YOBOX",
     subtitle:
       "Yobox representó un desafío particular. Aunque el rodaje estuvo a cargo de nuestro amigo Totaok y su productora, nuestra responsabilidad fue realizar la fotografía fija y gastronómica de los platos.",
     cover: "../images/Yo Box/JuweareYoBox_1.jpg",
@@ -410,7 +410,7 @@ export const proyects = [
   },
   {
     id: 15,
-    title: "Marlon Breeze ft. Pablo Chill - e",
+    title: "JU • MARLON BREEZE FT PABLO CHILL - E",
     subtitle:
       "Este proyecto fue una misión emocionante. Marlon Breeze, con quien ya habíamos trabajado en múltiples ocasiones —desde Nación Triizy hasta sus proyectos solistas—, nos convocó para algo histórico: el primer junte con Pablo Chill-E, dos de las figuras más influyentes del trap chileno.",
     cover: "../images/covers/JuweareMarlonBreezePabloChile_1.jpg",
@@ -418,7 +418,7 @@ export const proyects = [
   },
   {
     id: 21,
-    title: "Liricistas, Macrodee - Podemos Hacerlo",
+    title: "JU • LIRICISTAS 'PODEMOS HACERLO'",
     subtitle:
       "Este proyecto fue muy especial para nosotros. Liricistas es una banda que seguimos y admiramos desde hace más de 10 años, así que cuando nos llamaron para colaborar, lo asumimos con total entusiasmo.",
     cover: "../images/covers/JuweareLiricistasMacrodee_1.jpg",
@@ -426,7 +426,7 @@ export const proyects = [
   },
   {
     id: 16,
-    title: "Marlon Breeze ft. Kuroh",
+    title: "JU • MARLON BREEZE FT KUROH",
     subtitle:
       "Siempre es un agrado trabajar con una mente creativa como Marlon Breeze, con quien ya compartimos varios proyectos.",
     cover: "../images/covers/JuweareMarlonBreezeKuroh_1.jpg",
@@ -434,42 +434,26 @@ export const proyects = [
   },
   {
     id: 22,
-    title:
-      "Liricistas, Macrodee ft. DibujoMc, Irina Doom & Ley 20mil - Dilo Con Flow",
+    title: "JU • LIRICISTAS 'DILO CON FLOW'",
     subtitle:
       "No se puede hablar de rap sin mencionar a Ley20Mil o Dibujo MC. Y si a eso le sumas a Irina Doom, que viene subiendo con fuerza imparable, lo que tienes es uno de los juntes más pesados de la escena local.",
     cover:
       "../images/covers/JuweareLiricistasMacrodeeDibujoMcIrinaDoomLey20Mil_1.jpg",
     category: "Lorem ipsum",
   },
-
   {
-    id: 3,
-    title: "Rocoto",
+    id: 4,
+    title: "JU • ROCOTO",
     subtitle:
       "Rocoto y su grupo Delivery Gourmet confían en nosotros cada vez que buscan renovar sus cartas e imágenes para redes, y eso nos entusiasma siempre.",
     cover: "../images/rocoto.jpg",
     category: "FOTOGRAFÍA PUBLICITARIA",
   },
-  {
-    id: 10,
-    title: "Reel 2025 Stefano Iovi",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    cover: "../images/covers/JuweareReel2025StefanoIovi_1.jpg",
-    category: "Lorem ipsum",
-  },
   // {
-  //   id: 13,
-  //   title: "Stihl Historias Junto a Ti",
+  //   id: 10,
+  //   title: "Reel 2025 Stefano Iovi",
   //   subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  //   cover: "../images/b2.jpg",
-  //   category: "Lorem ipsum",
-  // },
-  // {
-  //   id: 14,
-  //   title: "Stihl Tutorial",
-  //   subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  //   cover: "../images/b2.jpg",
+  //   cover: "../images/covers/JuweareReel2025StefanoIovi_1.jpg",
   //   category: "Lorem ipsum",
   // },
 ];
@@ -477,7 +461,7 @@ export const proyects = [
 export const showcaseDetail = [
   {
     id: 1,
-    title: "Memoria Coopeuch",
+    title: "JU • COOPEUCH • LFI ",
     subtitle:
       "Realizamos una sesión de fotos con 10 modelos cuidadosamente seleccionados para reflejar la diversidad y transversalidad que representa Coopeuch y su comunidad de usuarios. Fue un proyecto ambicioso, que requirió una intensa etapa de preproducción incluyendo una selección minuciosa de casting y una coordinación precisa. Gracias al compromiso y talento de un equipo de alto desempeño, logramos enfrentar los desafíos y alcanzar un resultado del que estamos profundamente orgullosos.",
     cover: "/images/coopeuch/JuweareMemoriaCoopeuch_1.jpg",
@@ -505,7 +489,7 @@ export const showcaseDetail = [
   },
   {
     id: 2,
-    title: "Karhaus Detailing",
+    title: "JU • KARHAUS",
     subtitle:
       "Para este taller especializado en detailing de autos de alta gama, desarrollamos un video que no solo muestra su servicio, sino que transmite la dedicación y precisión con la que trabajan. Tuvimos total libertad creativa, lo que nos permitió construir una propuesta profunda y detallista desde la preproducción hasta la post. Con una dirección de primer nivel y un equipo apasionado —especialmente por los autos—, convertimos cada plano en una experiencia visual. Como protagonista, usamos un Porsche GT4 que nos permitió elevar aún más la estética y el carácter del proyecto.",
     category: "FILM PUBLICITARIO",
@@ -515,7 +499,7 @@ export const showcaseDetail = [
   },
   {
     id: 3,
-    title: "B A Kid",
+    title: "JU • B A KID",
     subtitle:
       "Junto a Kid Maikel —artista de la casa, diseñador y mente inquieta—  creamos una intervención/performance que es pura fusión urbana. Con la complicidad de marcas como Molotow, Arte Papel y Casa San Cristóbal, nos aventuramos en una sesión donde la pintura se entrelaza con el basketball, el cine y un storytelling que, en el formato dinámico de reels, trasciende sin desperdiciar tiempo. Fue un manifiesto visual que destila libertad, creatividad y la energía cruda de la calle en cada frame.",
     videoCover: "https://www.youtube.com/watch?v=qF6KjWuh7zw",
@@ -525,7 +509,7 @@ export const showcaseDetail = [
   },
   {
     id: 4,
-    title: "Rocoto",
+    title: "JU • ROCOTO",
     subtitle:
       "Rocoto y su grupo Delivery Gourmet confían en nosotros cada vez que buscan renovar sus cartas e imágenes para redes, y eso nos entusiasma siempre. En esta ocasión, nos encargaron la foto fija para su nueva campaña, en la que trabajamos con un equipo de modelos y profesionales de primer nivel. Le dimos un estilo visual pulcro y marcadamente publicitario, cuidando cada detalle para transmitir la calidad de su propuesta. Nos encanta trabajar con marcas abiertas, colaborativas e innovadoras como Rocoto, que valoran lo creativo y confían en los procesos compartidos.",
     cover: "/images/rocoto/JuweareRocoto_1.jpg",
@@ -558,10 +542,9 @@ export const showcaseDetail = [
       "/images/rocoto/JuweareRocoto_26.jpg",
     ],
   },
-
   {
     id: 5,
-    title: "Skechers",
+    title: "JU • SKECHERS • MOOM",
     subtitle:
       "Para esta campaña junto a Skechers, tuvimos la oportunidad de trabajar con Carola de Moras, ícono televisivo y referente de estilo. El objetivo fue mostrar los nuevos modelos de la marca con una mirada fresca, cercana y actual, sin perder ese toque urbano que caracteriza su esencia. Armamos una producción ágil pero detallada, donde cada plano reflejara tanto la comodidad como la actitud de Skechers. El resultado fue una pieza visual sólida, bien dirigida y alineada con la identidad de la marca.",
     cover: "/images/Skechers/JuweareSkechers_1.jpg",
@@ -572,13 +555,13 @@ export const showcaseDetail = [
       "/images/Skechers/JuweareSkechers_4.jpg",
       "/images/Skechers/JuweareSkechers_5.jpg",
     ],
-    agency: "Grupo Dopamina",
+    agency: "Moom",
     direction: "Ju",
     photography: "Ju",
   },
   {
     id: 6,
-    title: "HAVAL",
+    title: "JU • HAVAL • DOPAMINA",
     subtitle:
       "Nos convocaron para realizar un review del nuevo Haval Jolion Pro, y como siempre que se trata de autos, nos entregamos con total entusiasmo. Creamos un video entretenido, con una narrativa ágil y una mixtura de planos que nos permitió mostrar cada detalle del vehículo con precisión y estilo. Combinamos tomas dinámicas con la opinión de expertos, logrando un contenido que informa, fluye y conecta. Cuando la pasión por los autos se cruza con una cinematografia bien pensada, el resultado se nota.",
     videoCover: "https://www.youtube.com/watch?v=NU5GSrtjM0E",
@@ -588,7 +571,7 @@ export const showcaseDetail = [
   },
   {
     id: 7,
-    title: "Ryge Burger",
+    title: "JU • RYGE BURGER",
     subtitle:
       "Con Ryge Burgers partimos de un comienzo sin mucha estructura profesional, pero con una gran idea detrás. Nos dieron carta blanca para desarrollar su identidad visual, y eso nos permitió crear una pieza completa que engloba fotos, videos, branding y diseño. Mezclamos nuestras influencias más fuertes: streetwear, arte, autos, lifestyle y cultura urbana, para darle vida a una marca que hoy se ve fresca, moderna y con personalidad. Cada plano, cada detalle visual, fue pensado para construir una identidad auténtica y visualmente impactante.",
     cover: "/images/Ryge Burgers/JuweareRygeBurgers_1.jpg",
@@ -632,7 +615,7 @@ export const showcaseDetail = [
   },
   {
     id: 8,
-    title: "Shell the Clash",
+    title: "JU • SHELL• THE CLASH",
     subtitle:
       "Para la agencia The Clash y Shell en Festigame, creamos un aftermovie vertical pensado para capturar la esencia del evento en tiempo real, un servicio que también ofrecemos. Grabado al vuelo, este reel no solo resalta la activación de la marca en el Estadio Nacional, sino que le dimos un toque fresco, gamer y profesional. Con tomas rápidas, edición dinámica y la atmósfera única del festival, logramos un video que transmite la energía y emoción del momento, perfecto para resaltar la presencia de Shell en este gran evento.",
     videoCover: "https://www.youtube.com/shorts/UOBFeKv9BAI",
@@ -643,7 +626,7 @@ export const showcaseDetail = [
   },
   {
     id: 9,
-    title: "Redbull Promocionales",
+    title: "JU • REDBULL • RUPTURA",
     subtitle:
       "Trabajar con Redbull es siempre una experiencia increíblemente entretenida, una marca que impulsa la creatividad al máximo. En colaboración con el estudio Ruptura, hemos creado reels innovadores que combinan 3D, inteligencia artificial y lo mejor de nuestros planos, llevando el contenido de marca al siguiente nivel. Cada proyecto refleja la esencia de Redbull: audaz, disruptivo y siempre en línea con las tendencias actuales. La mezcla de tecnología avanzada y creatividad nos permite desarrollar propuestas que no solo destacan, sino que marcan la diferencia en un mundo lleno de contenido.",
     videoCover: "https://www.youtube.com/shorts/TeYJ2_ObXHw",
@@ -662,7 +645,7 @@ export const showcaseDetail = [
   },
   {
     id: 11,
-    title: "Mimbrería Home Procesos",
+    title: "JU • M. HOME",
     subtitle:
       "Tras nuestra colaboración inicial con Mimbrería Home, fuimos invitados a documentar el proceso de fabricación de su materia prima: el mimbre. En un viaje a Chimbarongo lleno de anécdotas, nos sumergimos en el mundo de la producción artesanal local. Cada paso del proceso, desde la recolección del mimbre hasta su transformación, refleja el compromiso de la marca con el uso de materias primas locales y sostenibles. Este video no solo destaca la calidez de la artesanía, sino también los valores de una marca que combina tradición, sostenibilidad y responsabilidad social.",
     videoCover: "https://www.youtube.com/watch?v=nDmuSOKwsjk",
@@ -672,7 +655,7 @@ export const showcaseDetail = [
   },
   {
     id: 12,
-    title: "Mimbrería Home CCP Colina II",
+    title: "JU • M. HOME",
     subtitle:
       "El proyecto con Mimbrería Home nos conmovió profundamente desde el principio. La marca trabaja en la reinserción social dentro de la cárcel de Colina 2, una labor que combina un fuerte compromiso social con la producción de muebles y artículos de mimbre. Como equipo en Juweare, compartimos valores de conciencia social y ambiental, y fue fascinante plasmar en video su rol y la calidad de los productos que fabrican. Este proyecto no solo resultó en una pieza audiovisual impactante, sino que también dio paso a una relación laboral que continuó con más piezas y proyectos colaborativos.",
     videoCover: "https://www.youtube.com/watch?v=8M6BFM71QCA",
@@ -698,7 +681,7 @@ export const showcaseDetail = [
   },
   {
     id: 15,
-    title: "Marlon Breeze ft Pablo Chill - e ",
+    title: "JU • MARLON BREEZE FT PABLO CHILL - E",
     subtitle:
       "Este proyecto fue una misión emocionante. Marlon Breeze, con quien ya habíamos trabajado en múltiples ocasiones —desde Nación Triizy hasta sus proyectos solistas—, nos convocó para algo histórico: el primer junte con Pablo Chill-E, dos de las figuras más influyentes del trap chileno. Fue una producción de gran envergadura, con un equipo grande y muchas jornadas de preproducción dedicadas a definir un plan que, como suele pasar en los procesos creativos, terminó transformándose en algo completamente distinto, que fue lo que finalmente se rodó. El otro concepto, sigue en el tintero para un futuro junte. Dejamos todo en el set para capturar la energía y el carácter de este encuentro único. Estamos orgullosos de haber sido los encargados visuales del junte más importante del trap nacional: Marlon Breeze y Shishiboss Pablo.",
     videoCover: "https://www.youtube.com/watch?v=WFuv98ZnXak",
@@ -712,7 +695,7 @@ export const showcaseDetail = [
   },
   {
     id: 16,
-    title: "Marlon Breeze ft. Kuroh",
+    title: "JU • MARLON BREEZE FT KUROH",
     subtitle:
       "Siempre es un agrado trabajar con una mente creativa como Marlon Breeze, con quien ya compartimos varios proyectos. Esta vez, el desafío era reflejar con fuerza la estética y actitud del trap, en un junte potente con Kuroh, una de las caras más frescas y auténticas de la escena. Curiosamente, Kuroh también había sido parte de nuestros procesos años atrás, así que esta colaboración se sintió como una jugada del destino. Nada fue al azar. El resultado: un video brutalmente trapero, cargado de efectos y referencias visuales inspiradas en las traphouse, rindiendo homenaje al origen crudo y real del género.",
     videoCover: "https://www.youtube.com/watch?v=ZTIGHTGTK1A",
@@ -726,7 +709,7 @@ export const showcaseDetail = [
   },
   {
     id: 17,
-    title: "Burger Sin Censura",
+    title: "JU • BURGER SIN CENSURA",
     subtitle:
       "Los creadores de Crudo Sin Censura llegaron a nosotros a través de recomendaciones, sabiendo de nuestra pasión por la fotografía gastronómica y la cercanía de nuestra estética. Nos pidieron realizar toda la fotografía para el lanzamiento de su nueva marca de hamburguesas smash. El desafío fue capturar no solo la calidad y el sabor de estas hamburguesas, sino también transmitir su esencia única a través de cada imagen, resaltando los detalles que hacen especial a cada una de ellas.",
     cover: "/images/Burger Sin Censura/JuweareBurgerSinCensura_1.jpg",
@@ -743,7 +726,7 @@ export const showcaseDetail = [
   },
   {
     id: 18,
-    title: "Curry",
+    title: "JU • CURRY DELIVERY",
     subtitle:
       "Delivery Gourmet nos presentó el desafío de crear una imagen con toques tailandeses para su marca Curry. A lo largo de un proceso de pre-producción que involucró mucho intercambio de información y análisis, nos sumergimos en la flora y paisajes de Tailandia, la calidez de sus platos especiados y la vibrante noche de Bangkok. Cada uno de estos elementos fue clave para diseñar una carta con una estética única que, además de captar la esencia del país, se alineara perfectamente con la identidad de la marca. El resultado final, que nos encanta, refleja la frescura, la cultura y la atmósfera envolvente de la propuesta gastronómica.",
     cover: "/images/Curry/JuweareCurry_1.jpg",
@@ -765,7 +748,7 @@ export const showcaseDetail = [
   },
   {
     id: 19,
-    title: "Daily",
+    title: "JU • DAILY • DOPAMINA",
     subtitle:
       "Junto a nuestros amigos de Agencia Dopamina, realizamos una amplia producción fotográfica para catálogo y recorte de productos de la marca Daily Foods. El enfoque estuvo en lograr imágenes limpias, consistentes y listas para su aplicación en diversos soportes, cuidando cada detalle para resaltar la frescura y calidad de los productos.",
     cover: "/images/Daily/JuweareDaily_1.jpg",
@@ -790,7 +773,7 @@ export const showcaseDetail = [
   },
   {
     id: 20,
-    title: "Decathlon",
+    title: "JU • DECATHLON",
     subtitle:
       "Nos llamaron para la renovación de las imágenes institucionales del equipo humano de Decathlon. Como entusiastas del deporte, buscamos reflejar ese espíritu activo utilizando los propios espacios de la tienda como escenario. Incorporamos elementos deportivos desenfocados en el fondo para reforzar visualmente el vínculo con la marca. Trabajamos con personas de distintas áreas, desde el equipo de ventas hasta marketing, destacando la diversidad, cercanía y profesionalismo que caracterizan a la marca desde adentro.",
     cover: "/images/Decathlon/JuweareDecathlon_1.jpg",
@@ -811,7 +794,7 @@ export const showcaseDetail = [
   },
   {
     id: 21,
-    title: "Liricistas - Podemos Hacerlo",
+    title: "JU • LIRICISTAS 'PODEMOS HACERLO'",
     subtitle:
       "Este proyecto fue muy especial para nosotros. Liricistas es una banda que seguimos y admiramos desde hace más de 10 años, así que cuando nos llamaron para colaborar, lo asumimos con total entusiasmo. La propuesta era clara: un videoclip creativo que reflejara el cierre de una jornada laboral, dando paso a un atardecer de relajo entre amigos. La pieza fue realizada en un plano secuencia (one shot), lo que nos permitió capturar de forma fluida y natural esa transición desde la rutina al disfrute. El resultado es un video fresco, veraniego y con mucho carácter, que refleja el espíritu de compañerismo de la banda y la esencia del rap que los caracteriza.",
     videoCover: "https://www.youtube.com/watch?v=V3p7ZdGGDg0",
@@ -822,8 +805,7 @@ export const showcaseDetail = [
   },
   {
     id: 22,
-    title:
-      "Liricistas, Macrodee ft. DibujoMc, Irina Doom & Ley 20mil - Dilo Con Flow",
+    title: "JU • LIRICISTAS 'DILO CON FLOW'",
     subtitle:
       "No se puede hablar de rap sin mencionar a Ley20Mil o Dibujo MC. Y si a eso le sumas a Irina Doom, que viene subiendo con fuerza imparable, lo que tienes es uno de los juntes más pesados de la escena local. Desde el beat hasta la actitud, todo en este proyecto gritaba RAP. Crudo, rudo y firme. Nuestra misión fue representar visualmente esa energía: sin filtros, sin adornos, estrictamente real. Capturamos el fuego de estas leyendas en un video que suena y se ve como se vive el rap de verdad.",
     videoCover: "https://www.youtube.com/watch?v=xzMNfHyxnak",
@@ -834,7 +816,7 @@ export const showcaseDetail = [
   },
   {
     id: 23,
-    title: "Delivery Gourmet",
+    title: "JU • VAMOS GOHAN ",
     subtitle:
       "En un gran trabajo en conjunto con Vamos Gohan, logramos recaracterizar la marca con una propuesta más informal, jovial y flexible. La idea era clara: transmitir que sus platos están hechos para disfrutarse en todo lugar y momento. Tras una exhaustiva preproducción y un trabajo cercano entre ambos equipos, desarrollamos una sesión fotográfica con múltiples modelos de perfiles diversos. Los ubicamos en distintos escenarios para conceptualizar esta nueva etapa de la marca, logrando imágenes que reflejan dinamismo, cercanía y versatilidad en el disfrute de sus platillos saludables.",
     cover: "/images/Delivery Gourmet/JuweareDeliveryGourmet_1.jpg",
@@ -855,7 +837,7 @@ export const showcaseDetail = [
   },
   {
     id: 24,
-    title: "HyH",
+    title: "JU • ID MESA • HyH",
     subtitle:
       "Nuestras amigas de HyH Comunicaciones nos invitaron a crear las primeras piezas audiovisuales para su marca de lujo en diseño de decoración de mesas. El desafío consistió en reflejar la elegancia, sofisticación y atención al detalle que caracteriza a sus productos. El resultado final es un testimonio visual de la calidad y el estilo de la marca, un conjunto de piezas que hablan por sí sola.",
     cover: "/images/HyH/JuweareHyH_1.jpg",
@@ -884,7 +866,7 @@ export const showcaseDetail = [
   },
   {
     id: 25,
-    title: "EBM Barista",
+    title: "JU • EBM",
     subtitle:
       "Nuestra colaboración con En Buena Mesa comenzó con la idea de hacer un recap de su fin de semana de talleres. Sin embargo, aprovechamos la oportunidad para grabar un video promocional del curso de barista que se llevaba a cabo en ese mismo momento. Con el equipo técnico a disposición y las instalaciones de Jenga Cowork, logramos capturar la esencia del taller, enfocándonos en la destreza y la pasión del profesor. Lo que comenzó como una simple cobertura se transformó en un video  que reflejó el compromiso de En Buena Mesa con el prendizaje de calidad en el mundo del café. Este video no solo publicitó el curso, sino que también transmitió la cercanía y el entusiasmo del profesor, quien compartió su conocimiento y experiencia con dedicación. Fue una oportunidad para capturar un momento auténtico en el lugar adecuado.",
     videoCover: "https://www.youtube.com/watch?v=tz1TGTbM1Do",
@@ -893,7 +875,7 @@ export const showcaseDetail = [
   },
   {
     id: 26,
-    title: "Ceresita Decofeng",
+    title: "JU • CERESITA • DECOFENG",
     subtitle:
       "Ceresita, junto a su embajadora Altair, nos encargó registrar una intervención artística en un jardín Junji, donde niños, en su mayoría de escasos recursos, pudieron participar activamente. El evento fue una verdadera experiencia de conexión y aprendizaje para los pequeños, y nos sentimos afortunados de haber podido documentarlo con un hermoso video. Más allá de la grabación, nos llenó de satisfacción ser parte de esta acción de responsabilidad social, contribuyendo con nuestro trabajo a una causa tan significativa.",
     videoCover: "https://www.youtube.com/watch?v=eOxnHMV1Br8",
@@ -902,7 +884,7 @@ export const showcaseDetail = [
   },
   {
     id: 27,
-    title: "KDY Lentes",
+    title: "JU • KDY",
     subtitle:
       "KDY Lentes no había logrado encontrar un fotógrafo capaz de transmitir la calidad de sus productos en el formato ecommerce de fondo blanco que deseaban. Nos contactaron para solucionar este desafío, y trabajamos en varias sesiones para actualizar cerca de 100 modelos de lentes de su catálogo. Nuestro enfoque fue capturar cada lente con precisión, destacando sus detalles y materiales, para ofrecer imágenes que no solo cumplían con los estándares del ecommerce, sino que también reflejaban la alta calidad de la marca.",
     cover: "/images/KDY Lentes/JuweareKDYLentes_1.jpg",
@@ -919,7 +901,7 @@ export const showcaseDetail = [
   },
   {
     id: 28,
-    title: "La Pollería",
+    title: "JU • LA POLLERÍA",
     subtitle:
       "A este proyecto le tenemos un cariño especial: fue el primero de muchos trabajos junto al Grupo Delivery Gourmet. En esta ocasión, nos pidieron desarrollar desde cero la carta visual para su nueva sanguchería y pollería peruana, con una idea clara desde el inicio: fotografías en clave baja. Tras un proceso de preproducción detallado y múltiples propuestas visuales, llegamos a una sesión enfocada en imágenes sobrias y elegantes. Cuidamos meticulosamente el styling de cada sánguche, dejando que la comida hablara por sí sola en un entorno cálido y refinado. El resultado nos encanta: una estética que eleva el producto y transmite toda la identidad de la marca.",
     cover: "/images/La Polleria/JuweareLaPolleria_1.jpg",
@@ -939,7 +921,7 @@ export const showcaseDetail = [
   },
   {
     id: 29,
-    title: "Pegasum",
+    title: "JU • PEGASUM",
     subtitle:
       "Luego de conocernos en un evento gamer, Pegasum —marca especializada en sillas, escritorios y periféricos de alto rendimiento— nos confió la actualización completa de su catálogo de productos. Realizamos múltiples sesiones fotográficas con control de iluminación, esquemas específicos según materialidad, y tratamiento en postproducción para garantizar imágenes consistentes, limpias y listas para su uso en e-commerce, redes y piezas gráficas.",
     cover: "/images/Pegasum/JuwearePegasum_1.jpg",
@@ -967,7 +949,7 @@ export const showcaseDetail = [
   },
   {
     id: 30,
-    title: "Rishtedar",
+    title: "JU • RISHTEDAR • DOPAMINA",
     subtitle:
       "Desde Grupo Dopamina nos encargaron actualizar la carta de tragos para Rishtedar. El desafío consistía en unificar una propuesta visual que quedaría representando toda la línea, por lo que decidimos mantener el mismo fondo e iluminación en todas las imágenes. El proceso de conceptualización fue clave, ya que debíamos asegurar que la nueva propuesta transmitiera coherencia y frescura para todos los tragos. El resultado final nos dejó muy satisfechos: logramos darle una identidad cálida y nocturna a las bebidas, respetando la esencia india que caracteriza al restaurante.",
     cover: "/images/Rishtedar/JuweareRishtedar_1.jpg",
@@ -988,7 +970,7 @@ export const showcaseDetail = [
   },
   {
     id: 31,
-    title: "Somela Electrolux",
+    title: "JU • SOMELA",
     subtitle:
       "Desarrollamos las fotografías de catálogo, packaging e imágenes informativas para Somela y Electrolux. Si bien el encargo parecía simple, representó un gran desafío técnico debido a la diversidad y complejidad de los objetos: metales, superficies reflectantes, vidrios y una amplia variedad de formas. Cada producto exigió una solución visual específica para lograr imágenes consistentes, atractivas y funcionales dentro del universo visual de la marca.",
     cover: "/images/SomelaElectrolux/JuweareSomelaElectrolux_1.jpg",
@@ -1020,7 +1002,7 @@ export const showcaseDetail = [
   },
   {
     id: 32,
-    title: "Tiger Wok",
+    title: "JU • TIGER WOK",
     subtitle:
       "Este proyecto fue un verdadero desafío: Tiger Wok quería desarrollar su carta con imágenes de flying food, una técnica que nunca habíamos ejecutado, pero que asumimos con entusiasmo. Tras un intenso proceso de preproducción, investigación y pruebas, logramos dominar esta técnica que permite crear imágenes sumamente dinámicas y llamativas. Para lograr el efecto, cada ingrediente debe ser fijado por separado y luego unido en postproducción, lo que exigió un trabajo minucioso tanto en la toma como en la edición. El resultado fue una serie de fotografías vibrantes y enérgicas que reflejan el espíritu audaz y moderno de la marca.",
     cover: "/images/Tiger Wok/JuweareTigerWok_1.jpg",
@@ -1038,7 +1020,7 @@ export const showcaseDetail = [
   },
   {
     id: 33,
-    title: "Yo Box",
+    title: "JU • YOBOX",
     subtitle:
       "Yobox representó un desafío particular. Aunque el rodaje estuvo a cargo de nuestro amigo Totaok y su productora, nuestra responsabilidad fue realizar la fotografía fija y gastronómica de los platos. El gran protagonista: el huevo, ese noble y versátil ingrediente que da identidad a la marca. Nuestro trabajo se centró en capturar preparaciones llenas de sabor, con un enfoque estético cuidado y un styling detallado en cada plato. El resultado fueron imágenes que no solo mostraban los productos, sino que transmitían la esencia gourmet de la propuesta Yobox.",
     cover: "/images/Yo Box/JuweareYoBox_1.jpg",
