@@ -20,7 +20,7 @@ const Hero = () => {
           className="hero-video"
         />
         <div className="container">
-          <h1 className="hero-title">JUWEARE TEST</h1>
+          <h1 className="hero-title">JUWEARE</h1>
           <div className="sub-heading">
             <TitleSm title="PRODUCCIÓN" /> <span>.</span>
             <TitleSm title="AUDIOVISUAL" /> <span>.</span>
