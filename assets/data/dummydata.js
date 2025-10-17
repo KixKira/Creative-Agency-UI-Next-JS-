@@ -449,13 +449,38 @@ export const proyects = [
     cover: "../images/rocoto.jpg",
     category: "FOTOGRAFÍA PUBLICITARIA",
   },
-  // {
-  //   id: 10,
-  //   title: "Reel 2025 Stefano Iovi",
-  //   subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  //   cover: "../images/covers/JuweareReel2025StefanoIovi_1.jpg",
-  //   category: "Lorem ipsum",
-  // },
+  {
+    id: 34,
+    title: "JU • UPA • THE CLASH",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    cover: "../images/upa.jpg",
+    // category: "Lorem ipsum",
+  },
+  {
+    id: 35,
+    title: "JU • MANPOWER",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    cover: "../images/manpower.jpg",
+    // category: "Lorem ipsum",
+  },
+  {
+    id: 36,
+    title: "JU • CHERY • THE CLASH",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    cover: "../images/chery.jpg",
+    // category: "Lorem ipsum",
+  },
+  {
+    id: 37,
+    title: "JU • CCU • RECIFAST • FIESTA DE LA PAMPILLA",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    cover: "../images/JuweareBrandingyCreatividad.jpeg",
+    // category: "Lorem ipsum",
+  },
 ];
 
 export const showcaseDetail = [
@@ -1016,6 +1041,43 @@ export const showcaseDetail = [
     ],
     production: "TotaOk",
     photography: "Ju",
+  },
+  {
+    id: 34,
+    title: "JU • UPA • THE CLASH",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    videoCover:
+      "https://www.youtube.com/shorts/0huMJpBX65E?feature=shareEvento",
+    // category: "Lorem ipsum",
+    direction: "Ju",
+  },
+  {
+    id: 35,
+    title: "JU • MANPOWER",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    videoCover: "https://youtu.be/tbm4IKI13P0",
+    // category: "Lorem ipsum",
+    direction: "Ju",
+  },
+  {
+    id: 36,
+    title: "JU • CHERY • THE CLASH",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    videoCover: "https://youtu.be/GRKCCFWKWIU",
+    // category: "Lorem ipsum",
+    direction: "Ju",
+  },
+  {
+    id: 37,
+    title: "JU • CCU • RECIFAST • FIESTA DE LA PAMPILLA",
+    // subtitle:
+    //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    videoCover: "https://youtu.be/jfbg8bg-KXE",
+    // category: "Lorem ipsum",
+    direction: "Ju",
   },
 ];
 
