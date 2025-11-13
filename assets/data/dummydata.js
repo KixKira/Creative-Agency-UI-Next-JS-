@@ -478,7 +478,15 @@ export const proyects = [
     title: "JU • CCU • RECIFAST • FIESTA DE LA PAMPILLA",
     // subtitle:
     // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
-    cover: "../images/JuweareBrandingyCreatividad.jpeg",
+    cover: "../images/CCU/CC2.png",
+    // category: "Lorem ipsum",
+  },
+  {
+    id: 38,
+    title: "JU • STARBUCKS",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    cover: "../images/Starbucks/Starbucks 2-4.jpg",
     // category: "Lorem ipsum",
   },
 ];
@@ -1077,6 +1085,31 @@ export const showcaseDetail = [
     //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
     videoCover: "https://youtu.be/jfbg8bg-KXE",
     // category: "Lorem ipsum",
+    direction: "Ju",
+  },
+  {
+    id: 38,
+    title: "JU • STARBUCKS",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    cover: "/images/Starbucks/Starbucks 1-1.jpg",
+    category: "Lorem ipsum",
+    images: [
+      "/images/Starbucks/Starbucks 1-2.jpg",
+      "/images/Starbucks/Starbucks 1-3.jpg",
+      "/images/Starbucks/Starbucks 1-4.jpg",
+      "/images/Starbucks/Starbucks 1-5.jpg",
+      "/images/Starbucks/Starbucks 1-6.jpg",
+      "/images/Starbucks/Starbucks 1-7.jpg",
+      "/images/Starbucks/Starbucks 2-1.jpg",
+      "/images/Starbucks/Starbucks 2-2.jpg",
+      "/images/Starbucks/Starbucks 2-3.jpg",
+      "/images/Starbucks/Starbucks 2-4.jpg",
+      "/images/Starbucks/Starbucks 2-5.jpg",
+      "/images/Starbucks/Starbucks 2-6.jpg",
+      "/images/Starbucks/Starbucks 2-7.jpg",
+      "/images/Starbucks/Starbucks 2-8.jpg",
+    ],
     direction: "Ju",
   },
 ];
