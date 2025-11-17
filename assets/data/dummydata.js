@@ -486,7 +486,55 @@ export const proyects = [
     title: "JU • STARBUCKS",
     // subtitle:
     // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    cover: "../images/Starbucks/Starbucks 1-1.jpg",
+    // category: "Lorem ipsum",
+  },
+  {
+    id: 39,
+    title: "JU • STARBUCKS",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
     cover: "../images/Starbucks/Starbucks 2-4.jpg",
+    // category: "Lorem ipsum",
+  },
+  {
+    id: 40,
+    title: "JU • TGA • TECK • FIESTA DE LA MINERIA 2025",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    cover: "../images/Teck/Teck.jpg",
+    // category: "Lorem ipsum",
+  },
+  {
+    id: 41,
+    title: "JU • THE CLASH • BMW • KIDS DAY",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    cover: "../images/BMW/BMW.jpg",
+    // category: "Lorem ipsum",
+  },
+  {
+    id: 42,
+    title: "JU • ONYX • STARTER",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    cover: "../images/Starter/Starter.jpg",
+    // category: "Lorem ipsum",
+  },
+  {
+    id: 43,
+    title: "JU • TGA • CVD • 75 AÑOS",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    cover: "../images/CVD/CVD.jpg",
+    // category: "Lorem ipsum",
+  },
+  {
+    id: 44,
+    title: "JU • TGA • SODIMAC • PRESENTACIÓN EVENTO CHINA",
+    // subtitle:
+    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    cover: "../images/Sodimac/Sodimac.jpg",
     // category: "Lorem ipsum",
   },
 ];
@@ -1101,7 +1149,17 @@ export const showcaseDetail = [
       "/images/Starbucks/Starbucks 1-5.jpg",
       "/images/Starbucks/Starbucks 1-6.jpg",
       "/images/Starbucks/Starbucks 1-7.jpg",
-      "/images/Starbucks/Starbucks 2-1.jpg",
+    ],
+    direction: "Ju",
+  },
+  {
+    id: 39,
+    title: "JU • STARBUCKS",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    cover: "/images/Starbucks/Starbucks 2-1.jpg",
+    category: "Lorem ipsum",
+    images: [
       "/images/Starbucks/Starbucks 2-2.jpg",
       "/images/Starbucks/Starbucks 2-3.jpg",
       "/images/Starbucks/Starbucks 2-4.jpg",
@@ -1110,6 +1168,51 @@ export const showcaseDetail = [
       "/images/Starbucks/Starbucks 2-7.jpg",
       "/images/Starbucks/Starbucks 2-8.jpg",
     ],
+    direction: "Ju",
+  },
+  {
+    id: 40,
+    title: "JU • TGA • TECK • FIESTA DE LA MINERIA 2025",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    category: "Lorem ipsum",
+    videoCover: "https://youtu.be/bpuHN0NLBUM",
+    direction: "Ju",
+  },
+  {
+    id: 41,
+    title: "JU • THE CLASH • BMW • KIDS DAY",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    category: "Lorem ipsum",
+    videoCover: "https://youtu.be/BMR-pYophKc",
+    direction: "Ju",
+  },
+  {
+    id: 42,
+    title: "JU • ONYX • STARTER",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    category: "Lorem ipsum",
+    videoCover: "https://youtu.be/HYTd6PSAvOs",
+    direction: "Ju",
+  },
+  {
+    id: 43,
+    title: "JU • TGA • CVD • 75 AÑOS",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    category: "Lorem ipsum",
+    videoCover: "https://youtu.be/OHWswyE-WfA",
+    direction: "Ju",
+  },
+  {
+    id: 44,
+    title: "JU • TGA • SODIMAC • PRESENTACIÓN EVENTO CHINA",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+    category: "Lorem ipsum",
+    videoCover: "https://youtu.be/-WLcOGKz54A",
     direction: "Ju",
   },
 ];
