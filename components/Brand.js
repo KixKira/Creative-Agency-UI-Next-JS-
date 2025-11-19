@@ -7,7 +7,7 @@ const Brand = () => {
     <section className="brand">
       <div className="container">
         <div className="heading-title">
-          <Title title="ESTAMOS ORGULLOSOS DE TRABAJAR CON ESTAS EMPRESAS" />
+          <Title title="JU WE TRUST: Marcas que han trabajado con nosotros" />
         </div>
         <div className="brand-content grid-6 py">
           {brand.map((item) => (
