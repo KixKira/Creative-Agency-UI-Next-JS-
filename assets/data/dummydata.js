@@ -19,7 +19,7 @@ export const expertise = [
   {
     id: 1,
     title: "Film",
-    cover: "../images/FILM.jpg",
+    cover: "/images/FILM.jpg",
     desc: [
       { text: "Web design" },
       { text: "Web development" },
@@ -33,7 +33,7 @@ export const expertise = [
   {
     id: 2,
     title: "Foto",
-    cover: "../images/FOTO.jpg",
+    cover: "/images/FOTO.jpg",
     desc: [
       { text: "Social media marketing" },
       { text: "Marketing campaigns" },
@@ -46,7 +46,7 @@ export const expertise = [
   {
     id: 3,
     title: "Contenido Digital",
-    cover: "../images/CONTENIDO.jpg",
+    cover: "/images/CONTENIDO.JPG",
     desc: [
       { text: "E-Commerce website design" },
       { text: "WooCommerce" },
@@ -88,8 +88,8 @@ export const experience = [
   },
   {
     id: 3,
-    title: "Branding y Creatividad",
-    cover: "/images/JuweareBrandingyCreatividad.jpeg",
+    title: "Contenido Digital",
+    cover: "/images/CONTENIDO.JPG",
     desc: [
       { text: "E-Commerce website design" },
       { text: "WooCommerce" },
@@ -192,6 +192,7 @@ export const showcase = [
   },
 ];
 
+// PROYECTOS
 export const proyects = [
   // Pendiente de agregar subtitulo
   {
