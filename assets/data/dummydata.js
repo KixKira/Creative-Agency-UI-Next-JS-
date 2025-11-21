@@ -136,8 +136,8 @@ export const testimonial = [
 export const showcase = [
   {
     id: 39,
-    title: "JU • STARBUCKS BEBIDAS",
-    cover: "../images/Starbucks/Starbucks 2-1.jpg",
+    title: "JU • STARBUCKS SEASON DRINKS",
+    cover: "../images/Starbucks/sb.jpg",
     category: "FOTO Y FILM",
   },
   {
@@ -197,10 +197,10 @@ export const proyects = [
   // Pendiente de agregar subtitulo
   {
     id: 39,
-    title: "JU • STARBUCKS BEBIDAS",
-    // subtitle:
-    // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
-    cover: "../images/Starbucks/Starbucks 2-4.jpg",
+    title: "JU • STARBUCKS SEASON DRINKS",
+    subtitle:
+      "Starbucks nos confió la producción fotográfica y audiovisual de sus campañas estacionales Spring y Holiday. Partimos desde un brief amplio, donde los colores y códigos corporativos marcaron la dirección visual. Desarrollamos la propuesta creativa, armamos un equipo de más de 15 personas y llevamos adelante toda la producción, asegurando un resultado coherente, fresco y alineado con la identidad global de la marca. Un proceso completo: idea, ejecución y entrega final, que nos deja especialmente orgullosos.",
+    cover: "../images/Starbucks/sb.jpg",
     category: "Foto, Film, Contenido Digital",
   },
   {
@@ -216,7 +216,7 @@ export const proyects = [
     title: "JU • COOPEUCH ",
     subtitle:
       "Realizamos una sesión de fotos con 10 modelos cuidadosamente seleccionados para reflejar la diversidad y transversalidad que representa Coopeuch...",
-    cover: "../images/coopeuch/JuweareMemoriaCoopeuch_1.jpg",
+    cover: "/images/coopeuch/JuweareMemoriaCoopeuch_2.jpg",
     category: "Foto",
   },
   {
@@ -1167,9 +1167,9 @@ export const showcaseDetail = [
   // Pendiente de agregar subtitulo
   {
     id: 39,
-    title: "JU • STARBUCKS BEBIDAS",
+    title: "JU • STARBUCKS SEASON DRINKS",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Starbucks nos confió la producción fotográfica y audiovisual de sus campañas estacionales Spring y Holiday. Partimos desde un brief amplio, donde los colores y códigos corporativos marcaron la dirección visual. Desarrollamos la propuesta creativa, armamos un equipo de más de 15 personas y llevamos adelante toda la producción, asegurando un resultado coherente, fresco y alineado con la identidad global de la marca. Un proceso completo: idea, ejecución y entrega final, que nos deja especialmente orgullosos.",
     cover: "/images/Starbucks/Starbucks 2-1.jpg",
     category: "FOTO Y FILM",
     images: [
@@ -1181,7 +1181,8 @@ export const showcaseDetail = [
       "/images/Starbucks/Starbucks 2-7.jpg",
       "/images/Starbucks/Starbucks 2-8.jpg",
     ],
-    direction: "Ju",
+    direction: "Juweare",
+    production: "Juweare",
   },
   // Pendiente de agregar subtitulo
   {
