@@ -194,12 +194,11 @@ export const showcase = [
 
 // PROYECTOS
 export const proyects = [
-  // Pendiente de agregar subtitulo
   {
     id: 39,
     title: "JU • STARBUCKS SEASON DRINKS",
     subtitle:
-      "Starbucks nos confió la producción fotográfica y audiovisual de sus campañas estacionales Spring y Holiday. Partimos desde un brief amplio, donde los colores y códigos corporativos marcaron la dirección visual. Desarrollamos la propuesta creativa, armamos un equipo de más de 15 personas y llevamos adelante toda la producción, asegurando un resultado coherente, fresco y alineado con la identidad global de la marca. Un proceso completo: idea, ejecución y entrega final, que nos deja especialmente orgullosos.",
+      "Starbucks nos confió la producción fotográfica y audiovisual de sus campañas estacionales <i>Spring</i> y <i>Holiday</i>. Partimos desde un brief amplio, donde los colores y códigos corporativos marcaron la dirección visual.<br />Desarrollamos la propuesta creativa, armamos un equipo de más de 15 personas y llevamos adelante toda la producción, asegurando un resultado coherente, fresco y alineado con la identidad global de la marca.<br />Un proceso completo: idea, ejecución y entrega final, que nos deja especialmente orgullosos.",
     cover: "../images/Starbucks/sb.jpg",
     category: "Foto, Film, Contenido Digital",
   },
@@ -227,30 +226,27 @@ export const proyects = [
     cover: "../images/skechers.jpg",
     category: "Foto",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 41,
     title: "JU • THE CLASH • BMW • KIDS DAY",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "BMW realizó un evento especial para sus clientes más selectos: el <i>BMW Kids Da</i>, una jornada pensada para que los niños vivieran una experiencia única junto a la marca. Invitados por nuestra productora amiga de brand experience, <b>The Clash</b>, fuimos responsables de registrar cada momento del evento. Capturamos actividades, emociones y detalles, asegurando un contenido audiovisual fresco, cercano y coherente con la identidad premium de BMW.",
     cover: "../images/BMW/BMW.jpg",
     category: "Contenido Digital",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 45,
     title: "JU • BUPA",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Bupa necesitaba un video corporativo que explicara de forma clara y didáctica el funcionamiento del área de Urgencias, sin perder la seriedad y el rigor que demanda un entorno médico de alta complejidad.<br />Aunque no lideramos la producción completa, tuvimos el privilegio de encargarnos de la <b>dirección</b>, guiando el tono narrativo, el enfoque visual y el desarrollo del contenido.<br />El resultado es una pieza fresca, cercana y pedagógica, que comunica con transparencia el trabajo que la clínica realiza día a día.",
     cover: "../images/Bupa/BUPA.jpg",
     category: "fILM",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 42,
     title: "JU • ONYX • STARTER",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Starter nos encargó crear un video para plataformas digitales, con la exigencia de entregar un acabado digno de grandes formatos.<br />Dirigimos a partir de un guion claro y lo llevamos a una preproducción profunda, que culminó en una jornada de rodaje intensa donde <b>Estudio Onix</b> confió plenamente en nuestra mirada.<br />Además, asumimos toda la postproducción para asegurar un resultado visual fresco, dinámico y con el nivel de detalle que el proyecto requería.<br />Un trabajo que disfrutamos mucho y del que estamos orgullosos.",
     cover: "../images/Starter/Starter.jpg",
     category: "Film, Contenido Digital",
   },
@@ -278,12 +274,19 @@ export const proyects = [
     cover: "../images/haval.jpg",
     category: "Film, Contenido Digital",
   },
-  // Pendiente de agregar subtitulo
+  {
+    id: 3,
+    title: "JU • B A KID",
+    subtitle:
+      "Junto a Kid Maikel —artista de la casa, diseñador y mente inquieta—  creamos una intervención/performance que es pura fusión urbana.",
+    cover: "../images/molotov.jpg",
+    category: "Film",
+  },
   {
     id: 34,
     title: "JU • UPA • THE CLASH",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Nuestros amigos de The Clash nos encomendaron registrar una jornada doble muy especial: UPA salió a las calles de Santiago para regalar café a los transeúntes en lugares icónicos, justo en el corazón del invierno.<br /> Entre sonrisas, vapor y manos heladas, capturamos la energía de una activación simple pero potente.<br/>¿El resultado? Demasiado fresco… incluso para el invierno. Nos encanta cómo quedó este registro y la energía espontánea que capturamos en cada toma.",
     cover: "../images/upa.jpg",
     category: "Contenido Digital, Film",
   },
@@ -295,12 +298,11 @@ export const proyects = [
     cover: "../images/Decathlon/JuweareDecathlon_1.jpg",
     category: "Foto",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 36,
     title: "JU • CHERY • THE CLASH",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Para este proyecto tuvimos el privilegio de ser de los primeros en filmar dentro del nuevo <b>Claro Arena</b>.<br />Nuestros amigos de <b>The Clash</b> nos invitaron a registrar, en foto y video, una jornada donde <b>Chery</b>, auspiciador del equipo que ocupa el estadio como local, exhibió sus nuevos modelos en un entorno único.<br />Capturamos la energía del lugar, el despliegue de la marca y la experiencia de los asistentes, logrando un registro limpio, dinámico y lleno de vida.",
     cover: "../images/chery.jpg",
     category: "Contenido Digital, Film",
   },
@@ -320,12 +322,11 @@ export const proyects = [
     cover: "../images/shell.jpg",
     category: "Contenido Digital, Film",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 37,
     title: "JU • CCU • RECIFAST • FIESTA DE LA PAMPILLA",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Nos tocó una misión desafiante: junto a <b>Somos Local</b>, registrar para <b>Recifast</b> y <b>CCU</> una activación de reciclaje dentro de la histórica Fiesta de La Pampilla.<br />Nunca habíamos trabajado ni asistido a la pampilla, la fiesta más cargada de tradición chilena el 18 de septiembre, pero abrazamos el reto desde el primer minuto.<br />Entre folclor, gastronomía, música y miles de asistentes celebrando, documentamos la energía única del lugar y la propuesta sostenible que buscaba impulsar la marca.<br />El resultado nos dejó felices: un registro honesto, lleno de identidad y con la esencia de Coquimbo marcando cada plano.",
     cover: "../images/CCU/CC2.png",
     category: "Contenido Digital, Film",
   },
@@ -337,21 +338,19 @@ export const proyects = [
     cover: "../images/HyH/JuweareHyH_1.jpg",
     category: "Foto, Contenido Digital",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 40,
     title: "JU • TGA • TECK • FIESTA DE LA MINERIA 2025",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "La Fiesta de la Minería es uno de los eventos más importantes del año para <b>TECK</b>, donde reconocen la trayectoria y dedicación de sus trabajadores.<br />Fuimos invitados por <b>TGA</b> para registrar una noche llena de sorpresas, emociones y momentos realmente entretenidos.<br />Entre premiaciones, presentaciones y la energía de los asistentes, capturamos el espíritu de celebración que marca este encuentro anual. Un registro que disfrutamos de principio a fin.",
     cover: "../images/Teck/Teck.jpg",
     category: "Contenido Digital",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 44,
     title: "JU • TGA • SODIMAC • PRESENTACIÓN EVENTO CHINA",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Junto a <b>TGA</b> desarrollamos dos videos corporativos para <b>Sodimac</b>, en una jornada de registro que abarcó tanto sus oficinas como tiendas.<br />El proyecto tuvo un fuerte foco en animación y postproducción, especialmente con trabajo detallado en After Effects, permitiéndonos construir piezas claras, dinámicas y alineadas al ADN corporativo de la marca.</br>El resultado dejó muy conforme al equipo y nos permitió explorar un nivel de acabado visual que disfrutamos mucho ejecutar.",
     cover: "../images/Sodimac/Sodimac.jpg",
     category: "Contenido Digital, Film",
   },
@@ -395,12 +394,11 @@ export const proyects = [
     cover: "../images/Tiger Wok/JuweareTigerWok_1.jpg",
     category: "Foto",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 38,
-    title: "JU • STARBUCKS2",
+    title: "JU • STARBUCKS BACKED IN STORE",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Este fue nuestro puntapié inicial para trabajar junto a esta importante marca. Nos solicitaron proponer una línea visual y realizar la fotografía para su línea de horneados frescos disponibles en la cafetería.<br />Con un equipo reducido pero altamente enfocado, desarrollamos un resultado delicado, cálido y con ese tono hogareño que la marca buscaba transmitir.<br />Un trabajo que llegó a mostrarse en simultáneo en las pantallas de sus 170 locales.",
     cover: "../images/Starbucks/Starbucks 1-1.jpg",
     category: "Foto",
   },
@@ -420,12 +418,11 @@ export const proyects = [
     cover: "../images/Burger Sin Censura/JuweareBurgerSinCensura_1.jpg",
     category: "Foto",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 43,
     title: "JU • TGA • CVD • 75 AÑOS",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "TGA Producciones nos encargó la dirección de un video conmemorativo para celebrar los 75 años de este icónico colegio, proporcionándonos un guion y brief de gran calidad.<br />Combinamos el carisma de Francisco Pérez-Bannen con el uso de tecnología, incluida inteligencia artificial, para construir un relato que conectara el paso del tiempo con un mensaje emotivo, claro e identitario sobre los principios del colegio.<br /><br />El resultado: una pieza entretenida, profesional y profundamente emocional.",
     cover: "../images/CVD/CVD.jpg",
     category: "Film",
   },
@@ -436,6 +433,14 @@ export const proyects = [
       "A este proyecto le tenemos un cariño especial: fue el primero de muchos trabajos junto al Grupo Delivery Gourmet.",
     cover: "../images/La Polleria/JuweareLaPolleria_1.jpg",
     category: "Foto",
+  },
+  {
+    id: 19,
+    title: "JU • DAILY • DOPAMINA",
+    subtitle:
+      "Junto a nuestros amigos de Agencia Dopamina, realizamos una amplia producción fotográfica para catálogo y recorte de productos de la marca Daily Foods.",
+    cover: "../images/Daily/JuweareDaily_1.jpg",
+    category: "Lorem ipsum",
   },
   {
     id: 26,
@@ -462,6 +467,14 @@ export const proyects = [
     category: "Foto",
   },
   {
+    id: 12,
+    title: "JU • M. HOME",
+    subtitle:
+      "Este proyecto no solo resultó en una pieza audiovisual impactante, sino que también dio paso a una relación laboral que continuó con más piezas y proyectos colaborativos.",
+    cover: "../images/covers/JuweareMimbreriaHomeCCPColinaII_1.jpg",
+    category: "Lorem ipsum",
+  },
+  {
     id: 11,
     title: "JU • M. HOME",
     subtitle:
@@ -469,12 +482,11 @@ export const proyects = [
     cover: "../images/covers/JuweareMimbreriaHomeProcesos_1.jpg",
     category: "Film, Contenido Digital",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 35,
     title: "JU • MANPOWER",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Se nos encargó registrar una entretenida actividad para Manpower Group, donde los asistentes disfrutaron de una clase express de coctelería, además de charlas y una jornada nocturna distendida.<br />Realizamos fotografía y video, capturando de forma dinámica la vibra del evento y la energía del grupo, en el ambiente creativo de Jenga Co-Work.",
     cover: "../images/manpower.jpg",
     category: "Film, Contenido Digital",
   },
@@ -494,12 +506,11 @@ export const proyects = [
     cover: "../images/covers/JuweareLiricistasMacrodee_1.jpg",
     category: "Film",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 46,
     title: "JU • MAMELOKO • SHOW IT WHEN IT'S TIME",
     subtitle:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Este videoclip habla por sí solo. La canción tiene una identidad tan marcada que se nos dio total libertad creativa para dirigir, apoyándonos en la estética punk de la banda, las virtudes actorales del vocalista y una burla frontal al sistema capitalista, como dicta el espíritu del punk.<br/>El resultado: un videoclip que nos encanta.<br/>Vintage, trash, burlesco, errático… en esencia, <b>PUNK</b>.",
     cover: "../images/Mameloko/show it.jpg",
     category: "Film",
   },
@@ -520,43 +531,17 @@ export const proyects = [
       "../images/covers/JuweareLiricistasMacrodeeDibujoMcIrinaDoomLey20Mil_1.jpg",
     category: "Film",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 47,
     title: "JU • MALA INTUICIÓN • NIEBLA",
     subtitle:
-      "lOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. IN NON NISL ET URNA BIBENDUM FRINGILLA.",
+      "Nuestra banda amiga “Mala intuición” nos invitó a crear a partir de una canción preciosa: <i>Niebla</i>. En ella, el protagonista parece perdido en la ciudad, atrapado entre recuerdos de tiempos que, como dice el dicho, siempre fueron mejores.<br />Partimos de una idea simple pero potente: mostrar a este personaje en dos mundos paralelos, uno real y otro onírico, ambos invadidos por la niebla.<br />La única condición: crear junto a nuestra amiga Bita, intérprete de danza con una expresividad y presencia frente a cámara realmente únicas.<br /><br />Tras muchas lluvias de ideas y conversaciones creativas, propusimos un enfoque basado en contrastes: el blanco y negro, la narrativa a dos mundos, lo móvil y lo estático, la danza y la actuación, la expresión corporal y la facial. Todo en tensión, todo en diálogo.<br /><br />La búsqueda visual nos llevó desde la playa hasta la montaña, donde grabar en plena nieve no fue fácil ni para la cámara ni para la intérprete. Pero ese esfuerzo se tradujo en imágenes llenas de atmósfera y sinceridad.<br /><br />Además de la dirección y el rodaje, también realizamos todo el trabajo de post producción, afinando cada plano, cada transición y cada gesto para potenciar la emoción y la propuesta narrativa.<br /><br />El resultado es un trabajo que realmente amamos.<br />Una pieza donde dirección, paisaje y post producción se entrelazan en una de nuestras exploraciones más profundas y significativas.",
     cover: "../images/Niebla/Niebla.jpg",
     category: "Film",
   },
-
-  // Pendiente de organizar y categorizar
-  {
-    id: 4,
-    title: "JU • B A KID",
-    subtitle:
-      "Junto a Kid Maikel —artista de la casa, diseñador y mente inquieta—  creamos una intervención/performance que es pura fusión urbana.",
-    cover: "../images/molotov.jpg",
-    category: "FILM PUBLICITIARIO ARTE",
-  },
-  {
-    id: 19,
-    title: "JU • DAILY • DOPAMINA",
-    subtitle:
-      "Junto a nuestros amigos de Agencia Dopamina, realizamos una amplia producción fotográfica para catálogo y recorte de productos de la marca Daily Foods.",
-    cover: "../images/Daily/JuweareDaily_1.jpg",
-    category: "Lorem ipsum",
-  },
-  {
-    id: 12,
-    title: "JU • M. HOME",
-    subtitle:
-      "Este proyecto no solo resultó en una pieza audiovisual impactante, sino que también dio paso a una relación laboral que continuó con más piezas y proyectos colaborativos.",
-    cover: "../images/covers/JuweareMimbreriaHomeCCPColinaII_1.jpg",
-    category: "Lorem ipsum",
-  },
 ];
 
+// POYECTOS DETALLES
 export const showcaseDetail = [
   {
     id: 1,
@@ -590,14 +575,13 @@ export const showcaseDetail = [
     direction: "Ju",
     videoCover: "https://www.youtube.com/watch?v=GN5d9oKTO_Q",
   },
-  // Pendiente de agregar categoria
   {
     id: 3,
     title: "JU • B A KID",
     subtitle:
       "Junto a Kid Maikel —artista de la casa, diseñador y mente inquieta—  creamos una intervención/performance que es pura fusión urbana. Con la complicidad de marcas como Molotow, Arte Papel y Casa San Cristóbal, nos aventuramos en una sesión donde la pintura se entrelaza con el basketball, el cine y un storytelling que, en el formato dinámico de reels, trasciende sin desperdiciar tiempo. Fue un manifiesto visual que destila libertad, creatividad y la energía cruda de la calle en cada frame.",
     videoCover: "https://www.youtube.com/watch?v=qF6KjWuh7zw",
-    category: "FILM PUBLICITIARIO ARTE",
+    category: "Film",
     agency: "Decromas",
     direction: "Ju",
   },
@@ -733,10 +717,7 @@ export const showcaseDetail = [
   {
     id: 10,
     title: "Reel 2025 Stefano Iovi",
-    subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit et est lacinia vehicula in sed magna. Praesent pharetra gravida egestas. Mauris nisi dolor.",
     videoCover: "https://www.youtube.com/watch?v=zTKtTpWFBr0",
-    category: "Lorem ipsum",
   },
   {
     id: 11,
@@ -1105,53 +1086,56 @@ export const showcaseDetail = [
     production: "TotaOk",
     photography: "Ju",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 34,
     title: "JU • UPA • THE CLASH",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Nuestros amigos de The Clash nos encomendaron registrar una jornada doble muy especial: UPA salió a las calles de Santiago para regalar café a los transeúntes en lugares icónicos, justo en el corazón del invierno.<br /> Entre sonrisas, vapor y manos heladas, capturamos la energía de una activación simple pero potente.<br/>¿El resultado? Demasiado fresco… incluso para el invierno. Nos encanta cómo quedó este registro y la energía espontánea que capturamos en cada toma.",
     videoCover:
       "https://www.youtube.com/shorts/0huMJpBX65E?feature=shareEvento",
     category: "Contenido Digital, Film",
-    direction: "Ju",
+    direction: "Juweare",
+    production: "The Clash",
+    register: "Juweare",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 35,
     title: "JU • MANPOWER",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Se nos encargó registrar una entretenida actividad para Manpower Group, donde los asistentes disfrutaron de una clase express de coctelería, además de charlas y una jornada nocturna distendida.<br />Realizamos fotografía y video, capturando de forma dinámica la vibra del evento y la energía del grupo, en el ambiente creativo de Jenga Co-Work.",
     videoCover: "https://youtu.be/tbm4IKI13P0",
     category: "Film, Contenido Digital",
-    direction: "Ju",
+    register: "Juweare",
+    production: "EBM",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 36,
     title: "JU • CHERY • THE CLASH",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Para este proyecto tuvimos el privilegio de ser de los primeros en filmar dentro del nuevo <b>Claro Arena</b>.<br />Nuestros amigos de <b>The Clash</b> nos invitaron a registrar, en foto y video, una jornada donde <b>Chery</b>, auspiciador del equipo que ocupa el estadio como local, exhibió sus nuevos modelos en un entorno único.<br />Capturamos la energía del lugar, el despliegue de la marca y la experiencia de los asistentes, logrando un registro limpio, dinámico y lleno de vida.",
     videoCover: "https://youtu.be/GRKCCFWKWIU",
     category: "Contenido Digital, Film",
-    direction: "Ju",
+    production: "The Clash",
+    direction: "Juweare",
+    register: "Juweare",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 37,
     title: "JU • CCU • RECIFAST • FIESTA DE LA PAMPILLA",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Nos tocó una misión desafiante: junto a <b>Somos Local</b>, registrar para <b>Recifast</b> y <b>CCU</> una activación de reciclaje dentro de la histórica Fiesta de La Pampilla.<br />Nunca habíamos trabajado ni asistido a la pampilla, la fiesta más cargada de tradición chilena el 18 de septiembre, pero abrazamos el reto desde el primer minuto.<br />Entre folclor, gastronomía, música y miles de asistentes celebrando, documentamos la energía única del lugar y la propuesta sostenible que buscaba impulsar la marca.<br />El resultado nos dejó felices: un registro honesto, lleno de identidad y con la esencia de Coquimbo marcando cada plano.",
     videoCover: "https://youtu.be/jfbg8bg-KXE",
     category: "Contenido Digital, Film",
-    direction: "Ju",
+    agency: "Somos Local",
+    production: "Recifast",
+    direction: "Juweare",
+    register: "Juweare",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 38,
-    title: "JU • STARBUCKS2",
+    title: "JU • STARBUCKS BACKED IN STORE",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Este fue nuestro puntapié inicial para trabajar junto a esta importante marca. Nos solicitaron proponer una línea visual y realizar la fotografía para su línea de horneados frescos disponibles en la cafetería.<br />Con un equipo reducido pero altamente enfocado, desarrollamos un resultado delicado, cálido y con ese tono hogareño que la marca buscaba transmitir.<br />Un trabajo que llegó a mostrarse en simultáneo en las pantallas de sus 170 locales.",
     cover: "/images/Starbucks/Starbucks 1-1.jpg",
     category: "Foto",
     images: [
@@ -1162,14 +1146,14 @@ export const showcaseDetail = [
       "/images/Starbucks/Starbucks 1-6.jpg",
       "/images/Starbucks/Starbucks 1-7.jpg",
     ],
-    direction: "Ju",
+    production: "Juweare",
+    direction: "Juweare",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 39,
     title: "JU • STARBUCKS SEASON DRINKS",
     subtitle:
-      "Starbucks nos confió la producción fotográfica y audiovisual de sus campañas estacionales Spring y Holiday. Partimos desde un brief amplio, donde los colores y códigos corporativos marcaron la dirección visual. Desarrollamos la propuesta creativa, armamos un equipo de más de 15 personas y llevamos adelante toda la producción, asegurando un resultado coherente, fresco y alineado con la identidad global de la marca. Un proceso completo: idea, ejecución y entrega final, que nos deja especialmente orgullosos.",
+      "Starbucks nos confió la producción fotográfica y audiovisual de sus campañas estacionales <i>Spring</i> y <i>Holiday</i>. Partimos desde un brief amplio, donde los colores y códigos corporativos marcaron la dirección visual.<br />Desarrollamos la propuesta creativa, armamos un equipo de más de 15 personas y llevamos adelante toda la producción, asegurando un resultado coherente, fresco y alineado con la identidad global de la marca.<br /> Un proceso completo: idea, ejecución y entrega final, que nos deja especialmente orgullosos.",
     cover: "/images/Starbucks/Starbucks 2-1.jpg",
     category: "FOTO Y FILM",
     images: [
@@ -1184,85 +1168,82 @@ export const showcaseDetail = [
     direction: "Juweare",
     production: "Juweare",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 40,
     title: "JU • TGA • TECK • FIESTA DE LA MINERIA 2025",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "La Fiesta de la Minería es uno de los eventos más importantes del año para <b>TECK</b>, donde reconocen la trayectoria y dedicación de sus trabajadores.<br />Fuimos invitados por <b>TGA</b> para registrar una noche llena de sorpresas, emociones y momentos realmente entretenidos.<br />Entre premiaciones, presentaciones y la energía de los asistentes, capturamos el espíritu de celebración que marca este encuentro anual. Un registro que disfrutamos de principio a fin.",
     category: "Contenido Digital",
     videoCover: "https://youtu.be/bpuHN0NLBUM",
-    direction: "Ju",
+    production: "TGA",
+    direction: "Juweare",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 41,
     title: "JU • THE CLASH • BMW • KIDS DAY",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "BMW realizó un evento especial para sus clientes más selectos: el <i>BMW Kids Da</i>, una jornada pensada para que los niños vivieran una experiencia única junto a la marca. Invitados por nuestra productora amiga de brand experience, <b>The Clash</b>, fuimos responsables de registrar cada momento del evento. Capturamos actividades, emociones y detalles, asegurando un contenido audiovisual fresco, cercano y coherente con la identidad premium de BMW.",
     category: "CONTENIDO DIGITAL Y FILM",
     videoCover: "https://youtu.be/BMR-pYophKc",
-    direction: "Ju",
+    direction: "Juweare",
+    production: "The Clash",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 42,
     title: "JU • ONYX • STARTER",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Starter nos encargó crear un video para plataformas digitales, con la exigencia de entregar un acabado digno de grandes formatos.<br />Dirigimos a partir de un guion claro y lo llevamos a una preproducción profunda, que culminó en una jornada de rodaje intensa donde <b>Estudio Onix</b> confió plenamente en nuestra mirada.<br />Además, asumimos toda la postproducción para asegurar un resultado visual fresco, dinámico y con el nivel de detalle que el proyecto requería.<br />Un trabajo que disfrutamos mucho y del que estamos orgullosos.",
     category: "FILM Y CONTENIDO DIGITAL",
     videoCover: "https://youtu.be/HYTd6PSAvOs",
-    direction: "Ju",
+    agency: "Iconix Latam",
+    production: "Estudio Onix",
+    direction: "Juweare",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 43,
     title: "JU • TGA • CVD • 75 AÑOS",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "TGA Producciones nos encargó la dirección de un video conmemorativo para celebrar los 75 años de este icónico colegio, proporcionándonos un guion y brief de gran calidad.<br />Combinamos el carisma de Francisco Pérez-Bannen con el uso de tecnología, incluida inteligencia artificial, para construir un relato que conectara el paso del tiempo con un mensaje emotivo, claro e identitario sobre los principios del colegio.<br /><br />El resultado: una pieza entretenida, profesional y profundamente emocional.",
     category: "Film",
     videoCover: "https://youtu.be/OHWswyE-WfA",
-    direction: "Ju",
+    production: "TGA",
+    direction: "Juweare",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 44,
     title: "JU • TGA • SODIMAC • PRESENTACIÓN EVENTO CHINA",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Junto a <b>TGA</b> desarrollamos dos videos corporativos para <b>Sodimac</b>, en una jornada de registro que abarcó tanto sus oficinas como tiendas.<br />El proyecto tuvo un fuerte foco en animación y postproducción, especialmente con trabajo detallado en After Effects, permitiéndonos construir piezas claras, dinámicas y alineadas al ADN corporativo de la marca.</br>El resultado dejó muy conforme al equipo y nos permitió explorar un nivel de acabado visual que disfrutamos mucho ejecutar.",
     category: "Contenido Digital, Film",
     videoCover: "https://youtu.be/-WLcOGKz54A",
-    direction: "Ju",
+    production: "TGA",
+    direction: "Juweare",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 45,
     title: "JU • ONIX • BUPA • URGENCIAS",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Bupa necesitaba un video corporativo que explicara de forma clara y didáctica el funcionamiento del área de Urgencias, sin perder la seriedad y el rigor que demanda un entorno médico de alta complejidad.<br />Aunque no lideramos la producción completa, tuvimos el privilegio de encargarnos de la <b>dirección</b>, guiando el tono narrativo, el enfoque visual y el desarrollo del contenido.<br />El resultado es una pieza fresca, cercana y pedagógica, que comunica con transparencia el trabajo que la clínica realiza día a día.",
     category: "CONTENIDO DIGITAL Y FILM",
     videoCover: "https://youtu.be/w8GmDSEfDWw",
-    direction: "Ju",
+    direction: "Juweare",
+    production: "Estudio Onix",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 46,
     title: "JU • MAMELOKO • SHOW IT WHEN IT'S TIME",
     subtitle:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl et urna bibendum fringilla.",
+      "Este videoclip habla por sí solo. La canción tiene una identidad tan marcada que se nos dio total libertad creativa para dirigir, apoyándonos en la estética punk de la banda, las virtudes actorales del vocalista y una burla frontal al sistema capitalista, como dicta el espíritu del punk.<br/>El resultado: un videoclip que nos encanta.<br/>Vintage, trash, burlesco, errático… en esencia, <b>PUNK</b>.",
     videoCover: "https://youtu.be/CcDEMXM7d90?list=RDCcDEMXM7d90",
     category: "Film",
-    direction: "Ju",
   },
-  // Pendiente de agregar subtitulo
   {
     id: 47,
     title: "JU • MALA INTUICIÓN • NIEBLA",
     subtitle:
-      "lOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. IN NON NISL ET URNA BIBENDUM FRINGILLA.",
+      "Nuestra banda amiga “Mala intuición” nos invitó a crear a partir de una canción preciosa: <i>Niebla</i>. En ella, el protagonista parece perdido en la ciudad, atrapado entre recuerdos de tiempos que, como dice el dicho, siempre fueron mejores.<br />Partimos de una idea simple pero potente: mostrar a este personaje en dos mundos paralelos, uno real y otro onírico, ambos invadidos por la niebla.<br />La única condición: crear junto a nuestra amiga Bita, intérprete de danza con una expresividad y presencia frente a cámara realmente únicas.<br /><br />Tras muchas lluvias de ideas y conversaciones creativas, propusimos un enfoque basado en contrastes: el blanco y negro, la narrativa a dos mundos, lo móvil y lo estático, la danza y la actuación, la expresión corporal y la facial. Todo en tensión, todo en diálogo.<br /><br />La búsqueda visual nos llevó desde la playa hasta la montaña, donde grabar en plena nieve no fue fácil ni para la cámara ni para la intérprete. Pero ese esfuerzo se tradujo en imágenes llenas de atmósfera y sinceridad.<br /><br />Además de la dirección y el rodaje, también realizamos todo el trabajo de post producción, afinando cada plano, cada transición y cada gesto para potenciar la emoción y la propuesta narrativa.<br /><br />El resultado es un trabajo que realmente amamos.<br />Una pieza donde dirección, paisaje y post producción se entrelazan en una de nuestras exploraciones más profundas y significativas.",
     videoCover: "https://youtu.be/GSIjTRUFPpw",
     category: "Film",
-    direction: "Ju",
   },
 ];
 

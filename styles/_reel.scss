@@ -1,0 +1,64 @@
+/* Reel page specific styles */
+
+.reel-page {
+  .heading-title {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    h1 {
+      font-size: 48px;
+      line-height: 1.05;
+      margin: 0;
+    }
+
+    p.lead {
+      margin-top: 1rem;
+      opacity: 0.8;
+      font-size: 18px;
+    }
+  }
+
+  .reel-video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    .video-inner {
+      width: 100%;
+      max-width: 1000px;
+      position: relative;
+      /* 16:9 */
+      padding-top: 56.25%;
+
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    }
+
+    .no-video {
+      text-align: center;
+      padding: 3rem 0;
+    }
+  }
+
+  .reel-desc {
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    text-align: center;
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 1rem;
+    }
+
+    .desc-p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  }
+}
