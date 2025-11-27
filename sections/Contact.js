@@ -34,7 +34,7 @@ const Contact = () => {
     // Configura EmailJS
     emailjs
       .send(
-        "service_mkp3yjb", // Reemplaza con tu Service ID
+        "service_zro62ba", // Reemplaza con tu Service ID
         "template_wjvp1mj", // Reemplaza con tu Template ID
         formData,
         "BXmWE_p3AP246oGhS" // Reemplaza con tu Public Key
