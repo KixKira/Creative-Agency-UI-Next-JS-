@@ -35,9 +35,9 @@ const Contact = () => {
     emailjs
       .send(
         "service_zro62ba", // Reemplaza con tu Service ID
-        "template_wjvp1mj", // Reemplaza con tu Template ID
+        "template_xwe9cj8", // Reemplaza con tu Template ID
         formData,
-        "BXmWE_p3AP246oGhS" // Reemplaza con tu Public Key
+        "AkOrsRXCgpRl1twvW" // Reemplaza con tu Public Key
       )
       .then(
         (response) => {
