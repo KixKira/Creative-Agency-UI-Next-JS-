@@ -9,7 +9,7 @@ export default function Home() {
         <title>Juweare</title>
       </Head>
       <Hero />
-      {/* <Brand /> */}
+      <Brand />
     </>
   );
 }

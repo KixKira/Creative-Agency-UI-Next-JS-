@@ -23,11 +23,28 @@
   @include grid(repeat(6, 1fr), 30px);
 }
 
+/* Brand-specific override: show 3 logos per row by default, then
+   collapse to 2 and 1 on smaller screens. This keeps other uses of
+   .grid-6 untouched while making the Brand component responsive.
+*/
+.brand-content.grid-6 {
+  /* Desktop: show all logos in a single row (6 columns). Responsive
+     overrides below will keep the mobile behavior intact. */
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 30px;
+}
+
 @media screen and (max-width: 800px) {
   .grid-6,
   .grid-4,
   .grid-3 {
     @include grid(repeat(2, 1fr), 50px);
+  }
+  /* ensure Brand keeps 3 columns for medium screens (tablet/portrait) */
+  .brand-content.grid-6 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 28px;
   }
 }
 
@@ -41,5 +58,31 @@
   .grid-6,
   .grid-4 {
     @include grid(repeat(1, 1fr), 50px);
+  }
+  /* On small screens, reduce to 2 columns; on very small (<=320px) use 1 */
+  .brand-content.grid-6 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  @media screen and (max-width: 320px) {
+    .brand-content.grid-6 {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 18px;
+    }
+  }
+
+  /* center logos inside their grid cell and limit their displayed size */
+  .brand-content.grid-6 .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .brand-content.grid-6 img {
+    max-width: 110px; /* allow slightly larger logos on wider screens */
+    max-height: 110px;
+    width: auto;
+    height: auto;
+    display: block;
   }
 }

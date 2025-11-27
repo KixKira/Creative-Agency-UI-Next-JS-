@@ -44,7 +44,7 @@ const Footer = () => {
             <ul>
               <h3>CONECTAR</h3>
               <div className="connect icons">
-                <li>
+                {/* <li>
                   <Link href="/#">
                     <BsFacebook size={25} />
                   </Link>
@@ -53,17 +53,21 @@ const Footer = () => {
                   <Link href="/#">
                     <AiFillBehanceCircle size={25} />
                   </Link>
-                </li>
+                </li> */}
                 <li>
-                  <Link href="/#">
+                  <Link
+                    href="https://www.instagram.com/juweare/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/#">
                     <AiFillLinkedin size={25} />
                   </Link>
-                </li>
+                </li> */}
               </div>
             </ul>
           </div>

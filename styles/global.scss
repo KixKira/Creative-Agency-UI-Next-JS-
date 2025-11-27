@@ -207,6 +207,16 @@ footer {
     margin-bottom: $xll;
   }
 
+  /* Footer layout improvements: distribute three columns and make
+     a better mobile stack */
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
   h3 {
     font-weight: 400;
     letter-spacing: 2px;
@@ -239,7 +249,9 @@ footer {
   }
 
   .icons {
-    width: 200px;
+    width: auto;
+    display: flex;
+    gap: 12px;
   }
 
   &::after {
@@ -259,7 +271,8 @@ footer {
   .juweare-columns {
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    gap: 40px;
+    align-items: flex-start;
   }
 
   @media screen and (max-width: 950px) {
@@ -267,16 +280,37 @@ footer {
       display: none;
     }
   }
-
   @media screen and (max-width: 950px) {
     padding: $xl 0;
 
+    /* Stack footer vertically and center items for mobile */
+    .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
     .juweare-columns {
       flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      align-items: center;
     }
-  }
 
-  @media screen and (max-width: 950px) {
+    .juweare-columns ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .connect {
+      justify-content: center !important;
+    }
+
+    .icons {
+      justify-content: center;
+      width: auto;
+    }
+
     .mobile .grid-3 {
       grid-template-columns: repeat(1, 1fr);
     }

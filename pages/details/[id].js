@@ -52,13 +52,15 @@ const ProjectDetails = () => {
     );
   };
 
+  const stripHtml = (s) => (s ? s.replace(/<[^>]*>/g, " ").trim() : "");
+
   return (
     <>
       <Head>
         <title>Juweare | {project.title || "Detalles del Proyecto"}</title>
         <meta
           name="description"
-          content={project.subtitle || "Detalles del Proyecto"}
+          content={stripHtml(project.subtitle) || "Detalles del Proyecto"}
         />
       </Head>
       <section className="expertise bg-top projects-section">
@@ -161,7 +163,9 @@ const ProjectDetails = () => {
                   </h1>
                 )}
                 {project.category && <p className="test">{project.category}</p>}
-                {project.subtitle && <p>{project.subtitle}</p>}
+                {project.subtitle && (
+                  <p dangerouslySetInnerHTML={{ __html: project.subtitle }} />
+                )}
                 <p className="category">
                   {project.agency && (
                     <>
@@ -218,6 +222,12 @@ const ProjectDetails = () => {
                   {project.edition && (
                     <>
                       <strong>Edición: {project.edition}</strong>
+                      <br />
+                    </>
+                  )}
+                  {project.register && (
+                    <>
+                      <strong>Registro: {project.register}</strong>
                       <br />
                     </>
                   )}

@@ -10,6 +10,7 @@ import { BsFacebook } from "react-icons/bs";
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
 import emailjs from "emailjs-com";
+import Link from "next/link";
 
 const Contact = () => {
   const [formData, setFormData] = React.useState({
@@ -94,18 +95,24 @@ const Contact = () => {
               </div>
             </div>
             <ul>
-              <li className="icon">
+              {/* <li className="icon">
                 <BsFacebook size={25} />
               </li>
               <li className="icon">
                 <AiFillBehanceCircle size={25} />
-              </li>
+              </li> */}
               <li className="icon">
-                <AiFillInstagram size={25} />
+                <Link
+                  href="https://www.instagram.com/juweare/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillInstagram size={25} />
+                </Link>
               </li>
-              <li className="icon">
+              {/* <li className="icon">
                 <AiFillLinkedin size={25} />
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="right w-70">

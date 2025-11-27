@@ -181,6 +181,18 @@
     max-width: 100%;
     padding: 50px 0;
   }
+  /* Center banner title and ensure each banner column takes full width */
+  .banner .container .title {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+  .banner .container > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .card-horizontal-subtitle {

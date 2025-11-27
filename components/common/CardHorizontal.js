@@ -11,7 +11,10 @@ export const CardHorizontal = ({ data, path, caption }) => {
       </div>
       <div className="card-horizontal-content">
         <h3 className="card-horizontal-title title">{data.title}</h3>
-        <h4 className="card-horizontal-subtitle">{data.subtitle}</h4>
+        <h4
+          className="card-horizontal-subtitle"
+          dangerouslySetInnerHTML={{ __html: data.subtitle }}
+        />
         <div className="card-horizontal-separator" />
         <p className="card-horizontal-description">{data.category}</p>
         {caption && (
