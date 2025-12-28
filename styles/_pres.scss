@@ -1,0 +1,41 @@
+/* styles/_pres.scss — Estilos para la página /pres */
+.pres-page {
+  .heading-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .pdf-embed {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0.5rem auto;
+    height: calc(100vh - 200px); /* ajustable */
+    min-height: 520px;
+    border: none; /* <--- quitado */
+    background: transparent; /* <--- quitado */
+    padding: 0; /* <--- aseguramos sin rellenos */
+    overflow: hidden;
+  }
+
+  .pdf-embed iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+    background: transparent; /* para evitar fondo blanco */
+    box-shadow: none;
+  }
+
+  .download-link {
+    margin-top: 12px;
+    display: block;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 900px) {
+    .pdf-embed {
+      height: calc(100vh - 360px);
+      min-height: 420px;
+    }
+  }
+}
