@@ -1,41 +1,46 @@
+// api/pres/upload.js o route handler
+import { PDFDocument } from "pdf-lib";
+import sharp from "sharp"; // o cualquier librería para convertir PDF a imágenes
 import fs from "fs";
 import path from "path";
 
-export const config = {
-  api: {
-    bodyParser: {
-      sizeLimit: "12mb", // aumenta si tu PDF es más grande
-    },
-  },
-};
-
 export default async function handler(req, res) {
   if (req.method !== "POST") {
-    res.status(405).json({ ok: false, error: "Método no permitido" });
-    return;
+    return res.status(405).json({ error: "Method not allowed" });
   }
 
   try {
-    const { filename, data } = req.body || {};
-    if (!data)
-      return res.status(400).json({ ok: false, error: "No hay datos" });
+    const formData = await req.formData();
+    const file = formData.get("pdf");
 
-    // Espera data como dataURL: data:application/pdf;base64,AAAA...
-    const match = data.match(/^data:application\/pdf;base64,(.+)$/);
-    const base64 = match ? match[1] : null;
-    if (!base64)
-      return res.status(400).json({ ok: false, error: "Formato inválido" });
+    // Guardar PDF original
+    const pdfBuffer = await file.arrayBuffer();
+    fs.writeFileSync(
+      path.join(process.cwd(), "public/pres.pdf"),
+      Buffer.from(pdfBuffer)
+    );
 
-    const buffer = Buffer.from(base64, "base64");
-    const outPath = path.join(process.cwd(), "public", "pres.pdf");
+    // Convertir PDF a imágenes (necesitarás pdf-poppler, pdf2pic, o similar)
+    // Ejemplo con pdf2pic:
+    const { fromBuffer } = require("pdf2pic");
+    const options = {
+      density: 150,
+      saveFilename: "page",
+      savePath: path.join(process.cwd(), "public/pres-pages"),
+      format: "png",
+      width: 1200,
+      height: 1600,
+    };
 
-    await fs.promises.writeFile(outPath, buffer);
-    // En dev funcionará. En hosting serverless (Vercel) no persistirá — ver nota.
-    return res
-      .status(200)
-      .json({ ok: true, url: "/pres.pdf", size: buffer.length });
-  } catch (err) {
-    console.error("Upload pres error:", err);
-    return res.status(500).json({ ok: false, error: err.message });
+    const convert = fromBuffer(Buffer.from(pdfBuffer), options);
+    const pageCount = 16; // O detectarlo del PDF
+
+    for (let i = 1; i <= pageCount; i++) {
+      await convert(i);
+    }
+
+    res.json({ ok: true });
+  } catch (error) {
+    res.status(500).json({ ok: false, error: error.message });
   }
 }

@@ -31,13 +31,10 @@ const Hero = () => {
       <section className="hero-sec">
         <div className="container">
           <div className="heading-title">
-            <Title
-              title="Creamos conceptos, ejecutamos ideas y producimos contenido que
-              deja huella"
-            />
+            <Title title="Creatividad colectiva y producción a medida" />
             <p>
-              En <b>JU</b>, la creatividad sin pausa se transforma en
-              experiencias visuales y marcas que conectan.
+              En <b>JU</b> convertimos ideas en experiencias visuales que
+              funcionan.
             </p>
           </div>
           <div className="hero-content-icons grid-3">
