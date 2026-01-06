@@ -169,17 +169,6 @@ export default function Pres() {
                       display: "block",
                     }}
                   />
-                  {/* <div
-                    style={{
-                      padding: "8px",
-                      textAlign: "center",
-                      fontSize: "12px",
-                      color: "#666",
-                      backgroundColor: "#f5f5f5",
-                    }}
-                  >
-                    Página {index + 1} de {numPages}
-                  </div> */}
                 </div>
               ))}
             </div>
