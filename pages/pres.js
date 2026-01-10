@@ -12,7 +12,6 @@ export default function Pres() {
   const canvasRefs = useRef([]);
 
   useEffect(() => {
-    // Cargar PDF.js desde CDN
     const script = document.createElement("script");
     script.src =
       "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js";
