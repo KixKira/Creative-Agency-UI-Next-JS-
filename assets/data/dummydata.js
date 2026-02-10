@@ -198,8 +198,8 @@ export const proyects = [
     id: 39,
     title: "JU • STARBUCKS SEASON DRINKS",
     subtitle:
-      "Starbucks nos confió la producción fotográfica y audiovisual de sus campañas estacionales <i>Spring</i> y <i>Holiday</i>. Partimos desde un brief amplio, donde los colores y códigos corporativos marcaron la dirección visual.<br />Desarrollamos la propuesta creativa, armamos un equipo de más de 15 personas y llevamos adelante toda la producción, asegurando un resultado coherente, fresco y alineado con la identidad global de la marca.<br />Un proceso completo: idea, ejecución y entrega final, que nos deja especialmente orgullosos.",
-    cover: "../images/Starbucks/sb.jpg",
+      "Starbucks nos confió la producción fotográfica y audiovisual de sus campañas estacionales <i>Spring</i> y <i>Holiday</i>.",
+    cover: "../images/Starbucks/JuweareStarbucksSeasonDrinks_1.jpg",
     category: "Foto, Film, Contenido Digital",
   },
   {
@@ -230,7 +230,7 @@ export const proyects = [
     id: 41,
     title: "JU • THE CLASH • BMW • KIDS DAY",
     subtitle:
-      "BMW realizó un evento especial para sus clientes más selectos: el <i>BMW Kids Da</i>, una jornada pensada para que los niños vivieran una experiencia única junto a la marca. Invitados por nuestra productora amiga de brand experience, <b>The Clash</b>, fuimos responsables de registrar cada momento del evento. Capturamos actividades, emociones y detalles, asegurando un contenido audiovisual fresco, cercano y coherente con la identidad premium de BMW.",
+      "BMW realizó un evento especial para sus clientes más selectos: el <i>BMW Kids Da</i>, una jornada pensada para que los niños vivieran una experiencia única junto a la marca.",
     cover: "../images/BMW/BMW.jpg",
     category: "Contenido Digital",
   },
@@ -238,7 +238,7 @@ export const proyects = [
     id: 45,
     title: "JU • BUPA",
     subtitle:
-      "Bupa necesitaba un video corporativo que explicara de forma clara y didáctica el funcionamiento del área de Urgencias, sin perder la seriedad y el rigor que demanda un entorno médico de alta complejidad.<br />Aunque no lideramos la producción completa, tuvimos el privilegio de encargarnos de la <b>dirección</b>, guiando el tono narrativo, el enfoque visual y el desarrollo del contenido.<br />El resultado es una pieza fresca, cercana y pedagógica, que comunica con transparencia el trabajo que la clínica realiza día a día.",
+      "Bupa necesitaba un video corporativo que explicara de forma clara y didáctica el funcionamiento del área de Urgencias, sin perder la seriedad y el rigor que demanda un entorno médico de alta complejidad.",
     cover: "../images/Bupa/BUPA.jpg",
     category: "fILM",
   },
@@ -246,7 +246,7 @@ export const proyects = [
     id: 42,
     title: "JU • ONYX • STARTER",
     subtitle:
-      "Starter nos encargó crear un video para plataformas digitales, con la exigencia de entregar un acabado digno de grandes formatos.<br />Dirigimos a partir de un guion claro y lo llevamos a una preproducción profunda, que culminó en una jornada de rodaje intensa donde <b>Estudio Onix</b> confió plenamente en nuestra mirada.<br />Además, asumimos toda la postproducción para asegurar un resultado visual fresco, dinámico y con el nivel de detalle que el proyecto requería.<br />Un trabajo que disfrutamos mucho y del que estamos orgullosos.",
+      "Starter nos encargó crear un video para plataformas digitales, con la exigencia de entregar un acabado digno de grandes formatos.",
     cover: "../images/Starter/Starter.jpg",
     category: "Film, Contenido Digital",
   },
@@ -286,7 +286,7 @@ export const proyects = [
     id: 34,
     title: "JU • UPA • THE CLASH",
     subtitle:
-      "Nuestros amigos de The Clash nos encomendaron registrar una jornada doble muy especial: UPA salió a las calles de Santiago para regalar café a los transeúntes en lugares icónicos, justo en el corazón del invierno.<br /> Entre sonrisas, vapor y manos heladas, capturamos la energía de una activación simple pero potente.<br/>¿El resultado? Demasiado fresco… incluso para el invierno. Nos encanta cómo quedó este registro y la energía espontánea que capturamos en cada toma.",
+      "Nuestros amigos de The Clash nos encomendaron registrar una jornada doble muy especial: UPA salió a las calles de Santiago para regalar café a los transeúntes en lugares icónicos, justo en el corazón del invierno.",
     cover: "../images/upa.jpg",
     category: "Contenido Digital, Film",
   },
@@ -302,7 +302,7 @@ export const proyects = [
     id: 36,
     title: "JU • CHERY • THE CLASH",
     subtitle:
-      "Para este proyecto tuvimos el privilegio de ser de los primeros en filmar dentro del nuevo <b>Claro Arena</b>.<br />Nuestros amigos de <b>The Clash</b> nos invitaron a registrar, en foto y video, una jornada donde <b>Chery</b>, auspiciador del equipo que ocupa el estadio como local, exhibió sus nuevos modelos en un entorno único.<br />Capturamos la energía del lugar, el despliegue de la marca y la experiencia de los asistentes, logrando un registro limpio, dinámico y lleno de vida.",
+      "Para este proyecto tuvimos el privilegio de ser de los primeros en filmar dentro del nuevo <b>Claro Arena</b>.",
     cover: "../images/chery.jpg",
     category: "Contenido Digital, Film",
   },
@@ -326,7 +326,7 @@ export const proyects = [
     id: 37,
     title: "JU • CCU • RECIFAST • FIESTA DE LA PAMPILLA",
     subtitle:
-      "Nos tocó una misión desafiante: junto a <b>Somos Local</b>, registrar para <b>Recifast</b> y <b>CCU</> una activación de reciclaje dentro de la histórica Fiesta de La Pampilla.<br />Nunca habíamos trabajado ni asistido a la pampilla, la fiesta más cargada de tradición chilena el 18 de septiembre, pero abrazamos el reto desde el primer minuto.<br />Entre folclor, gastronomía, música y miles de asistentes celebrando, documentamos la energía única del lugar y la propuesta sostenible que buscaba impulsar la marca.<br />El resultado nos dejó felices: un registro honesto, lleno de identidad y con la esencia de Coquimbo marcando cada plano.",
+      "Nos tocó una misión desafiante: junto a <b>Somos Local</b>, registrar para <b>Recifast</b> y <b>CCU</> una activación de reciclaje dentro de la histórica Fiesta de La Pampilla.",
     cover: "../images/CCU/CC2.png",
     category: "Contenido Digital, Film",
   },
@@ -342,7 +342,7 @@ export const proyects = [
     id: 40,
     title: "JU • TGA • TECK • FIESTA DE LA MINERIA 2025",
     subtitle:
-      "La Fiesta de la Minería es uno de los eventos más importantes del año para <b>TECK</b>, donde reconocen la trayectoria y dedicación de sus trabajadores.<br />Fuimos invitados por <b>TGA</b> para registrar una noche llena de sorpresas, emociones y momentos realmente entretenidos.<br />Entre premiaciones, presentaciones y la energía de los asistentes, capturamos el espíritu de celebración que marca este encuentro anual. Un registro que disfrutamos de principio a fin.",
+      "La Fiesta de la Minería es uno de los eventos más importantes del año para <b>TECK</b>, donde reconocen la trayectoria y dedicación de sus trabajadores.",
     cover: "../images/Teck/Teck.jpg",
     category: "Contenido Digital",
   },
@@ -350,7 +350,7 @@ export const proyects = [
     id: 44,
     title: "JU • TGA • SODIMAC • PRESENTACIÓN EVENTO CHINA",
     subtitle:
-      "Junto a <b>TGA</b> desarrollamos dos videos corporativos para <b>Sodimac</b>, en una jornada de registro que abarcó tanto sus oficinas como tiendas.<br />El proyecto tuvo un fuerte foco en animación y postproducción, especialmente con trabajo detallado en After Effects, permitiéndonos construir piezas claras, dinámicas y alineadas al ADN corporativo de la marca.</br>El resultado dejó muy conforme al equipo y nos permitió explorar un nivel de acabado visual que disfrutamos mucho ejecutar.",
+      "Junto a <b>TGA</b> desarrollamos dos videos corporativos para <b>Sodimac</b>, en una jornada de registro que abarcó tanto sus oficinas como tiendas.",
     cover: "../images/Sodimac/Sodimac.jpg",
     category: "Contenido Digital, Film",
   },
@@ -398,7 +398,7 @@ export const proyects = [
     id: 38,
     title: "JU • STARBUCKS BACKED IN STORE",
     subtitle:
-      "Este fue nuestro puntapié inicial para trabajar junto a esta importante marca. Nos solicitaron proponer una línea visual y realizar la fotografía para su línea de horneados frescos disponibles en la cafetería.<br />Con un equipo reducido pero altamente enfocado, desarrollamos un resultado delicado, cálido y con ese tono hogareño que la marca buscaba transmitir.<br />Un trabajo que llegó a mostrarse en simultáneo en las pantallas de sus 170 locales.",
+      "Este fue nuestro puntapié inicial para trabajar junto a esta importante marca.",
     cover: "../images/Starbucks/Starbucks 1-1.jpg",
     category: "Foto",
   },
@@ -422,7 +422,7 @@ export const proyects = [
     id: 43,
     title: "JU • TGA • CVD • 75 AÑOS",
     subtitle:
-      "TGA Producciones nos encargó la dirección de un video conmemorativo para celebrar los 75 años de este icónico colegio, proporcionándonos un guion y brief de gran calidad.<br />Combinamos el carisma de Francisco Pérez-Bannen con el uso de tecnología, incluida inteligencia artificial, para construir un relato que conectara el paso del tiempo con un mensaje emotivo, claro e identitario sobre los principios del colegio.<br /><br />El resultado: una pieza entretenida, profesional y profundamente emocional.",
+      "TGA Producciones nos encargó la dirección de un video conmemorativo para celebrar los 75 años de este icónico colegio, proporcionándonos un guion y brief de gran calidad.",
     cover: "../images/CVD/CVD.jpg",
     category: "Film",
   },
@@ -486,7 +486,7 @@ export const proyects = [
     id: 35,
     title: "JU • MANPOWER",
     subtitle:
-      "Se nos encargó registrar una entretenida actividad para Manpower Group, donde los asistentes disfrutaron de una clase express de coctelería, además de charlas y una jornada nocturna distendida.<br />Realizamos fotografía y video, capturando de forma dinámica la vibra del evento y la energía del grupo, en el ambiente creativo de Jenga Co-Work.",
+      "Se nos encargó registrar una entretenida actividad para Manpower Group, donde los asistentes disfrutaron de una clase express de coctelería, además de charlas y una jornada nocturna distendida.",
     cover: "../images/manpower.jpg",
     category: "Film, Contenido Digital",
   },
@@ -509,8 +509,7 @@ export const proyects = [
   {
     id: 46,
     title: "JU • MAMELOKO • SHOW IT WHEN IT'S TIME",
-    subtitle:
-      "Este videoclip habla por sí solo. La canción tiene una identidad tan marcada que se nos dio total libertad creativa para dirigir, apoyándonos en la estética punk de la banda, las virtudes actorales del vocalista y una burla frontal al sistema capitalista, como dicta el espíritu del punk.<br/>El resultado: un videoclip que nos encanta.<br/>Vintage, trash, burlesco, errático… en esencia, <b>PUNK</b>.",
+    subtitle: "Este videoclip habla por sí solo.",
     cover: "../images/Mameloko/show it.jpg",
     category: "Film",
   },
@@ -535,7 +534,7 @@ export const proyects = [
     id: 47,
     title: "JU • MALA INTUICIÓN • NIEBLA",
     subtitle:
-      "Nuestra banda amiga “Mala intuición” nos invitó a crear a partir de una canción preciosa: <i>Niebla</i>. En ella, el protagonista parece perdido en la ciudad, atrapado entre recuerdos de tiempos que, como dice el dicho, siempre fueron mejores.<br />Partimos de una idea simple pero potente: mostrar a este personaje en dos mundos paralelos, uno real y otro onírico, ambos invadidos por la niebla.<br />La única condición: crear junto a nuestra amiga Bita, intérprete de danza con una expresividad y presencia frente a cámara realmente únicas.<br /><br />Tras muchas lluvias de ideas y conversaciones creativas, propusimos un enfoque basado en contrastes: el blanco y negro, la narrativa a dos mundos, lo móvil y lo estático, la danza y la actuación, la expresión corporal y la facial. Todo en tensión, todo en diálogo.<br /><br />La búsqueda visual nos llevó desde la playa hasta la montaña, donde grabar en plena nieve no fue fácil ni para la cámara ni para la intérprete. Pero ese esfuerzo se tradujo en imágenes llenas de atmósfera y sinceridad.<br /><br />Además de la dirección y el rodaje, también realizamos todo el trabajo de post producción, afinando cada plano, cada transición y cada gesto para potenciar la emoción y la propuesta narrativa.<br /><br />El resultado es un trabajo que realmente amamos.<br />Una pieza donde dirección, paisaje y post producción se entrelazan en una de nuestras exploraciones más profundas y significativas.",
+      "Nuestra banda amiga “Mala intuición” nos invitó a crear a partir de una canción preciosa: <i>Niebla</i>.",
     cover: "../images/Niebla/Niebla.jpg",
     category: "Film",
   },
@@ -1153,16 +1152,16 @@ export const showcaseDetail = [
     title: "JU • STARBUCKS SEASON DRINKS",
     subtitle:
       "Starbucks nos confió la producción fotográfica y audiovisual de sus campañas estacionales <i>Spring</i> y <i>Holiday</i>. Partimos desde un brief amplio, donde los colores y códigos corporativos marcaron la dirección visual.<br />Desarrollamos la propuesta creativa, armamos un equipo de más de 15 personas y llevamos adelante toda la producción, asegurando un resultado coherente, fresco y alineado con la identidad global de la marca.<br /> Un proceso completo: idea, ejecución y entrega final, que nos deja especialmente orgullosos.",
-    cover: "/images/Starbucks/Starbucks 2-1.jpg",
+    cover: "/images/Starbucks/JuweareStarbucksSeasonDrinks_1.jpg",
     category: "FOTO Y FILM",
     images: [
-      "/images/Starbucks/Starbucks 2-2.jpg",
-      "/images/Starbucks/Starbucks 2-3.jpg",
-      "/images/Starbucks/Starbucks 2-4.jpg",
-      "/images/Starbucks/Starbucks 2-5.jpg",
-      "/images/Starbucks/Starbucks 2-6.jpg",
-      "/images/Starbucks/Starbucks 2-7.jpg",
-      "/images/Starbucks/Starbucks 2-8.jpg",
+      "/images/Starbucks/JuweareStarbucksSeasonDrinks_2.jpg",
+      "/images/Starbucks/JuweareStarbucksSeasonDrinks_3.jpg",
+      "/images/Starbucks/JuweareStarbucksSeasonDrinks_4.jpg",
+      "/images/Starbucks/JuweareStarbucksSeasonDrinks_5.jpg",
+      "/images/Starbucks/JuweareStarbucksSeasonDrinks_6.jpg",
+      "/images/Starbucks/JuweareStarbucksSeasonDrinks_7.jpg",
+      "/images/Starbucks/JuweareStarbucksSeasonDrinks_8.jpg",
     ],
     direction: "Juweare",
     production: "Juweare",
@@ -1246,30 +1245,51 @@ export const showcaseDetail = [
   },
 ];
 
+// MARCAS
 export const brand = [
   {
     id: 1,
-    cover: "../images/Brands/Starbucks.png",
+    cover: "../images/Brands/JuweareBrands_Starbucks.png",
   },
   {
     id: 2,
-    cover: "../images/Brands/Bmw.png",
+    cover: "../images/Brands/JuweareBrands_TGA.png",
   },
   {
     id: 3,
-    cover: "../images/Brands/bupa.png",
+    cover: "../images/Brands/JuweareBrands_Bupa.png",
   },
   {
     id: 4,
-    cover: "../images/Brands/Cccu.png",
+    cover: "../images/Brands/JuweareBrands_Chery.png",
   },
   {
     id: 5,
-    cover: "../images/Brands/cnn.png",
+    cover: "../images/Brands/JuweareBrands_TheClash.png",
   },
   {
     id: 6,
-    cover: "../images/Brands/The clash.png",
+    cover: "../images/Brands/JuweareBrands_Teck.png",
+  },
+  {
+    id: 7,
+    cover: "../images/Brands/JuweareBrands_BMW.png",
+  },
+  {
+    id: 8,
+    cover: "../images/Brands/4.png",
+  },
+  {
+    id: 9,
+    cover: "../images/Brands/5.png",
+  },
+  {
+    id: 10,
+    cover: "../images/Brands/8.png",
+  },
+  {
+    id: 11,
+    cover: "../images/Brands/10.png",
   },
 ];
 

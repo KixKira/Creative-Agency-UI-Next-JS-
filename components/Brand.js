@@ -49,16 +49,7 @@ const Brand = () => {
                   <img
                     src={item.cover}
                     alt={`Brand ${item.id}`}
-                    width="100"
-                    height="100"
-                    style={{
-                      width: "100%",
-                      height: "auto",
-                      objectFit: "contain",
-                      maxWidth: "150px",
-                      margin: "0 auto",
-                      display: "block",
-                    }}
+                    className="brand-logo"
                   />
                 </div>
               </SwiperSlide>
